@@ -1,0 +1,2 @@
+payroll_reference,worker_number,name,period_start,period_end,pay_date,earning,gross,deductions,net,ach_trace
+000712,0417,Elena R.,2026-09-07,2026-09-13,2026-09-18,Additional overtime adjustment,60.00,12.00,48.00,CM0417-712

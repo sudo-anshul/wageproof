@@ -1,0 +1,14 @@
+EMPLOYEE SELF SERVICE
+Downloaded 23/09/2026, 11:03
+
+0417 : R., ELENA
+Pay history / Detail / VCH 711
+
+NET AMOUNT       48.00
+Pay issued       18/09/2026
+From             31/08/2026
+Through          06/09/2026
+Gross amount     60.00
+Deductions       12.00
+Code             OT adjustment
+ACH trace        CM0417-711
