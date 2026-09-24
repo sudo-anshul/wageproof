@@ -1,0 +1,28 @@
+SYNTHETIC FORMAT PROBE - no actual wage claim
+
+Reference: FMT-9127
+
+Worker: Mara Vega
+
+Service period: 2026-07-06 to 2026-07-12
+
+Gross wages: $137.50
+
+Withholding: $21.30
+
+Net deposit: $116.20
+
+Receipt reference: BANK-Q88
+
+[Page break]
+SYNTHETIC FORMAT PROBE - no actual wage claim
+
+PAGE TWO: CONTEXT ONLY
+
+Reference: FMT-9127
+
+This page is not another payment.
+
+The receipt reference remains BANK-Q88.
+
+[Page break]
