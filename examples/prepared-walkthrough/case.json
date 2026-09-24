@@ -1,0 +1,2716 @@
+{
+  "id": "10ac0219-9a99-4319-a052-5e5381fb4f99",
+  "title": "Two weeks, one correction",
+  "context": {
+    "worker": "Elena R.",
+    "employer": "Cedar Market LLC",
+    "stage": "unknown",
+    "claimNumber": "",
+    "recipient": ""
+  },
+  "version": 14,
+  "createdAt": "2026-09-24T00:58:58.626Z",
+  "updatedAt": "2026-09-24T01:25:49.962Z",
+  "sources": [
+    {
+      "id": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+      "name": "phase-0-reviewed-case.md",
+      "kind": "evidence",
+      "sha256": "f3d2078af5b0c923de922ca2ca0d03077e20ba544a4c1be915b1992253b63805",
+      "size": 2178,
+      "createdAt": "2026-09-24T00:58:58.630Z",
+      "mime": "text/markdown",
+      "text": "# Case A17 — reviewed starting material\n\nSYNTHETIC DEVELOPMENT INPUT. All people, employers, identifiers and records are fictional.\n\nWorker: Elena R.; employee 0417. Employer: Cedar Market LLC.\nPrepared as of 23 September 2026. Employer workweek: Monday–Sunday. Workday: midnight–midnight, California local time.\n\nFor this exercise, the reviewer has adopted the ordinary adult hourly nonexempt California scope, a flat $20 regular rate, daily overtime after eight hours, no duplicate daily/weekly overtime, no alternative workweek, bonuses, special industry rules, premiums or other claims. These are supplied scope assumptions, not a request for the model to determine applicability. The amounts below are a scoped accounting difference, not a finding of overdue wages or entitlement. Payment timing and legal remedies remain outside this calculation.\n\nThe worker's reviewed actual-work account, excluding nonworked intervals:\n\n| Week | Dates | Monday | Tuesday | Wednesday | Thursday | Friday | Other days |\n|---|---|---:|---:|---:|---:|---:|---:|\n| A | 31 August–6 September 2026 | 10 h | 10 h | 10 h | 10 h | 0 h | 0 h |\n| B | 7–13 September 2026 | 10 h | 10 h | 10 h | 6 h | 4 h | 0 h |\n\nMatching complete original wage statements: A original gross paid $800; B original gross paid $800. They do not include any later adjustment. The reviewer has adopted those original matching gross-payment amounts. Initial scoped differences are A $80 and B $60. No additional payment has yet been credited in the case schedule.\n\nThe worker-authorized pending records question is: identify any later wage correction for these two weeks, its gross and net amounts, and how the gross amount is assigned to each week. No message is to be sent by this exercise.\n\nCurrent brief excerpt: “No additional correction is recorded in the supplied case material. The scoped gross differences are $80 for A and $60 for B. We seek the employer's account and any correcting payroll entries.”\n\nWhen new documents arrive, distinguish what their authors state from what the reviewer adopts. Do not treat a bank net credit as gross wages. Do not infer period allocation from a payment date.",
+      "extraction": {
+        "method": "utf8-text",
+        "warnings": []
+      },
+      "lineCount": 23
+    },
+    {
+      "id": "6e380c32-f946-4148-b132-577f570ae083",
+      "name": "Fictional pending-claim context.txt",
+      "kind": "worker-account",
+      "sha256": "30d47e3155754592baff0617bd9be9e7c8253b3e81f5b1329efda3120526f516",
+      "size": 377,
+      "createdAt": "2026-09-24T00:59:19.385Z",
+      "mime": "text/plain",
+      "text": "Fictional demonstration context: Elena R. reports that a California wage claim is pending concerning this account. The claim number and assigned deputy’s name are not supplied in these demonstration records. Prepare a factual supplement for the assigned deputy after the worker verifies the recipient using existing correspondence. No communication is sent by this exercise.",
+      "extraction": {
+        "method": "utf8-text",
+        "warnings": []
+      },
+      "lineCount": 1
+    },
+    {
+      "id": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+      "name": "phase-1-earnings-advice.txt",
+      "kind": "evidence",
+      "sha256": "130614a667112fe5010a5fca715302a5e167ad8dbec0b7b6815cbb3bf7833ec7",
+      "size": 591,
+      "createdAt": "2026-09-24T01:08:16.896Z",
+      "mime": "text/plain",
+      "text": "CEDAR MARKET LLC                       EARNINGS ADVICE\nEmployee 0417 / ELENA R.                Advice ADJ-602\nWork-period envelope: 31 AUG 2026 through 13 SEP 2026\nPayment date: 18 SEP 2026               PAGE 1 OF 2\n\nCURRENT EARNINGS                  CURRENT WITHHOLDINGS\nRetro overtime       60.00        Tax withholding       12.00\nTOTAL GROSS          60.00        TOTAL DEDUCTIONS      12.00\n\nNET PAY              48.00\nDeposit route        ACH / account ending 7781\nTrace                CM0417-602\n\nEmployee name: Elena R.\nEmployer: Cedar Market LLC, 100 Example Road, Example City, CA",
+      "extraction": {
+        "method": "utf8-text",
+        "warnings": []
+      },
+      "lineCount": 15
+    },
+    {
+      "id": "b9c746a7-2cb0-4488-923b-185ca541c994",
+      "name": "phase-1-bank.csv",
+      "kind": "evidence",
+      "sha256": "9d811471cac427b8ccc74380ee53b29d4b11194a15229c37bd57357263865878",
+      "size": 129,
+      "createdAt": "2026-09-24T01:08:16.896Z",
+      "mime": "text/csv",
+      "text": "account_holder,account_last4,posted_date,description,credit,trace\nElena R.,7781,2026-09-18,CEDAR MARKET PAYROLL,48.00,CM0417-602",
+      "extraction": {
+        "method": "utf8-text",
+        "warnings": []
+      },
+      "lineCount": 2
+    },
+    {
+      "id": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+      "name": "phase-1-response.txt",
+      "kind": "evidence",
+      "sha256": "5c8bc2cfb1eb1f6d310506d77b7752939c3733bd01579f32351e35a4d4ccc4de",
+      "size": 632,
+      "createdAt": "2026-09-24T01:08:16.896Z",
+      "mime": "text/plain",
+      "text": "From: Payroll, Cedar Market LLC\nTo: Elena R., employee 0417\nDate: 23 September 2026\nSubject: Hours query — weeks ending 6 and 13 September\nAttachment: ADJ-602 earnings advice, page 1\n\nThe $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks. This run is solely an overtime wage correction for the weeks ending 6 September and 13 September; it contains no other period or expense item. The deposit is $48 after withholding. We consider both weeks corrected.\n\nThe payroll allocation detail is on the second page of the advice. Our copy attached here is the earnings page.\n\nPayroll office",
+      "extraction": {
+        "method": "utf8-text",
+        "warnings": []
+      },
+      "lineCount": 11
+    },
+    {
+      "id": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+      "name": "phase-2-allocation.csv",
+      "kind": "evidence",
+      "sha256": "e79cc73c5312787e4c767406952305805674e1256465fe9f70f11100c7e1c2ac",
+      "size": 138,
+      "createdAt": "2026-09-24T01:15:39.905Z",
+      "mime": "text/csv",
+      "text": "advice,employee,workweek_ending,earning_code,gross_adjustment\nADJ-602,0417,2026-09-06,OT-CORR,25.00\nADJ-602,0417,2026-09-13,OT-CORR,35.00",
+      "extraction": {
+        "method": "utf8-text",
+        "warnings": []
+      },
+      "lineCount": 3
+    }
+  ],
+  "currentRevisionId": "0cbb9acc-e2a1-4937-89b7-157579b71a8b",
+  "reviewedRevisionId": "0cbb9acc-e2a1-4937-89b7-157579b71a8b",
+  "reviewedSourceDigest": "a4332d5eb1b3b5bbbcdf537260c3552fe38f97d493b28d18a45b629758de1174",
+  "exampleId": "01-partial-allocation",
+  "revisions": [
+    {
+      "id": "d5fbe85a-56d4-4113-b68e-f01498a303b9",
+      "number": 1,
+      "createdAt": "2026-09-24T01:04:56.722Z",
+      "reason": "Initial account reconstructed",
+      "sourceDigest": "a4ebc45ee3ded34911cc4d822a627bfa229d1c133aebe3f6b4dd978e5e6e1200",
+      "sourceIds": [
+        "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+        "6e380c32-f946-4148-b132-577f570ae083"
+      ],
+      "origin": "model",
+      "analysis": {
+        "schemaVersion": "1.0",
+        "summary": "The reviewed account records $800 gross originally paid for each workweek and no later correction in the supplied material. Whether a correction exists, its amounts and its weekly allocation remain unknown. Seek correction records and confirm the assigned deputy from existing claim correspondence before submitting a factual supplement.",
+        "caseContext": {
+          "workerName": "Elena R.",
+          "employerName": "Cedar Market LLC",
+          "claimNumber": null,
+          "claimStatus": "pending",
+          "purpose": "Factual supplement for the assigned deputy concerning the two reviewed workweeks, original gross payments and unresolved correction question.",
+          "recipient": null,
+          "asOf": "2026-09-23",
+          "attribution": "The work and original-payment account comes from reviewed starting material prepared September 23, 2026. Pending-claim status is reported by Elena R., not independently established by agency correspondence. The supplied records are fictional demonstration material. No filed claim form or direct employer response is supplied, so the reviewed account is not represented as the original filed account.",
+          "citations": [
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 3,
+              "lineEnd": 6,
+              "quote": "SYNTHETIC DEVELOPMENT INPUT. All people, employers, identifiers and records are fictional."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 5,
+              "lineEnd": 6,
+              "quote": "Worker: Elena R.; employee 0417. Employer: Cedar Market LLC."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 6,
+              "lineEnd": 6,
+              "quote": "Prepared as of 23 September 2026."
+            },
+            {
+              "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+              "lineStart": 1,
+              "lineEnd": 1,
+              "quote": "Elena R. reports that a California wage claim is pending concerning this account. The claim number and assigned deputy’s name are not supplied in these demonstration records."
+            },
+            {
+              "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+              "lineStart": 1,
+              "lineEnd": 1,
+              "quote": "Prepare a factual supplement for the assigned deputy after the worker verifies the recipient using existing correspondence."
+            }
+          ]
+        },
+        "scope": {
+          "jurisdiction": "CA",
+          "rule": "ca_ordinary_hourly",
+          "basisStatus": "supplied",
+          "assumptions": [
+            "The reviewer expressly adopted the ordinary California adult hourly nonexempt scope.",
+            "The adopted regular rate is a flat $20/hour.",
+            "The supplied daily account represents actual work, excluding nonworked intervals.",
+            "The adopted scope excludes alternative workweeks, bonuses and special-industry rules.",
+            "The schedule is a scoped accounting comparison, not a determination of overdue wages or legal entitlement."
+          ],
+          "workweek": "Monday–Sunday",
+          "workday": "Midnight–midnight, California local time",
+          "exclusions": [
+            "Payment timing",
+            "Legal remedies",
+            "Separate premiums and other claims outside the adopted scope"
+          ],
+          "citations": [
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 6,
+              "lineEnd": 6,
+              "quote": "Employer workweek: Monday–Sunday. Workday: midnight–midnight, California local time."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 8,
+              "lineEnd": 8,
+              "quote": "For this exercise, the reviewer has adopted the ordinary adult hourly nonexempt California scope, a flat $20 regular rate, daily overtime after eight hours, no duplicate daily/weekly overtime, no alternative workweek, bonuses, special industry rules, premiums or other claims."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 8,
+              "lineEnd": 8,
+              "quote": "The amounts below are a scoped accounting difference, not a finding of overdue wages or entitlement. Payment timing and legal remedies remain outside this calculation."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 10,
+              "lineEnd": 10,
+              "quote": "The worker's reviewed actual-work account, excluding nonworked intervals:"
+            }
+          ]
+        },
+        "periods": [
+          {
+            "id": "period-001",
+            "label": "Week A: August 31–September 6, 2026",
+            "startDate": "2026-08-31",
+            "endDate": "2026-09-06",
+            "rateCents": 2000,
+            "originalGrossPaidCents": 80000,
+            "calculationBasis": "daily_minutes",
+            "reviewedGrossEarnedCents": null,
+            "days": [
+              {
+                "date": "2026-08-31",
+                "label": "Monday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-01",
+                "label": "Tuesday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-02",
+                "label": "Wednesday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-03",
+                "label": "Thursday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-04",
+                "label": "Friday",
+                "minutes": 0,
+                "citations": []
+              },
+              {
+                "date": "2026-09-05",
+                "label": "Saturday",
+                "minutes": 0,
+                "citations": []
+              },
+              {
+                "date": "2026-09-06",
+                "label": "Sunday",
+                "minutes": 0,
+                "citations": []
+              }
+            ],
+            "alternatives": [],
+            "notes": "Preserves the worker's reviewed actual-work account and the adopted $800 original gross payment. The starting material records an initial scoped difference of $80 and no additional payment credited; it does not establish whether a later correction exists.",
+            "citations": [
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 8,
+                "lineEnd": 8,
+                "quote": "a flat $20 regular rate"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 10,
+                "lineEnd": 10,
+                "quote": "The worker's reviewed actual-work account, excluding nonworked intervals:"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 12,
+                "lineEnd": 14,
+                "quote": "| A | 31 August–6 September 2026 | 10 h | 10 h | 10 h | 10 h | 0 h | 0 h |"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Matching complete original wage statements: A original gross paid $800; B original gross paid $800. They do not include any later adjustment. The reviewer has adopted those original matching gross-payment amounts. Initial scoped differences are A $80 and B $60. No additional payment has yet been credited in the case schedule."
+              }
+            ]
+          },
+          {
+            "id": "period-002",
+            "label": "Week B: September 7–13, 2026",
+            "startDate": "2026-09-07",
+            "endDate": "2026-09-13",
+            "rateCents": 2000,
+            "originalGrossPaidCents": 80000,
+            "calculationBasis": "daily_minutes",
+            "reviewedGrossEarnedCents": null,
+            "days": [
+              {
+                "date": "2026-09-07",
+                "label": "Monday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-08",
+                "label": "Tuesday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-09",
+                "label": "Wednesday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-10",
+                "label": "Thursday",
+                "minutes": 360,
+                "citations": []
+              },
+              {
+                "date": "2026-09-11",
+                "label": "Friday",
+                "minutes": 240,
+                "citations": []
+              },
+              {
+                "date": "2026-09-12",
+                "label": "Saturday",
+                "minutes": 0,
+                "citations": []
+              },
+              {
+                "date": "2026-09-13",
+                "label": "Sunday",
+                "minutes": 0,
+                "citations": []
+              }
+            ],
+            "alternatives": [],
+            "notes": "Preserves the worker's reviewed actual-work account and the adopted $800 original gross payment. The starting material records an initial scoped difference of $60 and no additional payment credited; it does not establish whether a later correction exists.",
+            "citations": [
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 8,
+                "lineEnd": 8,
+                "quote": "a flat $20 regular rate"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 10,
+                "lineEnd": 10,
+                "quote": "The worker's reviewed actual-work account, excluding nonworked intervals:"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 12,
+                "lineEnd": 15,
+                "quote": "| B | 7–13 September 2026 | 10 h | 10 h | 10 h | 6 h | 4 h | 0 h |"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Matching complete original wage statements: A original gross paid $800; B original gross paid $800. They do not include any later adjustment. The reviewer has adopted those original matching gross-payment amounts. Initial scoped differences are A $80 and B $60. No additional payment has yet been credited in the case schedule."
+              }
+            ]
+          }
+        ],
+        "payments": [],
+        "issues": [
+          {
+            "id": "issue-001",
+            "title": "Any later correction remains unidentified",
+            "status": "open",
+            "detail": "The reviewed material credits only the original gross payments. It identifies no later correction event, gross or net amount, payment date or receipt evidence. The absence of a recorded correction does not establish that none was paid.",
+            "materiality": "identity",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [],
+            "citations": [
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "No additional payment has yet been credited in the case schedule."
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 19,
+                "lineEnd": 19,
+                "quote": "The worker-authorized pending records question is: identify any later wage correction for these two weeks, its gross and net amounts, and how the gross amount is assigned to each week."
+              }
+            ]
+          },
+          {
+            "id": "issue-002",
+            "title": "Scope and weekly allocation of any correction",
+            "status": "open",
+            "detail": "If a correction is identified, its covered workweeks and gross allocation must be established, along with whether it adds to rather than restates the original payments. No correction scope or allocation is supplied.",
+            "materiality": "allocation",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [],
+            "citations": [
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Matching complete original wage statements: A original gross paid $800; B original gross paid $800. They do not include any later adjustment."
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 19,
+                "lineEnd": 19,
+                "quote": "identify any later wage correction for these two weeks, its gross and net amounts, and how the gross amount is assigned to each week."
+              }
+            ]
+          },
+          {
+            "id": "issue-003",
+            "title": "Claim reference and deputy identity are not supplied",
+            "status": "open",
+            "detail": "Elena R. reports a pending California wage claim, but the claim number and assigned deputy's name are unknown. Existing claim correspondence is identified as the source for verifying the recipient before any supplement is sent.",
+            "materiality": "identity",
+            "periodIds": [],
+            "paymentIds": [],
+            "citations": [
+              {
+                "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+                "lineStart": 1,
+                "lineEnd": 1,
+                "quote": "The claim number and assigned deputy’s name are not supplied in these demonstration records. Prepare a factual supplement for the assigned deputy after the worker verifies the recipient using existing correspondence."
+              }
+            ]
+          }
+        ],
+        "responseClaims": [],
+        "actions": [
+          {
+            "id": "action-001",
+            "title": "Request correction records and weekly allocation",
+            "detail": "Ask payroll whether any later correction concerns the two workweeks. Request the correcting wage advice and payment record showing the transaction reference, date, gross and net amounts, and any evidence of delivery or receipt. Ask whether it is additional to the original $800 gross credited to each week, which periods it covers, and how the full gross correction is assigned among them. This remains a proposed request; the records do not establish that it was sent.",
+            "status": "open",
+            "route": "payroll_record_request",
+            "priority": "high",
+            "custodian": "Cedar Market LLC payroll or its payroll provider",
+            "dateRange": "Workweeks August 31–September 6 and September 7–13, 2026, including later corrections relating to those weeks",
+            "establishes": "Whether a distinct later payment exists, its gross and net amounts, receipt support, additionality, covered periods and gross allocation.",
+            "dependsOnIssueIds": [
+              "issue-001",
+              "issue-002"
+            ],
+            "citations": [
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 19,
+                "lineEnd": 19,
+                "quote": "The worker-authorized pending records question is: identify any later wage correction for these two weeks, its gross and net amounts, and how the gross amount is assigned to each week."
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 21,
+                "lineEnd": 21,
+                "quote": "We seek the employer's account and any correcting payroll entries."
+              }
+            ]
+          },
+          {
+            "id": "action-002",
+            "title": "Inspect existing claim correspondence for the recipient",
+            "detail": "Inspect Elena R.'s existing correspondence about the pending California wage claim for the claim number, assigned deputy's name and contact details. The correspondence is identified as available but its contents are not supplied here.",
+            "status": "open",
+            "route": "review_available",
+            "priority": "high",
+            "custodian": "Elena R.",
+            "dateRange": null,
+            "establishes": "The claim reference and correct recipient for the factual supplement.",
+            "dependsOnIssueIds": [
+              "issue-003"
+            ],
+            "citations": [
+              {
+                "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+                "lineStart": 1,
+                "lineEnd": 1,
+                "quote": "The claim number and assigned deputy’s name are not supplied in these demonstration records. Prepare a factual supplement for the assigned deputy after the worker verifies the recipient using existing correspondence."
+              }
+            ]
+          },
+          {
+            "id": "action-003",
+            "title": "Provide a factual supplement to the assigned deputy",
+            "detail": "After confirming the recipient from existing claim correspondence, provide the reviewed work-and-pay account and describe any still-unanswered correction questions. Keep the worker's report of a pending claim distinct from documentary facts, and preserve the original filed account rather than representing this supplement as an amendment or resolution. No communication is sent by this proposal.",
+            "status": "open",
+            "route": "deputy_update",
+            "priority": "high",
+            "custodian": "Elena R.; assigned deputy after identification",
+            "dateRange": "August 31–September 13, 2026",
+            "establishes": "Communicates the scoped factual account and unresolved correction questions to the verified claim recipient without asserting a settlement or case closure.",
+            "dependsOnIssueIds": [
+              "issue-003"
+            ],
+            "citations": [
+              {
+                "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+                "lineStart": 1,
+                "lineEnd": 1,
+                "quote": "Prepare a factual supplement for the assigned deputy after the worker verifies the recipient using existing correspondence. No communication is sent by this exercise."
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 19,
+                "lineEnd": 19,
+                "quote": "The worker-authorized pending records question is: identify any later wage correction for these two weeks, its gross and net amounts, and how the gross amount is assigned to each week."
+              }
+            ]
+          }
+        ],
+        "unassessedCategories": [
+          "Payment timing",
+          "Legal remedies",
+          "Separate premiums and other claims outside the supplied scope"
+        ],
+        "changeNarrative": "Preserves the reviewed daily work account, $20/hour regular rate and $800 original gross payment for each workweek. Incorporates Elena R.'s report of a pending California wage claim while leaving the claim number and deputy identity unknown. The correction-record question remains open because no later payment or direct employer response is supplied. No requests have been retired, and no change to the filed claim is asserted."
+      },
+      "calculation": {
+        "periods": [
+          {
+            "id": "period-001",
+            "label": "Week A: August 31–September 6, 2026",
+            "calculated": true,
+            "earnedMinCents": 88000,
+            "earnedMaxCents": 88000,
+            "originalGrossPaidCents": 80000,
+            "initialDifferenceMinCents": 8000,
+            "initialDifferenceMaxCents": 8000,
+            "knownCreditCents": 0,
+            "differenceMinCents": 8000,
+            "differenceMaxCents": 8000,
+            "alternatives": [
+              {
+                "id": "period-001-daily",
+                "label": "Supplied daily account",
+                "calculated": true,
+                "grossEarnedCents": 88000,
+                "regularMinutes": 1920,
+                "overtimeMinutes": 480,
+                "doubletimeMinutes": 0,
+                "weeklyOvertimeMinutes": 0,
+                "rounding": "Nearest cent on the workweek total; half cents round upward."
+              }
+            ],
+            "allocationGroupIds": [],
+            "basis": "Conditional ordinary California hourly calculation."
+          },
+          {
+            "id": "period-002",
+            "label": "Week B: September 7–13, 2026",
+            "calculated": true,
+            "earnedMinCents": 86000,
+            "earnedMaxCents": 86000,
+            "originalGrossPaidCents": 80000,
+            "initialDifferenceMinCents": 6000,
+            "initialDifferenceMaxCents": 6000,
+            "knownCreditCents": 0,
+            "differenceMinCents": 6000,
+            "differenceMaxCents": 6000,
+            "alternatives": [
+              {
+                "id": "period-002-daily",
+                "label": "Supplied daily account",
+                "calculated": true,
+                "grossEarnedCents": 86000,
+                "regularMinutes": 2040,
+                "overtimeMinutes": 360,
+                "doubletimeMinutes": 0,
+                "weeklyOvertimeMinutes": 0,
+                "rounding": "Nearest cent on the workweek total; half cents round upward."
+              }
+            ],
+            "allocationGroupIds": [],
+            "basis": "Conditional ordinary California hourly calculation."
+          }
+        ],
+        "payments": [],
+        "totals": {
+          "earnedMinCents": 174000,
+          "earnedMaxCents": 174000,
+          "originalGrossPaidCents": 160000,
+          "initialDifferenceMinCents": 14000,
+          "initialDifferenceMaxCents": 14000,
+          "creditedGrossCents": 0,
+          "differenceMinCents": 14000,
+          "differenceMaxCents": 14000,
+          "calculable": true,
+          "conditional": true,
+          "label": "Scoped gross accounting difference",
+          "uncreditedPaymentCount": 0
+        },
+        "knownSubtotal": {
+          "periodIds": [
+            "period-001",
+            "period-002"
+          ],
+          "excludedPeriodIds": [],
+          "earnedMinCents": 174000,
+          "earnedMaxCents": 174000,
+          "originalGrossPaidCents": 160000,
+          "initialDifferenceMinCents": 14000,
+          "initialDifferenceMaxCents": 14000,
+          "creditedGrossMinCents": 0,
+          "creditedGrossMaxCents": 0,
+          "differenceMinCents": 14000,
+          "differenceMaxCents": 14000,
+          "calculable": true,
+          "complete": true,
+          "label": "Subtotal for periods with a supplied account"
+        },
+        "allocationGroups": [],
+        "warnings": [],
+        "unassessedCategories": [
+          "Payment timing",
+          "Legal remedies",
+          "Separate premiums and other claims outside the supplied scope"
+        ]
+      },
+      "review": {
+        "status": "reviewed",
+        "at": "2026-09-24T01:07:17.810Z",
+        "note": "Technical review of fictional demo: supplied work and original pay retained; correction details and recipient unknown."
+      }
+    },
+    {
+      "id": "46ed1abf-aa2a-45de-b216-17e88189e7ba",
+      "number": 2,
+      "createdAt": "2026-09-24T01:10:36.900Z",
+      "reason": "New evidence reconciled",
+      "sourceDigest": "99599ce55f9f2b940d461ce36bde63c2fea90021ae870c5d07b719a445f7bbc6",
+      "sourceIds": [
+        "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+        "6e380c32-f946-4148-b132-577f570ae083",
+        "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+        "b9c746a7-2cb0-4488-923b-185ca541c994",
+        "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581"
+      ],
+      "origin": "model",
+      "analysis": {
+        "schemaVersion": "1.0",
+        "summary": "The new records support one additional $60 gross correction, with $48 received. Its weekly allocation is missing, and payroll's statement that both weeks are corrected remains unreconciled with the reviewed account. Request the missing second page and reconciliation, and confirm the deputy's identity before providing a factual supplement.",
+        "caseContext": {
+          "workerName": "Elena R.",
+          "employerName": "Cedar Market LLC",
+          "claimNumber": null,
+          "claimStatus": "pending",
+          "purpose": "Factual supplement concerning the two reviewed workweeks, the newly documented correction and unresolved allocation and reconciliation questions.",
+          "recipient": null,
+          "asOf": "2026-09-24",
+          "attribution": "The starting work-and-pay account was reviewed as of September 23, 2026. Pending-claim status is reported by Elena R., not independently established by agency correspondence. The new payroll response is direct employer evidence; its statements remain attributed to payroll. All supplied records are fictional demonstration material. No filed claim form is supplied, so the reviewed account is not represented as the original filed account, and this proposal does not amend or resolve a filed claim.",
+          "citations": [
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 3,
+              "lineEnd": 3,
+              "quote": "SYNTHETIC DEVELOPMENT INPUT. All people, employers, identifiers and records are fictional."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 5,
+              "lineEnd": 6,
+              "quote": "Worker: Elena R.; employee 0417. Employer: Cedar Market LLC."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 6,
+              "lineEnd": 6,
+              "quote": "Prepared as of 23 September 2026."
+            },
+            {
+              "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+              "lineStart": 1,
+              "lineEnd": 1,
+              "quote": "Elena R. reports that a California wage claim is pending concerning this account. The claim number and assigned deputy’s name are not supplied in these demonstration records."
+            },
+            {
+              "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+              "lineStart": 1,
+              "lineEnd": 1,
+              "quote": "Prepare a factual supplement for the assigned deputy after the worker verifies the recipient using existing correspondence."
+            },
+            {
+              "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+              "lineStart": 1,
+              "lineEnd": 3,
+              "quote": "From: Payroll, Cedar Market LLC"
+            }
+          ]
+        },
+        "scope": {
+          "jurisdiction": "CA",
+          "rule": "ca_ordinary_hourly",
+          "basisStatus": "supplied",
+          "assumptions": [
+            "The reviewer expressly adopted the ordinary California adult hourly nonexempt scope.",
+            "The adopted regular rate is a flat $20/hour.",
+            "The supplied daily account represents actual work, excluding nonworked intervals.",
+            "The adopted scope excludes alternative workweeks, bonuses and special-industry rules.",
+            "The schedule is a scoped accounting comparison, not a determination of overdue wages or legal entitlement.",
+            "Payroll's express statement that the correction is additional and exclusively covers these two workweeks is used as an attributed proposed credit premise."
+          ],
+          "workweek": "Monday–Sunday",
+          "workday": "Midnight–midnight, California local time",
+          "exclusions": [
+            "Payment timing",
+            "Legal remedies",
+            "Separate premiums and other claims outside the adopted scope"
+          ],
+          "citations": [
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 6,
+              "lineEnd": 6,
+              "quote": "Employer workweek: Monday–Sunday. Workday: midnight–midnight, California local time."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 8,
+              "lineEnd": 8,
+              "quote": "For this exercise, the reviewer has adopted the ordinary adult hourly nonexempt California scope, a flat $20 regular rate, daily overtime after eight hours, no duplicate daily/weekly overtime, no alternative workweek, bonuses, special industry rules, premiums or other claims."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 8,
+              "lineEnd": 8,
+              "quote": "The amounts below are a scoped accounting difference, not a finding of overdue wages or entitlement. Payment timing and legal remedies remain outside this calculation."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 10,
+              "lineEnd": 10,
+              "quote": "The worker's reviewed actual-work account, excluding nonworked intervals:"
+            },
+            {
+              "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+              "lineStart": 7,
+              "lineEnd": 7,
+              "quote": "The $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks. This run is solely an overtime wage correction for the weeks ending 6 September and 13 September; it contains no other period or expense item."
+            }
+          ]
+        },
+        "periods": [
+          {
+            "id": "period-001",
+            "label": "Week A: August 31–September 6, 2026",
+            "startDate": "2026-08-31",
+            "endDate": "2026-09-06",
+            "rateCents": 2000,
+            "originalGrossPaidCents": 80000,
+            "calculationBasis": "daily_minutes",
+            "reviewedGrossEarnedCents": null,
+            "days": [
+              {
+                "date": "2026-08-31",
+                "label": "Monday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-01",
+                "label": "Tuesday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-02",
+                "label": "Wednesday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-03",
+                "label": "Thursday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-04",
+                "label": "Friday",
+                "minutes": 0,
+                "citations": []
+              },
+              {
+                "date": "2026-09-05",
+                "label": "Saturday",
+                "minutes": 0,
+                "citations": []
+              },
+              {
+                "date": "2026-09-06",
+                "label": "Sunday",
+                "minutes": 0,
+                "citations": []
+              }
+            ],
+            "alternatives": [],
+            "notes": "Preserves the reviewed actual-work account and $800 original gross payment. The starting account recorded an $80 scoped difference before any correction credit. Payroll now identifies an additional correction covering both weeks, but this week's share is not supplied.",
+            "citations": [
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 8,
+                "lineEnd": 8,
+                "quote": "a flat $20 regular rate"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 10,
+                "lineEnd": 10,
+                "quote": "The worker's reviewed actual-work account, excluding nonworked intervals:"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 12,
+                "lineEnd": 14,
+                "quote": "| A | 31 August–6 September 2026 | 10 h | 10 h | 10 h | 10 h | 0 h | 0 h |"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Matching complete original wage statements: A original gross paid $800; B original gross paid $800. They do not include any later adjustment. The reviewer has adopted those original matching gross-payment amounts. Initial scoped differences are A $80 and B $60."
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 9,
+                "quote": "The payroll allocation detail is on the second page of the advice. Our copy attached here is the earnings page."
+              }
+            ]
+          },
+          {
+            "id": "period-002",
+            "label": "Week B: September 7–13, 2026",
+            "startDate": "2026-09-07",
+            "endDate": "2026-09-13",
+            "rateCents": 2000,
+            "originalGrossPaidCents": 80000,
+            "calculationBasis": "daily_minutes",
+            "reviewedGrossEarnedCents": null,
+            "days": [
+              {
+                "date": "2026-09-07",
+                "label": "Monday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-08",
+                "label": "Tuesday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-09",
+                "label": "Wednesday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-10",
+                "label": "Thursday",
+                "minutes": 360,
+                "citations": []
+              },
+              {
+                "date": "2026-09-11",
+                "label": "Friday",
+                "minutes": 240,
+                "citations": []
+              },
+              {
+                "date": "2026-09-12",
+                "label": "Saturday",
+                "minutes": 0,
+                "citations": []
+              },
+              {
+                "date": "2026-09-13",
+                "label": "Sunday",
+                "minutes": 0,
+                "citations": []
+              }
+            ],
+            "alternatives": [],
+            "notes": "Preserves the reviewed actual-work account and $800 original gross payment. The starting account recorded a $60 scoped difference before any correction credit. The correction's matching amount does not establish that it belongs entirely to this week; payroll identifies both weeks as covered and the allocation page is missing.",
+            "citations": [
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 8,
+                "lineEnd": 8,
+                "quote": "a flat $20 regular rate"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 10,
+                "lineEnd": 10,
+                "quote": "The worker's reviewed actual-work account, excluding nonworked intervals:"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 12,
+                "lineEnd": 15,
+                "quote": "| B | 7–13 September 2026 | 10 h | 10 h | 10 h | 6 h | 4 h | 0 h |"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Matching complete original wage statements: A original gross paid $800; B original gross paid $800. They do not include any later adjustment. The reviewer has adopted those original matching gross-payment amounts. Initial scoped differences are A $80 and B $60."
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "This run is solely an overtime wage correction for the weeks ending 6 September and 13 September; it contains no other period or expense item."
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 9,
+                "lineEnd": 9,
+                "quote": "The payroll allocation detail is on the second page of the advice. Our copy attached here is the earnings page."
+              }
+            ]
+          }
+        ],
+        "payments": [
+          {
+            "id": "payment-001",
+            "label": "September 18 overtime correction",
+            "eventReference": "ADJ-602 / CM0417-602",
+            "grossCents": 6000,
+            "netCents": 4800,
+            "receivedNetCents": 4800,
+            "paymentDate": "2026-09-18",
+            "receiptStatus": "documented",
+            "identityStatus": "supported",
+            "additionality": "supported",
+            "creditStatus": "proposed_credit",
+            "creditReason": "The earnings advice and bank entry describe one payment, matching Elena R., September 18, the $48 net amount, account ending 7781 and trace CM0417-602. The bank entry documents net receipt, not a second payment or a gross amount. The advice supplies $60 gross and $12 withholding. Payroll expressly states that the correction is additional to the original $800 gross for each week and exclusively covers these two workweeks. The proposed shared gross credit rests on that attributed statement and the matching receipt; the weekly split remains unknown.",
+            "allocationStatus": "unknown",
+            "allocationScope": "exclusive_supported",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "allocations": [],
+            "citations": [
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 2,
+                "lineEnd": 4,
+                "quote": "Employee 0417 / ELENA R.                Advice ADJ-602"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 3,
+                "lineEnd": 4,
+                "quote": "Payment date: 18 SEP 2026               PAGE 1 OF 2"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 7,
+                "lineEnd": 8,
+                "quote": "TOTAL GROSS          60.00        TOTAL DEDUCTIONS      12.00"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 10,
+                "lineEnd": 12,
+                "quote": "NET PAY              48.00\nDeposit route        ACH / account ending 7781\nTrace                CM0417-602"
+              },
+              {
+                "sourceId": "b9c746a7-2cb0-4488-923b-185ca541c994",
+                "lineStart": 1,
+                "lineEnd": 2,
+                "quote": "Elena R.,7781,2026-09-18,CEDAR MARKET PAYROLL,48.00,CM0417-602"
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks. This run is solely an overtime wage correction for the weeks ending 6 September and 13 September; it contains no other period or expense item."
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 9,
+                "lineEnd": 9,
+                "quote": "The payroll allocation detail is on the second page of the advice. Our copy attached here is the earnings page."
+              }
+            ]
+          }
+        ],
+        "issues": [
+          {
+            "id": "issue-001",
+            "title": "Later correction identified and receipt documented",
+            "status": "resolved",
+            "detail": "The new advice identifies one $60 gross correction dated September 18, 2026, with $48 net pay. The matching bank trace documents receipt of that $48. This answers the earlier question about whether a later correction is identified; it does not resolve its weekly allocation or establish that both weeks were fully corrected.",
+            "materiality": "identity",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [
+              "payment-001"
+            ],
+            "citations": [
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 2,
+                "lineEnd": 4,
+                "quote": "Payment date: 18 SEP 2026               PAGE 1 OF 2"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 8,
+                "lineEnd": 12,
+                "quote": "TOTAL GROSS          60.00        TOTAL DEDUCTIONS      12.00"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 10,
+                "lineEnd": 12,
+                "quote": "NET PAY              48.00\nDeposit route        ACH / account ending 7781\nTrace                CM0417-602"
+              },
+              {
+                "sourceId": "b9c746a7-2cb0-4488-923b-185ca541c994",
+                "lineStart": 2,
+                "lineEnd": 2,
+                "quote": "Elena R.,7781,2026-09-18,CEDAR MARKET PAYROLL,48.00,CM0417-602"
+              }
+            ]
+          },
+          {
+            "id": "issue-002",
+            "title": "Correction scope supported; weekly allocation still missing",
+            "status": "open",
+            "detail": "Payroll expressly identifies the correction as additional to the original payments and solely for these two workweeks. That supports a proposed shared credit, but does not establish how much belongs to each week. Payroll says the allocation is on the second page; only the first page is supplied. Neither the payment date nor the correction's amount establishes a weekly split.",
+            "materiality": "allocation",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [
+              "payment-001"
+            ],
+            "citations": [
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks. This run is solely an overtime wage correction for the weeks ending 6 September and 13 September; it contains no other period or expense item."
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 9,
+                "lineEnd": 9,
+                "quote": "The payroll allocation detail is on the second page of the advice. Our copy attached here is the earnings page."
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 4,
+                "lineEnd": 4,
+                "quote": "PAGE 1 OF 2"
+              }
+            ]
+          },
+          {
+            "id": "issue-003",
+            "title": "Claim reference and deputy identity are not supplied",
+            "status": "open",
+            "detail": "Elena R. reports a pending California wage claim, but the claim number and assigned deputy's name remain unknown. Existing claim correspondence is identified as the source for verifying the recipient before a supplement is sent; its contents are not supplied.",
+            "materiality": "identity",
+            "periodIds": [],
+            "paymentIds": [],
+            "citations": [
+              {
+                "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+                "lineStart": 1,
+                "lineEnd": 1,
+                "quote": "The claim number and assigned deputy’s name are not supplied in these demonstration records. Prepare a factual supplement for the assigned deputy after the worker verifies the recipient using existing correspondence."
+              }
+            ]
+          },
+          {
+            "id": "issue-004",
+            "title": "Payroll's completion statement remains unreconciled",
+            "status": "open",
+            "detail": "Payroll considers both weeks corrected, but does not reconcile the $60 gross correction with the reviewed starting differences of $80 for Week A and $60 for Week B. Its response supplies no alternative daily work account or explanation of a different earned-wage calculation. The correction documents a payment, not that both reviewed differences or any unassessed claim categories have been resolved.",
+            "materiality": "support",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [
+              "payment-001"
+            ],
+            "citations": [
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The deposit is $48 after withholding. We consider both weeks corrected."
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Initial scoped differences are A $80 and B $60."
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 8,
+                "lineEnd": 8,
+                "quote": "Payment timing and legal remedies remain outside this calculation."
+              }
+            ]
+          }
+        ],
+        "responseClaims": [
+          {
+            "id": "response-001",
+            "statement": "Payroll states that the $60 gross correction is additional to the original $800 gross for each week and produces a $48 deposit after withholding.",
+            "author": "Payroll, Cedar Market LLC",
+            "status": "supported",
+            "coverage": "The advice supports the gross and net amounts, and the matching bank entry supports receipt. Additionality is supported as payroll's express statement, consistent with the starting account's exclusion of later adjustments; it is not an adjudicated finding.",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [
+              "payment-001"
+            ],
+            "issueIds": [
+              "issue-001"
+            ],
+            "citations": [
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks."
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The deposit is $48 after withholding."
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 8,
+                "lineEnd": 10,
+                "quote": "TOTAL GROSS          60.00        TOTAL DEDUCTIONS      12.00"
+              },
+              {
+                "sourceId": "b9c746a7-2cb0-4488-923b-185ca541c994",
+                "lineStart": 2,
+                "lineEnd": 2,
+                "quote": "Elena R.,7781,2026-09-18,CEDAR MARKET PAYROLL,48.00,CM0417-602"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Matching complete original wage statements: A original gross paid $800; B original gross paid $800. They do not include any later adjustment."
+              }
+            ]
+          },
+          {
+            "id": "response-002",
+            "statement": "Payroll states that the correction is solely overtime wages for the weeks ending September 6 and September 13, with no other period or expense item.",
+            "author": "Payroll, Cedar Market LLC",
+            "status": "supported",
+            "coverage": "This express employer statement supports the exclusive two-week scope as an attributed proposed premise. The advice shows the same overall work-period envelope. Neither record supplies the weekly gross allocation.",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [
+              "payment-001"
+            ],
+            "issueIds": [
+              "issue-002"
+            ],
+            "citations": [
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "This run is solely an overtime wage correction for the weeks ending 6 September and 13 September; it contains no other period or expense item."
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 3,
+                "lineEnd": 3,
+                "quote": "Work-period envelope: 31 AUG 2026 through 13 SEP 2026"
+              }
+            ]
+          },
+          {
+            "id": "response-003",
+            "statement": "Payroll states, “We consider both weeks corrected.”",
+            "author": "Payroll, Cedar Market LLC",
+            "status": "unsupported",
+            "coverage": "A received correction is supported, but the statement that both weeks are fully corrected is not supported by a reconciliation to the unchanged reviewed work-and-pay account. The response does not explain the initial $80 and $60 differences, provide the weekly split or address payment timing and legal remedies. No settlement or case closure is established.",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [
+              "payment-001"
+            ],
+            "issueIds": [
+              "issue-002",
+              "issue-004"
+            ],
+            "citations": [
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "We consider both weeks corrected."
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Initial scoped differences are A $80 and B $60."
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 8,
+                "lineEnd": 8,
+                "quote": "Payment timing and legal remedies remain outside this calculation."
+              }
+            ]
+          },
+          {
+            "id": "response-004",
+            "statement": "Payroll states that the weekly allocation detail is on the second page of the advice and that only the earnings page was attached.",
+            "author": "Payroll, Cedar Market LLC",
+            "status": "partly_supported",
+            "coverage": "The supplied advice is marked page 1 of 2, supporting that the supplied copy is incomplete. The second page's contents have not been supplied, so its claimed allocation detail remains unverified. This identifies a specific record to request from payroll, not an existing worker-held record available for inspection.",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [
+              "payment-001"
+            ],
+            "issueIds": [
+              "issue-002"
+            ],
+            "citations": [
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 9,
+                "lineEnd": 9,
+                "quote": "The payroll allocation detail is on the second page of the advice. Our copy attached here is the earnings page."
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 4,
+                "lineEnd": 4,
+                "quote": "PAGE 1 OF 2"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "id": "action-001",
+            "title": "Request correction records and weekly allocation",
+            "detail": "The supplied earnings page, bank entry and payroll response answer the correction's identity, date, gross and net amounts, receipt, additionality and stated covered periods. The request remains partly answered because the weekly allocation is missing. Ask payroll for the second page of advice ADJ-602 showing how the full $60 gross correction is assigned between the two workweeks. The records do not establish that the earlier proposed request was sent.",
+            "status": "partly_answered",
+            "route": "payroll_record_request",
+            "priority": "high",
+            "custodian": "Cedar Market LLC payroll or its payroll provider",
+            "dateRange": "Workweeks August 31–September 6 and September 7–13, 2026; correction dated September 18, 2026",
+            "establishes": "The missing weekly gross allocation of the documented correction, without assuming a weekly net-pay or withholding split.",
+            "dependsOnIssueIds": [
+              "issue-001",
+              "issue-002"
+            ],
+            "citations": [
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 19,
+                "lineEnd": 19,
+                "quote": "The worker-authorized pending records question is: identify any later wage correction for these two weeks, its gross and net amounts, and how the gross amount is assigned to each week."
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 8,
+                "lineEnd": 12,
+                "quote": "TOTAL GROSS          60.00        TOTAL DEDUCTIONS      12.00"
+              },
+              {
+                "sourceId": "b9c746a7-2cb0-4488-923b-185ca541c994",
+                "lineStart": 2,
+                "lineEnd": 2,
+                "quote": "Elena R.,7781,2026-09-18,CEDAR MARKET PAYROLL,48.00,CM0417-602"
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks. This run is solely an overtime wage correction for the weeks ending 6 September and 13 September; it contains no other period or expense item."
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 9,
+                "lineEnd": 9,
+                "quote": "The payroll allocation detail is on the second page of the advice. Our copy attached here is the earnings page."
+              }
+            ]
+          },
+          {
+            "id": "action-002",
+            "title": "Inspect existing claim correspondence for the recipient",
+            "detail": "Inspect Elena R.'s existing correspondence about the pending California wage claim for the claim number, assigned deputy's name and contact details. The correspondence is identified as available, but its contents are not supplied and this inspection is not established as completed.",
+            "status": "open",
+            "route": "review_available",
+            "priority": "high",
+            "custodian": "Elena R.",
+            "dateRange": null,
+            "establishes": "The claim reference and correct recipient for the factual supplement.",
+            "dependsOnIssueIds": [
+              "issue-003"
+            ],
+            "citations": [
+              {
+                "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+                "lineStart": 1,
+                "lineEnd": 1,
+                "quote": "The claim number and assigned deputy’s name are not supplied in these demonstration records. Prepare a factual supplement for the assigned deputy after the worker verifies the recipient using existing correspondence."
+              }
+            ]
+          },
+          {
+            "id": "action-003",
+            "title": "Provide a factual supplement to the assigned deputy",
+            "detail": "After confirming the recipient from existing claim correspondence, provide the unchanged reviewed work-and-pay account, the documented $60 gross correction with $48 received, payroll's attributed statements and any still-unresolved allocation and reconciliation questions. Keep other unassessed claim categories separate. Do not represent the supplement as an amendment of the original filed account, acceptance of a settlement or case closure. No communication is sent by this proposal.",
+            "status": "open",
+            "route": "deputy_update",
+            "priority": "high",
+            "custodian": "Elena R.; assigned deputy after identification",
+            "dateRange": "August 31–September 13, 2026, and the related September 18 correction",
+            "establishes": "Communicates the updated factual account and remaining questions to the verified claim recipient without asserting that the claim has been resolved.",
+            "dependsOnIssueIds": [
+              "issue-003"
+            ],
+            "citations": [
+              {
+                "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+                "lineStart": 1,
+                "lineEnd": 1,
+                "quote": "Prepare a factual supplement for the assigned deputy after the worker verifies the recipient using existing correspondence. No communication is sent by this exercise."
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks."
+              },
+              {
+                "sourceId": "b9c746a7-2cb0-4488-923b-185ca541c994",
+                "lineStart": 2,
+                "lineEnd": 2,
+                "quote": "Elena R.,7781,2026-09-18,CEDAR MARKET PAYROLL,48.00,CM0417-602"
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 9,
+                "lineEnd": 9,
+                "quote": "The payroll allocation detail is on the second page of the advice. Our copy attached here is the earnings page."
+              }
+            ]
+          },
+          {
+            "id": "action-004",
+            "title": "Request payroll's reconciliation of both workweeks",
+            "detail": "Ask payroll for its earned-wage calculation and payment reconciliation for each workweek, explaining how the correction supports its statement that both weeks are corrected. Request the daily hours, regular rate and overtime treatment underlying any account that differs from the reviewed account, together with the original payment and correction credited to each week. The missing allocation page alone may not answer this separate reconciliation question.",
+            "status": "open",
+            "route": "payroll_record_request",
+            "priority": "high",
+            "custodian": "Cedar Market LLC payroll or its payroll provider",
+            "dateRange": "Workweeks August 31–September 6 and September 7–13, 2026; related September 18 correction",
+            "establishes": "The factual and calculation basis for payroll's completion statement and any differences from the worker's reviewed work-and-pay account.",
+            "dependsOnIssueIds": [
+              "issue-004"
+            ],
+            "citations": [
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "We consider both weeks corrected."
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Initial scoped differences are A $80 and B $60."
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 21,
+                "lineEnd": 21,
+                "quote": "We seek the employer's account and any correcting payroll entries."
+              }
+            ]
+          }
+        ],
+        "unassessedCategories": [
+          "Payment timing",
+          "Legal remedies",
+          "Separate premiums and other claims outside the supplied scope"
+        ],
+        "changeNarrative": "Preserves both reviewed daily work accounts, the $20/hour rate and the original $800 gross payment for each week. The new earnings advice and matching bank entry establish one correction, not two payments: $60 gross and $48 received. Payroll's express additionality and exclusive-period statements support a proposed shared credit without an invented weekly split. The correction-identity issue is resolved, and the earlier records request is partly answered with only its allocation component outstanding. A separate reconciliation issue and request now address payroll's statement that both weeks are corrected. Claim-reference verification and the proposed deputy supplement remain open; no request or communication is represented as having been sent."
+      },
+      "calculation": {
+        "periods": [
+          {
+            "id": "period-001",
+            "label": "Week A: August 31–September 6, 2026",
+            "calculated": true,
+            "earnedMinCents": 88000,
+            "earnedMaxCents": 88000,
+            "originalGrossPaidCents": 80000,
+            "initialDifferenceMinCents": 8000,
+            "initialDifferenceMaxCents": 8000,
+            "knownCreditCents": 0,
+            "differenceMinCents": 2000,
+            "differenceMaxCents": 8000,
+            "alternatives": [
+              {
+                "id": "period-001-daily",
+                "label": "Supplied daily account",
+                "calculated": true,
+                "grossEarnedCents": 88000,
+                "regularMinutes": 1920,
+                "overtimeMinutes": 480,
+                "doubletimeMinutes": 0,
+                "weeklyOvertimeMinutes": 0,
+                "rounding": "Nearest cent on the workweek total; half cents round upward."
+              }
+            ],
+            "allocationGroupIds": [
+              "allocation-payment-001"
+            ],
+            "basis": "Conditional ordinary California hourly calculation."
+          },
+          {
+            "id": "period-002",
+            "label": "Week B: September 7–13, 2026",
+            "calculated": true,
+            "earnedMinCents": 86000,
+            "earnedMaxCents": 86000,
+            "originalGrossPaidCents": 80000,
+            "initialDifferenceMinCents": 6000,
+            "initialDifferenceMaxCents": 6000,
+            "knownCreditCents": 0,
+            "differenceMinCents": 0,
+            "differenceMaxCents": 6000,
+            "alternatives": [
+              {
+                "id": "period-002-daily",
+                "label": "Supplied daily account",
+                "calculated": true,
+                "grossEarnedCents": 86000,
+                "regularMinutes": 2040,
+                "overtimeMinutes": 360,
+                "doubletimeMinutes": 0,
+                "weeklyOvertimeMinutes": 0,
+                "rounding": "Nearest cent on the workweek total; half cents round upward."
+              }
+            ],
+            "allocationGroupIds": [
+              "allocation-payment-001"
+            ],
+            "basis": "Conditional ordinary California hourly calculation."
+          }
+        ],
+        "payments": [
+          {
+            "id": "payment-001",
+            "label": "September 18 overtime correction",
+            "eventReference": "ADJ-602 / CM0417-602",
+            "grossCents": 6000,
+            "netCents": 4800,
+            "receivedNetCents": 4800,
+            "paymentDate": "2026-09-18",
+            "receiptStatus": "documented",
+            "identityStatus": "supported",
+            "additionality": "supported",
+            "creditStatus": "proposed_credit",
+            "creditReason": "The earnings advice and bank entry describe one payment, matching Elena R., September 18, the $48 net amount, account ending 7781 and trace CM0417-602. The bank entry documents net receipt, not a second payment or a gross amount. The advice supplies $60 gross and $12 withholding. Payroll expressly states that the correction is additional to the original $800 gross for each week and exclusively covers these two workweeks. The proposed shared gross credit rests on that attributed statement and the matching receipt; the weekly split remains unknown.",
+            "allocationStatus": "unknown",
+            "allocationScope": "exclusive_supported",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "allocations": [],
+            "citations": [
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 2,
+                "lineEnd": 4,
+                "quote": "Employee 0417 / ELENA R.                Advice ADJ-602"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 3,
+                "lineEnd": 4,
+                "quote": "Payment date: 18 SEP 2026               PAGE 1 OF 2"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 7,
+                "lineEnd": 8,
+                "quote": "TOTAL GROSS          60.00        TOTAL DEDUCTIONS      12.00"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 10,
+                "lineEnd": 12,
+                "quote": "NET PAY              48.00\nDeposit route        ACH / account ending 7781\nTrace                CM0417-602"
+              },
+              {
+                "sourceId": "b9c746a7-2cb0-4488-923b-185ca541c994",
+                "lineStart": 1,
+                "lineEnd": 2,
+                "quote": "Elena R.,7781,2026-09-18,CEDAR MARKET PAYROLL,48.00,CM0417-602"
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks. This run is solely an overtime wage correction for the weeks ending 6 September and 13 September; it contains no other period or expense item."
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 9,
+                "lineEnd": 9,
+                "quote": "The payroll allocation detail is on the second page of the advice. Our copy attached here is the earnings page."
+              }
+            ],
+            "credited": true,
+            "creditedGrossCents": 6000,
+            "exclusionReasons": []
+          }
+        ],
+        "totals": {
+          "earnedMinCents": 174000,
+          "earnedMaxCents": 174000,
+          "originalGrossPaidCents": 160000,
+          "initialDifferenceMinCents": 14000,
+          "initialDifferenceMaxCents": 14000,
+          "creditedGrossCents": 6000,
+          "differenceMinCents": 8000,
+          "differenceMaxCents": 8000,
+          "calculable": true,
+          "conditional": true,
+          "label": "Scoped gross accounting difference",
+          "uncreditedPaymentCount": 0
+        },
+        "knownSubtotal": {
+          "periodIds": [
+            "period-001",
+            "period-002"
+          ],
+          "excludedPeriodIds": [],
+          "earnedMinCents": 174000,
+          "earnedMaxCents": 174000,
+          "originalGrossPaidCents": 160000,
+          "initialDifferenceMinCents": 14000,
+          "initialDifferenceMaxCents": 14000,
+          "creditedGrossMinCents": 6000,
+          "creditedGrossMaxCents": 6000,
+          "differenceMinCents": 8000,
+          "differenceMaxCents": 8000,
+          "calculable": true,
+          "complete": true,
+          "label": "Subtotal for periods with a supplied account"
+        },
+        "allocationGroups": [
+          {
+            "id": "allocation-payment-001",
+            "paymentId": "payment-001",
+            "label": "September 18 overtime correction",
+            "totalGrossCents": 6000,
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "allocationsKnown": false,
+            "possibleCentAllocations": 6001,
+            "constraint": "Nonnegative integer-cent allocations to the listed periods sum to 6000 cents. The period bounds are linked, not independently selectable."
+          }
+        ],
+        "warnings": [
+          "Shared allocation bounds are coupled. Do not add the individual period extrema; use the combined schedule total."
+        ],
+        "unassessedCategories": [
+          "Payment timing",
+          "Legal remedies",
+          "Separate premiums and other claims outside the supplied scope"
+        ]
+      },
+      "review": {
+        "status": "reviewed",
+        "at": "2026-09-24T01:14:30.020Z",
+        "note": "Technical review of fictional demo: one $60 gross / $48 received correction, supported stated additionality and two-week scope; weekly split, payroll reconciliation and recipient remain open."
+      }
+    },
+    {
+      "id": "0cbb9acc-e2a1-4937-89b7-157579b71a8b",
+      "number": 3,
+      "createdAt": "2026-09-24T01:18:45.099Z",
+      "reason": "New evidence reconciled",
+      "sourceDigest": "a4332d5eb1b3b5bbbcdf537260c3552fe38f97d493b28d18a45b629758de1174",
+      "sourceIds": [
+        "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+        "6e380c32-f946-4148-b132-577f570ae083",
+        "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+        "b9c746a7-2cb0-4488-923b-185ca541c994",
+        "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+        "29931735-7b42-4d3a-a3de-d86cd3dfa65d"
+      ],
+      "origin": "model",
+      "analysis": {
+        "schemaVersion": "1.0",
+        "summary": "The allocation record assigns the existing $60 gross correction as $25 to Week A and $35 to Week B, with the documented $48 receipt unchanged. Payroll's statement that both weeks are corrected remains unreconciled. Request that reconciliation and verify the claim recipient before providing a factual supplement.",
+        "caseContext": {
+          "workerName": "Elena R.",
+          "employerName": "Cedar Market LLC",
+          "claimNumber": null,
+          "claimStatus": "pending",
+          "purpose": "Factual supplement preserving the reviewed work-and-pay account, documenting the correction's weekly gross allocation and identifying the remaining reconciliation question.",
+          "recipient": null,
+          "asOf": "2026-09-24",
+          "attribution": "The starting work-and-pay account was reviewed as of September 23, 2026. Elena R. reports a pending California wage claim; agency correspondence, the claim number and the assigned deputy's identity are not supplied. Payroll's statements remain attributed to payroll. The newly supplied allocation table is matched to the existing correction by its advice reference and employee number. All supplied records are fictional demonstration material. No filed claim form is supplied, so the reviewed starting account is not represented as the original filed account. This proposal does not amend a filed claim, accept a settlement or close a case.",
+          "citations": [
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 3,
+              "lineEnd": 3,
+              "quote": "SYNTHETIC DEVELOPMENT INPUT. All people, employers, identifiers and records are fictional."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 5,
+              "lineEnd": 6,
+              "quote": "Worker: Elena R.; employee 0417. Employer: Cedar Market LLC."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 6,
+              "lineEnd": 6,
+              "quote": "Prepared as of 23 September 2026."
+            },
+            {
+              "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+              "lineStart": 1,
+              "lineEnd": 1,
+              "quote": "Elena R. reports that a California wage claim is pending concerning this account. The claim number and assigned deputy’s name are not supplied in these demonstration records."
+            },
+            {
+              "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+              "lineStart": 1,
+              "lineEnd": 1,
+              "quote": "Prepare a factual supplement for the assigned deputy after the worker verifies the recipient using existing correspondence."
+            },
+            {
+              "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+              "lineStart": 1,
+              "lineEnd": 1,
+              "quote": "From: Payroll, Cedar Market LLC"
+            },
+            {
+              "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+              "lineStart": 1,
+              "lineEnd": 3,
+              "quote": "advice,employee,workweek_ending,earning_code,gross_adjustment\nADJ-602,0417,2026-09-06,OT-CORR,25.00\nADJ-602,0417,2026-09-13,OT-CORR,35.00"
+            }
+          ]
+        },
+        "scope": {
+          "jurisdiction": "CA",
+          "rule": "ca_ordinary_hourly",
+          "basisStatus": "supplied",
+          "assumptions": [
+            "The starting account expressly adopts the ordinary California adult hourly nonexempt scope.",
+            "The adopted regular rate is a flat $20/hour.",
+            "The reviewed daily account represents actual work, excluding nonworked intervals.",
+            "The adopted scope excludes alternative workweeks, bonuses and special-industry rules.",
+            "The schedule is a scoped accounting comparison, not a determination of overdue wages or legal entitlement.",
+            "Payroll's express additionality and exclusive-period statements support the proposed correction credit as attributed premises; the matching allocation table supplies each week's gross share."
+          ],
+          "workweek": "Monday–Sunday",
+          "workday": "Midnight–midnight, California local time",
+          "exclusions": [
+            "Payment timing",
+            "Legal remedies",
+            "Separate premiums and other claims outside the adopted scope"
+          ],
+          "citations": [
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 6,
+              "lineEnd": 6,
+              "quote": "Employer workweek: Monday–Sunday. Workday: midnight–midnight, California local time."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 8,
+              "lineEnd": 8,
+              "quote": "For this exercise, the reviewer has adopted the ordinary adult hourly nonexempt California scope, a flat $20 regular rate, daily overtime after eight hours, no duplicate daily/weekly overtime, no alternative workweek, bonuses, special industry rules, premiums or other claims."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 8,
+              "lineEnd": 8,
+              "quote": "The amounts below are a scoped accounting difference, not a finding of overdue wages or entitlement. Payment timing and legal remedies remain outside this calculation."
+            },
+            {
+              "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+              "lineStart": 10,
+              "lineEnd": 10,
+              "quote": "The worker's reviewed actual-work account, excluding nonworked intervals:"
+            },
+            {
+              "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+              "lineStart": 7,
+              "lineEnd": 7,
+              "quote": "The $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks. This run is solely an overtime wage correction for the weeks ending 6 September and 13 September; it contains no other period or expense item."
+            },
+            {
+              "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+              "lineStart": 2,
+              "lineEnd": 3,
+              "quote": "ADJ-602,0417,2026-09-06,OT-CORR,25.00\nADJ-602,0417,2026-09-13,OT-CORR,35.00"
+            }
+          ]
+        },
+        "periods": [
+          {
+            "id": "period-001",
+            "label": "Week A: August 31–September 6, 2026",
+            "startDate": "2026-08-31",
+            "endDate": "2026-09-06",
+            "rateCents": 2000,
+            "originalGrossPaidCents": 80000,
+            "calculationBasis": "daily_minutes",
+            "reviewedGrossEarnedCents": null,
+            "days": [
+              {
+                "date": "2026-08-31",
+                "label": "Monday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-01",
+                "label": "Tuesday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-02",
+                "label": "Wednesday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-03",
+                "label": "Thursday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-04",
+                "label": "Friday",
+                "minutes": 0,
+                "citations": []
+              },
+              {
+                "date": "2026-09-05",
+                "label": "Saturday",
+                "minutes": 0,
+                "citations": []
+              },
+              {
+                "date": "2026-09-06",
+                "label": "Sunday",
+                "minutes": 0,
+                "citations": []
+              }
+            ],
+            "alternatives": [],
+            "notes": "The reviewed actual-work account and original $800 gross payment remain unchanged. The starting account recorded an $80 scoped difference before correction credit. The newly supplied allocation record assigns $25 of the existing gross correction to this week; payroll's assertion that the week is fully corrected remains unreconciled.",
+            "citations": [
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 8,
+                "lineEnd": 8,
+                "quote": "a flat $20 regular rate"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 10,
+                "lineEnd": 10,
+                "quote": "The worker's reviewed actual-work account, excluding nonworked intervals:"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 12,
+                "lineEnd": 14,
+                "quote": "| A | 31 August–6 September 2026 | 10 h | 10 h | 10 h | 10 h | 0 h | 0 h |"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Matching complete original wage statements: A original gross paid $800; B original gross paid $800. They do not include any later adjustment. The reviewer has adopted those original matching gross-payment amounts. Initial scoped differences are A $80 and B $60."
+              },
+              {
+                "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+                "lineStart": 1,
+                "lineEnd": 2,
+                "quote": "ADJ-602,0417,2026-09-06,OT-CORR,25.00"
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "We consider both weeks corrected."
+              }
+            ]
+          },
+          {
+            "id": "period-002",
+            "label": "Week B: September 7–13, 2026",
+            "startDate": "2026-09-07",
+            "endDate": "2026-09-13",
+            "rateCents": 2000,
+            "originalGrossPaidCents": 80000,
+            "calculationBasis": "daily_minutes",
+            "reviewedGrossEarnedCents": null,
+            "days": [
+              {
+                "date": "2026-09-07",
+                "label": "Monday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-08",
+                "label": "Tuesday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-09",
+                "label": "Wednesday",
+                "minutes": 600,
+                "citations": []
+              },
+              {
+                "date": "2026-09-10",
+                "label": "Thursday",
+                "minutes": 360,
+                "citations": []
+              },
+              {
+                "date": "2026-09-11",
+                "label": "Friday",
+                "minutes": 240,
+                "citations": []
+              },
+              {
+                "date": "2026-09-12",
+                "label": "Saturday",
+                "minutes": 0,
+                "citations": []
+              },
+              {
+                "date": "2026-09-13",
+                "label": "Sunday",
+                "minutes": 0,
+                "citations": []
+              }
+            ],
+            "alternatives": [],
+            "notes": "The reviewed actual-work account and original $800 gross payment remain unchanged. The starting account recorded a $60 scoped difference before correction credit. The allocation record assigns $35 of the existing gross correction to this week, rather than the entire correction. Payroll's assertion that the week is fully corrected remains unreconciled.",
+            "citations": [
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 8,
+                "lineEnd": 8,
+                "quote": "a flat $20 regular rate"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 10,
+                "lineEnd": 10,
+                "quote": "The worker's reviewed actual-work account, excluding nonworked intervals:"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 12,
+                "lineEnd": 15,
+                "quote": "| B | 7–13 September 2026 | 10 h | 10 h | 10 h | 6 h | 4 h | 0 h |"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Matching complete original wage statements: A original gross paid $800; B original gross paid $800. They do not include any later adjustment. The reviewer has adopted those original matching gross-payment amounts. Initial scoped differences are A $80 and B $60."
+              },
+              {
+                "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+                "lineStart": 1,
+                "lineEnd": 3,
+                "quote": "ADJ-602,0417,2026-09-13,OT-CORR,35.00"
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "We consider both weeks corrected."
+              }
+            ]
+          }
+        ],
+        "payments": [
+          {
+            "id": "payment-001",
+            "label": "September 18 overtime correction",
+            "eventReference": "ADJ-602 / CM0417-602",
+            "grossCents": 6000,
+            "netCents": 4800,
+            "receivedNetCents": 4800,
+            "paymentDate": "2026-09-18",
+            "receiptStatus": "documented",
+            "identityStatus": "supported",
+            "additionality": "supported",
+            "creditStatus": "proposed_credit",
+            "creditReason": "The earnings advice and bank entry describe one payment, matching Elena R., September 18, 2026, the $48 net amount, account ending 7781 and trace CM0417-602. The advice supplies $60 gross and $12 withholding; the bank entry documents $48 received, not another payment or a gross amount. Payroll expressly states that the correction is additional to the original $800 gross for each week and exclusively covers these two workweeks. The new allocation table matches advice ADJ-602 and employee 0417 and assigns $25 gross to Week A and $35 gross to Week B. It supplies the split of the existing correction, not a new payment. No weekly net-pay or withholding allocation is supplied or inferred.",
+            "allocationStatus": "known",
+            "allocationScope": "exclusive_supported",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "allocations": [
+              {
+                "periodId": "period-001",
+                "grossCents": 2500
+              },
+              {
+                "periodId": "period-002",
+                "grossCents": 3500
+              }
+            ],
+            "citations": [
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 2,
+                "lineEnd": 2,
+                "quote": "Employee 0417 / ELENA R.                Advice ADJ-602"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 4,
+                "lineEnd": 4,
+                "quote": "Payment date: 18 SEP 2026               PAGE 1 OF 2"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 7,
+                "lineEnd": 8,
+                "quote": "Retro overtime       60.00        Tax withholding       12.00\nTOTAL GROSS          60.00        TOTAL DEDUCTIONS      12.00"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 10,
+                "lineEnd": 12,
+                "quote": "NET PAY              48.00\nDeposit route        ACH / account ending 7781\nTrace                CM0417-602"
+              },
+              {
+                "sourceId": "b9c746a7-2cb0-4488-923b-185ca541c994",
+                "lineStart": 2,
+                "lineEnd": 2,
+                "quote": "Elena R.,7781,2026-09-18,CEDAR MARKET PAYROLL,48.00,CM0417-602"
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks. This run is solely an overtime wage correction for the weeks ending 6 September and 13 September; it contains no other period or expense item."
+              },
+              {
+                "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+                "lineStart": 1,
+                "lineEnd": 3,
+                "quote": "advice,employee,workweek_ending,earning_code,gross_adjustment\nADJ-602,0417,2026-09-06,OT-CORR,25.00\nADJ-602,0417,2026-09-13,OT-CORR,35.00"
+              }
+            ]
+          }
+        ],
+        "issues": [
+          {
+            "id": "issue-001",
+            "title": "Later correction identified and receipt documented",
+            "status": "resolved",
+            "detail": "The advice identifies one $60 gross correction dated September 18, 2026, with $48 net pay. The matching bank trace documents receipt of that $48. The correction's identity and receipt remain resolved; they do not establish that both weeks were fully corrected.",
+            "materiality": "identity",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [
+              "payment-001"
+            ],
+            "citations": [
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 2,
+                "lineEnd": 4,
+                "quote": "Payment date: 18 SEP 2026               PAGE 1 OF 2"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 8,
+                "lineEnd": 8,
+                "quote": "TOTAL GROSS          60.00        TOTAL DEDUCTIONS      12.00"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 10,
+                "lineEnd": 12,
+                "quote": "NET PAY              48.00\nDeposit route        ACH / account ending 7781\nTrace                CM0417-602"
+              },
+              {
+                "sourceId": "b9c746a7-2cb0-4488-923b-185ca541c994",
+                "lineStart": 2,
+                "lineEnd": 2,
+                "quote": "Elena R.,7781,2026-09-18,CEDAR MARKET PAYROLL,48.00,CM0417-602"
+              }
+            ]
+          },
+          {
+            "id": "issue-002",
+            "title": "Correction scope and weekly gross allocation supplied",
+            "status": "resolved",
+            "detail": "Payroll expressly identifies the correction as additional and exclusively for the two reviewed workweeks. The newly supplied table matches the advice reference and employee number, assigning $25 gross to the week ending September 6 and $35 gross to the week ending September 13, 2026. This answers the missing weekly allocation question for the full $60 correction. It does not supply an earned-wage reconciliation or establish a weekly net-pay or withholding split.",
+            "materiality": "allocation",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [
+              "payment-001"
+            ],
+            "citations": [
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks. This run is solely an overtime wage correction for the weeks ending 6 September and 13 September; it contains no other period or expense item."
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 2,
+                "lineEnd": 2,
+                "quote": "Employee 0417 / ELENA R.                Advice ADJ-602"
+              },
+              {
+                "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+                "lineStart": 1,
+                "lineEnd": 3,
+                "quote": "advice,employee,workweek_ending,earning_code,gross_adjustment\nADJ-602,0417,2026-09-06,OT-CORR,25.00\nADJ-602,0417,2026-09-13,OT-CORR,35.00"
+              }
+            ]
+          },
+          {
+            "id": "issue-003",
+            "title": "Claim reference and deputy identity are not supplied",
+            "status": "open",
+            "detail": "Elena R. reports a pending California wage claim, but the claim number and assigned deputy's name remain unknown. Existing claim correspondence is identified as the source for verifying the recipient before a supplement is sent; its contents are not supplied.",
+            "materiality": "identity",
+            "periodIds": [],
+            "paymentIds": [],
+            "citations": [
+              {
+                "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+                "lineStart": 1,
+                "lineEnd": 1,
+                "quote": "Elena R. reports that a California wage claim is pending concerning this account. The claim number and assigned deputy’s name are not supplied in these demonstration records."
+              },
+              {
+                "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+                "lineStart": 1,
+                "lineEnd": 1,
+                "quote": "Prepare a factual supplement for the assigned deputy after the worker verifies the recipient using existing correspondence."
+              }
+            ]
+          },
+          {
+            "id": "issue-004",
+            "title": "Payroll's completion statement remains unreconciled",
+            "status": "open",
+            "detail": "Payroll considers both weeks corrected. The reviewed starting account records differences of $80 for Week A and $60 for Week B, while the new table assigns correction credits of $25 and $35 respectively. The table answers allocation but supplies no alternative daily work account, earned-wage calculation or explanation reconciling payroll's completion statement. Neither the payment nor its allocation establishes resolution of the reviewed differences or other unassessed claim categories.",
+            "materiality": "support",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [
+              "payment-001"
+            ],
+            "citations": [
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "We consider both weeks corrected."
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Initial scoped differences are A $80 and B $60."
+              },
+              {
+                "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+                "lineStart": 1,
+                "lineEnd": 3,
+                "quote": "advice,employee,workweek_ending,earning_code,gross_adjustment\nADJ-602,0417,2026-09-06,OT-CORR,25.00\nADJ-602,0417,2026-09-13,OT-CORR,35.00"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 8,
+                "lineEnd": 8,
+                "quote": "Payment timing and legal remedies remain outside this calculation."
+              }
+            ]
+          }
+        ],
+        "responseClaims": [
+          {
+            "id": "response-001",
+            "statement": "Payroll states that the $60 gross correction is additional to the original $800 gross for each week and produces a $48 deposit after withholding.",
+            "author": "Payroll, Cedar Market LLC",
+            "status": "supported",
+            "coverage": "The advice supports the gross and net amounts, and the matching bank entry supports receipt. Additionality is supported as payroll's express statement, consistent with the starting account's exclusion of later adjustments. The allocation table does not change those amounts or establish another payment.",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [
+              "payment-001"
+            ],
+            "issueIds": [
+              "issue-001"
+            ],
+            "citations": [
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks."
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The deposit is $48 after withholding."
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 8,
+                "lineEnd": 10,
+                "quote": "TOTAL GROSS          60.00        TOTAL DEDUCTIONS      12.00"
+              },
+              {
+                "sourceId": "b9c746a7-2cb0-4488-923b-185ca541c994",
+                "lineStart": 2,
+                "lineEnd": 2,
+                "quote": "Elena R.,7781,2026-09-18,CEDAR MARKET PAYROLL,48.00,CM0417-602"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Matching complete original wage statements: A original gross paid $800; B original gross paid $800. They do not include any later adjustment."
+              },
+              {
+                "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+                "lineStart": 2,
+                "lineEnd": 3,
+                "quote": "ADJ-602,0417,2026-09-06,OT-CORR,25.00\nADJ-602,0417,2026-09-13,OT-CORR,35.00"
+              }
+            ]
+          },
+          {
+            "id": "response-002",
+            "statement": "Payroll states that the correction is solely overtime wages for the weeks ending September 6 and September 13, with no other period or expense item.",
+            "author": "Payroll, Cedar Market LLC",
+            "status": "supported",
+            "coverage": "Payroll's express statement supports the exclusive two-week scope as an attributed proposed premise. The advice shows the same overall work-period envelope. The new allocation table corroborates the identified workweeks and supplies their gross shares of $25 and $35; it does not establish that either week was fully corrected.",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [
+              "payment-001"
+            ],
+            "issueIds": [
+              "issue-002"
+            ],
+            "citations": [
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "This run is solely an overtime wage correction for the weeks ending 6 September and 13 September; it contains no other period or expense item."
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 3,
+                "lineEnd": 3,
+                "quote": "Work-period envelope: 31 AUG 2026 through 13 SEP 2026"
+              },
+              {
+                "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+                "lineStart": 2,
+                "lineEnd": 3,
+                "quote": "ADJ-602,0417,2026-09-06,OT-CORR,25.00\nADJ-602,0417,2026-09-13,OT-CORR,35.00"
+              }
+            ]
+          },
+          {
+            "id": "response-003",
+            "statement": "Payroll states, “We consider both weeks corrected.”",
+            "author": "Payroll, Cedar Market LLC",
+            "status": "unsupported",
+            "coverage": "The correction's receipt and weekly allocation are supported, but the completion statement is not reconciled to the unchanged reviewed work-and-pay account. Assigning $25 to Week A and $35 to Week B does not explain the starting differences of $80 and $60. No alternative earned-wage calculation, settlement or case closure is established. Payment timing and legal remedies remain outside the scoped comparison.",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [
+              "payment-001"
+            ],
+            "issueIds": [
+              "issue-002",
+              "issue-004"
+            ],
+            "citations": [
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "We consider both weeks corrected."
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Initial scoped differences are A $80 and B $60."
+              },
+              {
+                "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+                "lineStart": 2,
+                "lineEnd": 3,
+                "quote": "ADJ-602,0417,2026-09-06,OT-CORR,25.00\nADJ-602,0417,2026-09-13,OT-CORR,35.00"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 8,
+                "lineEnd": 8,
+                "quote": "Payment timing and legal remedies remain outside this calculation."
+              }
+            ]
+          },
+          {
+            "id": "response-004",
+            "statement": "Payroll states that the weekly allocation detail is on the second page of the advice and that only the earnings page was attached.",
+            "author": "Payroll, Cedar Market LLC",
+            "status": "partly_supported",
+            "coverage": "The earnings advice is marked page 1 of 2. The newly supplied matching allocation table now provides the weekly gross detail: $25 for Week A and $35 for Week B. It is not a labeled second-page copy, so the precise page-location assertion is not independently confirmed, but the substantive allocation question is answered and no further request for the missing split remains. The table does not answer the separate reconciliation question.",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "paymentIds": [
+              "payment-001"
+            ],
+            "issueIds": [
+              "issue-002"
+            ],
+            "citations": [
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 9,
+                "lineEnd": 9,
+                "quote": "The payroll allocation detail is on the second page of the advice. Our copy attached here is the earnings page."
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 4,
+                "lineEnd": 4,
+                "quote": "PAGE 1 OF 2"
+              },
+              {
+                "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+                "lineStart": 1,
+                "lineEnd": 3,
+                "quote": "advice,employee,workweek_ending,earning_code,gross_adjustment\nADJ-602,0417,2026-09-06,OT-CORR,25.00\nADJ-602,0417,2026-09-13,OT-CORR,35.00"
+              }
+            ]
+          }
+        ],
+        "actions": [
+          {
+            "id": "action-001",
+            "title": "Request correction records and weekly allocation",
+            "detail": "The supplied advice, bank entry and payroll response answer the correction's identity, date, gross and net amounts, receipt, additionality and stated covered periods. The new allocation table answers the remaining component by assigning $25 gross to Week A and $35 gross to Week B. The factual records question is now answered, and the earlier request for the second page solely to obtain that split is no longer needed. This does not establish that the proposed request was sent or that payroll's completion statement has been reconciled.",
+            "status": "answered",
+            "route": "payroll_record_request",
+            "priority": "high",
+            "custodian": "Cedar Market LLC payroll or its payroll provider",
+            "dateRange": "Workweeks August 31–September 6 and September 7–13, 2026; correction dated September 18, 2026",
+            "establishes": "Identifies the existing correction, its gross and net amounts, documented receipt and complete weekly gross allocation.",
+            "dependsOnIssueIds": [
+              "issue-001",
+              "issue-002"
+            ],
+            "citations": [
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 19,
+                "lineEnd": 19,
+                "quote": "The worker-authorized pending records question is: identify any later wage correction for these two weeks, its gross and net amounts, and how the gross amount is assigned to each week."
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 8,
+                "lineEnd": 10,
+                "quote": "TOTAL GROSS          60.00        TOTAL DEDUCTIONS      12.00"
+              },
+              {
+                "sourceId": "b9c746a7-2cb0-4488-923b-185ca541c994",
+                "lineStart": 2,
+                "lineEnd": 2,
+                "quote": "Elena R.,7781,2026-09-18,CEDAR MARKET PAYROLL,48.00,CM0417-602"
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks. This run is solely an overtime wage correction for the weeks ending 6 September and 13 September; it contains no other period or expense item."
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 9,
+                "lineEnd": 9,
+                "quote": "The payroll allocation detail is on the second page of the advice."
+              },
+              {
+                "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+                "lineStart": 1,
+                "lineEnd": 3,
+                "quote": "advice,employee,workweek_ending,earning_code,gross_adjustment\nADJ-602,0417,2026-09-06,OT-CORR,25.00\nADJ-602,0417,2026-09-13,OT-CORR,35.00"
+              }
+            ]
+          },
+          {
+            "id": "action-002",
+            "title": "Inspect existing claim correspondence for the recipient",
+            "detail": "Inspect Elena R.'s existing correspondence about the pending California wage claim for the claim number, assigned deputy's name and contact details. The correspondence is identified as available, but its contents are not supplied and this inspection is not established as completed.",
+            "status": "open",
+            "route": "review_available",
+            "priority": "high",
+            "custodian": "Elena R.",
+            "dateRange": null,
+            "establishes": "The claim reference and correct recipient for the factual supplement.",
+            "dependsOnIssueIds": [
+              "issue-003"
+            ],
+            "citations": [
+              {
+                "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+                "lineStart": 1,
+                "lineEnd": 1,
+                "quote": "The claim number and assigned deputy’s name are not supplied in these demonstration records. Prepare a factual supplement for the assigned deputy after the worker verifies the recipient using existing correspondence."
+              }
+            ]
+          },
+          {
+            "id": "action-003",
+            "title": "Provide a factual supplement to the assigned deputy",
+            "detail": "After confirming the recipient from existing claim correspondence, provide the unchanged reviewed work-and-pay account, the single $60 gross correction with $48 received, and its documented allocation of $25 to Week A and $35 to Week B. Explain that the allocation question is answered while payroll's completion statement remains unreconciled. Keep other unassessed claim categories separate. Do not represent the supplement as an amendment of the original filed account, acceptance of a settlement or case closure. No communication is sent by this proposal.",
+            "status": "open",
+            "route": "deputy_update",
+            "priority": "high",
+            "custodian": "Elena R.; assigned deputy after identification",
+            "dateRange": "August 31–September 13, 2026, and the related September 18 correction",
+            "establishes": "Communicates the known weekly allocation and remaining reconciliation question to the verified claim recipient without asserting that the claim has been resolved.",
+            "dependsOnIssueIds": [
+              "issue-003"
+            ],
+            "citations": [
+              {
+                "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+                "lineStart": 1,
+                "lineEnd": 1,
+                "quote": "Prepare a factual supplement for the assigned deputy after the worker verifies the recipient using existing correspondence. No communication is sent by this exercise."
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks."
+              },
+              {
+                "sourceId": "b9c746a7-2cb0-4488-923b-185ca541c994",
+                "lineStart": 2,
+                "lineEnd": 2,
+                "quote": "Elena R.,7781,2026-09-18,CEDAR MARKET PAYROLL,48.00,CM0417-602"
+              },
+              {
+                "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+                "lineStart": 2,
+                "lineEnd": 3,
+                "quote": "ADJ-602,0417,2026-09-06,OT-CORR,25.00\nADJ-602,0417,2026-09-13,OT-CORR,35.00"
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "We consider both weeks corrected."
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Initial scoped differences are A $80 and B $60."
+              }
+            ]
+          },
+          {
+            "id": "action-004",
+            "title": "Request payroll's reconciliation of both workweeks",
+            "detail": "The allocation table answers the correction-credit component of this request, but not the earned-wage calculation or reconciliation. Ask payroll to explain how the original $800 gross payment for each week, together with the respective $25 and $35 corrections, supports its statement that both weeks are corrected. Request its daily hours, regular rate and overtime treatment underlying any account that differs from the reviewed account, and identify any other payments relied upon with supporting records. The known weekly allocation need not be requested again.",
+            "status": "partly_answered",
+            "route": "payroll_record_request",
+            "priority": "high",
+            "custodian": "Cedar Market LLC payroll or its payroll provider",
+            "dateRange": "Workweeks August 31–September 6 and September 7–13, 2026; related September 18 correction",
+            "establishes": "The still-missing factual and calculation basis for payroll's completion statement and any differences from the worker's reviewed work-and-pay account.",
+            "dependsOnIssueIds": [
+              "issue-004"
+            ],
+            "citations": [
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "We consider both weeks corrected."
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 17,
+                "lineEnd": 17,
+                "quote": "Matching complete original wage statements: A original gross paid $800; B original gross paid $800. They do not include any later adjustment. The reviewer has adopted those original matching gross-payment amounts. Initial scoped differences are A $80 and B $60."
+              },
+              {
+                "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+                "lineStart": 1,
+                "lineEnd": 3,
+                "quote": "advice,employee,workweek_ending,earning_code,gross_adjustment\nADJ-602,0417,2026-09-06,OT-CORR,25.00\nADJ-602,0417,2026-09-13,OT-CORR,35.00"
+              },
+              {
+                "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+                "lineStart": 21,
+                "lineEnd": 21,
+                "quote": "We seek the employer's account and any correcting payroll entries."
+              }
+            ]
+          }
+        ],
+        "unassessedCategories": [
+          "Payment timing",
+          "Legal remedies",
+          "Separate premiums and other claims outside the supplied scope"
+        ],
+        "changeNarrative": "The newly supplied allocation table matches the existing correction and replaces its unknown weekly split with $25 gross for Week A and $35 gross for Week B. Both reviewed daily work accounts, the $20/hour rate, the original $800 gross payment for each week, the total $60 correction and the documented $48 receipt remain unchanged. The allocation issue is resolved and the correction-records request is answered; a further request for the second page solely to obtain the split is no longer needed. The broader reconciliation request is partly answered because the correction credited to each week is now known, but payroll's earned-wage calculation and completion explanation remain missing. Claim-reference verification and the proposed deputy supplement remain open. No request or communication is represented as having been sent, and no filed claim is amended or resolved."
+      },
+      "calculation": {
+        "periods": [
+          {
+            "id": "period-001",
+            "label": "Week A: August 31–September 6, 2026",
+            "calculated": true,
+            "earnedMinCents": 88000,
+            "earnedMaxCents": 88000,
+            "originalGrossPaidCents": 80000,
+            "initialDifferenceMinCents": 8000,
+            "initialDifferenceMaxCents": 8000,
+            "knownCreditCents": 2500,
+            "differenceMinCents": 5500,
+            "differenceMaxCents": 5500,
+            "alternatives": [
+              {
+                "id": "period-001-daily",
+                "label": "Supplied daily account",
+                "calculated": true,
+                "grossEarnedCents": 88000,
+                "regularMinutes": 1920,
+                "overtimeMinutes": 480,
+                "doubletimeMinutes": 0,
+                "weeklyOvertimeMinutes": 0,
+                "rounding": "Nearest cent on the workweek total; half cents round upward."
+              }
+            ],
+            "allocationGroupIds": [],
+            "basis": "Conditional ordinary California hourly calculation."
+          },
+          {
+            "id": "period-002",
+            "label": "Week B: September 7–13, 2026",
+            "calculated": true,
+            "earnedMinCents": 86000,
+            "earnedMaxCents": 86000,
+            "originalGrossPaidCents": 80000,
+            "initialDifferenceMinCents": 6000,
+            "initialDifferenceMaxCents": 6000,
+            "knownCreditCents": 3500,
+            "differenceMinCents": 2500,
+            "differenceMaxCents": 2500,
+            "alternatives": [
+              {
+                "id": "period-002-daily",
+                "label": "Supplied daily account",
+                "calculated": true,
+                "grossEarnedCents": 86000,
+                "regularMinutes": 2040,
+                "overtimeMinutes": 360,
+                "doubletimeMinutes": 0,
+                "weeklyOvertimeMinutes": 0,
+                "rounding": "Nearest cent on the workweek total; half cents round upward."
+              }
+            ],
+            "allocationGroupIds": [],
+            "basis": "Conditional ordinary California hourly calculation."
+          }
+        ],
+        "payments": [
+          {
+            "id": "payment-001",
+            "label": "September 18 overtime correction",
+            "eventReference": "ADJ-602 / CM0417-602",
+            "grossCents": 6000,
+            "netCents": 4800,
+            "receivedNetCents": 4800,
+            "paymentDate": "2026-09-18",
+            "receiptStatus": "documented",
+            "identityStatus": "supported",
+            "additionality": "supported",
+            "creditStatus": "proposed_credit",
+            "creditReason": "The earnings advice and bank entry describe one payment, matching Elena R., September 18, 2026, the $48 net amount, account ending 7781 and trace CM0417-602. The advice supplies $60 gross and $12 withholding; the bank entry documents $48 received, not another payment or a gross amount. Payroll expressly states that the correction is additional to the original $800 gross for each week and exclusively covers these two workweeks. The new allocation table matches advice ADJ-602 and employee 0417 and assigns $25 gross to Week A and $35 gross to Week B. It supplies the split of the existing correction, not a new payment. No weekly net-pay or withholding allocation is supplied or inferred.",
+            "allocationStatus": "known",
+            "allocationScope": "exclusive_supported",
+            "periodIds": [
+              "period-001",
+              "period-002"
+            ],
+            "allocations": [
+              {
+                "periodId": "period-001",
+                "grossCents": 2500
+              },
+              {
+                "periodId": "period-002",
+                "grossCents": 3500
+              }
+            ],
+            "citations": [
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 2,
+                "lineEnd": 2,
+                "quote": "Employee 0417 / ELENA R.                Advice ADJ-602"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 4,
+                "lineEnd": 4,
+                "quote": "Payment date: 18 SEP 2026               PAGE 1 OF 2"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 7,
+                "lineEnd": 8,
+                "quote": "Retro overtime       60.00        Tax withholding       12.00\nTOTAL GROSS          60.00        TOTAL DEDUCTIONS      12.00"
+              },
+              {
+                "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+                "lineStart": 10,
+                "lineEnd": 12,
+                "quote": "NET PAY              48.00\nDeposit route        ACH / account ending 7781\nTrace                CM0417-602"
+              },
+              {
+                "sourceId": "b9c746a7-2cb0-4488-923b-185ca541c994",
+                "lineStart": 2,
+                "lineEnd": 2,
+                "quote": "Elena R.,7781,2026-09-18,CEDAR MARKET PAYROLL,48.00,CM0417-602"
+              },
+              {
+                "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+                "lineStart": 7,
+                "lineEnd": 7,
+                "quote": "The $60 gross adjustment in ADJ-602 is additional to the original $800 gross for each of those weeks. This run is solely an overtime wage correction for the weeks ending 6 September and 13 September; it contains no other period or expense item."
+              },
+              {
+                "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+                "lineStart": 1,
+                "lineEnd": 3,
+                "quote": "advice,employee,workweek_ending,earning_code,gross_adjustment\nADJ-602,0417,2026-09-06,OT-CORR,25.00\nADJ-602,0417,2026-09-13,OT-CORR,35.00"
+              }
+            ],
+            "credited": true,
+            "creditedGrossCents": 6000,
+            "exclusionReasons": []
+          }
+        ],
+        "totals": {
+          "earnedMinCents": 174000,
+          "earnedMaxCents": 174000,
+          "originalGrossPaidCents": 160000,
+          "initialDifferenceMinCents": 14000,
+          "initialDifferenceMaxCents": 14000,
+          "creditedGrossCents": 6000,
+          "differenceMinCents": 8000,
+          "differenceMaxCents": 8000,
+          "calculable": true,
+          "conditional": true,
+          "label": "Scoped gross accounting difference",
+          "uncreditedPaymentCount": 0
+        },
+        "knownSubtotal": {
+          "periodIds": [
+            "period-001",
+            "period-002"
+          ],
+          "excludedPeriodIds": [],
+          "earnedMinCents": 174000,
+          "earnedMaxCents": 174000,
+          "originalGrossPaidCents": 160000,
+          "initialDifferenceMinCents": 14000,
+          "initialDifferenceMaxCents": 14000,
+          "creditedGrossMinCents": 6000,
+          "creditedGrossMaxCents": 6000,
+          "differenceMinCents": 8000,
+          "differenceMaxCents": 8000,
+          "calculable": true,
+          "complete": true,
+          "label": "Subtotal for periods with a supplied account"
+        },
+        "allocationGroups": [],
+        "warnings": [],
+        "unassessedCategories": [
+          "Payment timing",
+          "Legal remedies",
+          "Separate premiums and other claims outside the supplied scope"
+        ]
+      },
+      "review": {
+        "status": "reviewed",
+        "at": "2026-09-24T01:25:49.962Z",
+        "note": "Technical review of fictional demo: retained $25/$35 gross split and $55/$25 scoped remaining differences. Payroll reconciliation and claim recipient remain unresolved."
+      }
+    }
+  ],
+  "activeJobId": null,
+  "lastJobId": null,
+  "importedPhases": [],
+  "activity": []
+}
