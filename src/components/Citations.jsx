@@ -1,0 +1,3 @@
+import React from 'react';
+import Icon from './Icon.jsx';
+export default function Citations({items=[],sources=[],onOpen,context}){if(!items.length)return null;return <span className="citations">{items.map((c,i)=>{const source=sources.find(s=>s.id===c.sourceId);return <button type="button" key={`${c.sourceId}-${i}`} className="citation" title={c.quote} onClick={event=>{event.currentTarget.focus();onOpen(c.sourceId,c,context)}}><Icon name="link" size={13}/><span>{source?.name||c.sourceId}</span><small>{c.lineStart===c.lineEnd?`L${c.lineStart}`:`L${c.lineStart}–${c.lineEnd}`}</small></button>})}</span>}
