@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "caseId": "prepared-example",
+  "title": "Two weeks, one correction",
+  "description": "Inspect three recorded proposals, their sources and the prepared update. No new analysis runs.",
+  "sourceRelease": "upgrade-candidate-4",
+  "recordedAt": "2026-09-24T01:25:49.962Z",
+  "caseFile": {
+    "path": "case.json",
+    "bytes": 132779,
+    "sha256": "e44a4d3867b749068e8605bb7740fc392ef004e70553337ec812c6776a37ff49"
+  },
+  "originals": [
+    {
+      "sourceId": "63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+      "path": "originals/63fc7c2b-b538-40e6-bb6d-c7ccacf6fab1",
+      "bytes": 2178,
+      "sha256": "f3d2078af5b0c923de922ca2ca0d03077e20ba544a4c1be915b1992253b63805"
+    },
+    {
+      "sourceId": "6e380c32-f946-4148-b132-577f570ae083",
+      "path": "originals/6e380c32-f946-4148-b132-577f570ae083",
+      "bytes": 377,
+      "sha256": "30d47e3155754592baff0617bd9be9e7c8253b3e81f5b1329efda3120526f516"
+    },
+    {
+      "sourceId": "9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+      "path": "originals/9c1dd322-8afc-41c7-bc53-76ffe8ff3af2",
+      "bytes": 591,
+      "sha256": "130614a667112fe5010a5fca715302a5e167ad8dbec0b7b6815cbb3bf7833ec7"
+    },
+    {
+      "sourceId": "b9c746a7-2cb0-4488-923b-185ca541c994",
+      "path": "originals/b9c746a7-2cb0-4488-923b-185ca541c994",
+      "bytes": 129,
+      "sha256": "9d811471cac427b8ccc74380ee53b29d4b11194a15229c37bd57357263865878"
+    },
+    {
+      "sourceId": "47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+      "path": "originals/47d3e0a6-0ff1-44b6-8f05-a3e0be8b7581",
+      "bytes": 632,
+      "sha256": "5c8bc2cfb1eb1f6d310506d77b7752939c3733bd01579f32351e35a4d4ccc4de"
+    },
+    {
+      "sourceId": "29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+      "path": "originals/29931735-7b42-4d3a-a3de-d86cd3dfa65d",
+      "bytes": 138,
+      "sha256": "e79cc73c5312787e4c767406952305805674e1256465fe9f70f11100c7e1c2ac"
+    }
+  ],
+  "provenance": {
+    "fictional": true,
+    "recordedModelOutputs": true,
+    "originalCaseSha256": "d5c7f26d889db6299bccdfc988d40aaa85ef503c8b7c467b092618911317acba",
+    "caseKeysRetained": [
+      "id",
+      "title",
+      "context",
+      "version",
+      "createdAt",
+      "updatedAt",
+      "sources",
+      "currentRevisionId",
+      "reviewedRevisionId",
+      "reviewedSourceDigest",
+      "exampleId"
+    ],
+    "revisionKeysRetained": [
+      "id",
+      "number",
+      "createdAt",
+      "reason",
+      "sourceDigest",
+      "sourceIds",
+      "origin",
+      "analysis",
+      "calculation",
+      "review"
+    ],
+    "omitted": [
+      "job references",
+      "model/provider metadata",
+      "cached supplements and comparisons",
+      "activity log",
+      "phase-import state"
+    ],
+    "reviewMeaning": "Recorded technical review of a fictional demonstration, not worker or practitioner approval."
+  },
+  "limitations": [
+    "This is a preserved demonstration, not a fresh model run or independent evaluation.",
+    "The example is read-only. Fresh cases require a configured model service for analysis.",
+    "The combined amount is conditional on stated premises, not a finding of legal entitlement.",
+    "The intended recipient and employer reconciliation remain unresolved."
+  ]
+}

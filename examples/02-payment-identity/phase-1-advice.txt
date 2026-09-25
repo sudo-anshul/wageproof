@@ -1,0 +1,10 @@
+CEDAR MARKET LLC / EMPLOYEE EARNINGS
+Elena R.        Worker ID 0417        Voucher 000711
+Week: 31-Aug-2026 to 06-Sep-2026       Paid: 18-Sep-2026
+
+Earnings (current)     OT adjustment    60.00
+Gross (current)                         60.00
+Withholding                             12.00
+Net                                     48.00
+Transaction: CM0417-711   Account: ****7781
+This adjustment is additional to the original payroll run.
