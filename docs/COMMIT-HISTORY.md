@@ -13,3 +13,7 @@ Every commit is labeled `Reconstructed import`. Intermediate commits are file gr
 | 25 September 2026|5|
 
 The original five-commit public history, first published on 25 September 2026, is preserved at [publication-before-reconstruction-20260925](https://github.com/sudo-anshul/wageproof/tree/publication-before-reconstruction-20260925), ending at `542585f1a3b1f6da4174684b99ebc01bfab4aae7`. Original evaluation dates and the original local workspace history remain unchanged.
+
+## Later changes
+
+The Vercel hosting adaptation is a subsequent commit with actual author and committer timestamps. The 21-commit table above describes the reconstructed import only. The original-history tag remains unchanged.

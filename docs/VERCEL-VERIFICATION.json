@@ -1,0 +1,243 @@
+{
+  "baseUrl": "https://wageproof-theta.vercel.app",
+  "checkedAt": "2026-09-25T06:51:32.819962+00:00",
+  "authenticated": false,
+  "checks": [
+    {
+      "check": "anonymous homepage",
+      "passed": true,
+      "details": {
+        "status": 200
+      }
+    },
+    {
+      "check": "homepage CSP",
+      "passed": true
+    },
+    {
+      "check": "frontend asset /assets/index-ORrUZs3D.js",
+      "passed": true
+    },
+    {
+      "check": "frontend asset /assets/index-Du5IqZMW.css",
+      "passed": true
+    },
+    {
+      "check": "GET /api/health",
+      "passed": true,
+      "details": {
+        "status": 200
+      }
+    },
+    {
+      "check": "public mode and no model service",
+      "passed": true
+    },
+    {
+      "check": "health omits host paths",
+      "passed": true
+    },
+    {
+      "check": "GET /api/prepared-example",
+      "passed": true,
+      "details": {
+        "status": 200
+      }
+    },
+    {
+      "check": "fictional provenance",
+      "passed": true
+    },
+    {
+      "check": "GET /api/cases",
+      "passed": true,
+      "details": {
+        "status": 200
+      }
+    },
+    {
+      "check": "only fixed case",
+      "passed": true
+    },
+    {
+      "check": "GET /api/examples",
+      "passed": true,
+      "details": {
+        "status": 200
+      }
+    },
+    {
+      "check": "no create-example route",
+      "passed": true
+    },
+    {
+      "check": "GET /api/cases/prepared-example",
+      "passed": true,
+      "details": {
+        "status": 200
+      }
+    },
+    {
+      "check": "retained recorded totals",
+      "passed": true
+    },
+    {
+      "check": "read-only fixture",
+      "passed": true
+    },
+    {
+      "check": "original phase-0-reviewed-case.md",
+      "passed": true
+    },
+    {
+      "check": "original Fictional pending-claim context.txt",
+      "passed": true
+    },
+    {
+      "check": "original phase-1-earnings-advice.txt",
+      "passed": true
+    },
+    {
+      "check": "original phase-1-bank.csv",
+      "passed": true
+    },
+    {
+      "check": "original phase-1-response.txt",
+      "passed": true
+    },
+    {
+      "check": "original phase-2-allocation.csv",
+      "passed": true
+    },
+    {
+      "check": "packet revision 1",
+      "passed": true
+    },
+    {
+      "check": "packet identity 1",
+      "passed": true
+    },
+    {
+      "check": "packet CRC and hashes 1",
+      "passed": true
+    },
+    {
+      "check": "historical exclusion 1",
+      "passed": true
+    },
+    {
+      "check": "packet revision 2",
+      "passed": true
+    },
+    {
+      "check": "packet identity 2",
+      "passed": true
+    },
+    {
+      "check": "packet CRC and hashes 2",
+      "passed": true
+    },
+    {
+      "check": "historical exclusion 2",
+      "passed": true
+    },
+    {
+      "check": "packet revision 3",
+      "passed": true
+    },
+    {
+      "check": "packet identity 3",
+      "passed": true
+    },
+    {
+      "check": "packet CRC and hashes 3",
+      "passed": true
+    },
+    {
+      "check": "historical exclusion 3",
+      "passed": true
+    },
+    {
+      "check": "explicit source omissions",
+      "passed": true
+    },
+    {
+      "check": "same-origin HTML preview",
+      "passed": true
+    },
+    {
+      "check": "preview contains working source links",
+      "passed": true
+    },
+    {
+      "check": "follow generated preview link",
+      "passed": true
+    },
+    {
+      "check": "GET /api/cases/prepared-example/request-drafts",
+      "passed": true,
+      "details": {
+        "status": 200
+      }
+    },
+    {
+      "check": "current fictional request download",
+      "passed": true
+    },
+    {
+      "check": "reject POST /api/cases",
+      "passed": true,
+      "details": {
+        "status": 405
+      }
+    },
+    {
+      "check": "reject POST /api/cases/prepared-example/analyze",
+      "passed": true,
+      "details": {
+        "status": 405
+      }
+    },
+    {
+      "check": "reject GET /api/cases/private-case",
+      "passed": true,
+      "details": {
+        "status": 404
+      }
+    },
+    {
+      "check": "reject GET /api/jobs/unknown",
+      "passed": true,
+      "details": {
+        "status": 404
+      }
+    },
+    {
+      "check": "reject GET /.env.local",
+      "passed": true,
+      "details": {
+        "status": 404
+      }
+    },
+    {
+      "check": "reject GET /.data/cases/example",
+      "passed": true,
+      "details": {
+        "status": 404
+      }
+    },
+    {
+      "check": "route cannot override original health",
+      "passed": true
+    },
+    {
+      "check": "HEAD health",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limits": [
+    "Synthetic recorded fixture only; no new model evaluation",
+    "No full shared editing/upload/analysis workflow is claimed"
+  ]
+}

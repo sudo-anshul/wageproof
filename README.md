@@ -1,6 +1,8 @@
 # WageProof
 
-> **History note:** Commit author dates across September 21–25 are assigned dates for a reconstructed release import, not a contemporaneous development log. [Read the history disclosure and preserved original publication](docs/COMMIT-HISTORY.md).
+[Open the live fictional walkthrough](https://wageproof-theta.vercel.app) · [Hosting scope](docs/VERCEL-DEPLOYMENT.md)
+
+> **History note:** The 21 import commits use assigned September 21–25 author dates, not a contemporaneous development log. Later hosting changes retain actual dates. [Read the history disclosure and preserved original publication](docs/COMMIT-HISTORY.md).
 
 [Watch the 2:54 demo](https://youtu.be/l9BUFbmUFzg) · [Project story](docs/DEVPOST-STORY.md) · [Judge walkthrough](docs/JUDGE-WALKTHROUGH.md) · [Evaluation and limitations](evaluation/upgrade/public/FINAL-EVALUATION.md)
 
@@ -75,7 +77,7 @@ Money uses integer cents. A bank deposit is a net receipt, not another gross pay
 
 Cases, immutable original bytes, jobs and version history live in `.data/` by default. Writes replace the case JSON atomically. Stale browser writes are rejected. Restart recovery checks for a durably saved revision before marking interrupted work failed; cancellation after a saved result reports that result. Failed/cancelled analyses preserve prior revisions. A late result cannot replace a case changed while it was running. Unreadable saved cases remain visible as needing recovery. This is not a claim of filesystem power-loss durability.
 
-Storage uses private filesystem permissions but is not application-encrypted. There is no user account system or internet deployment in this build. The service binds to `127.0.0.1`. Keep backups private; do not put `.data`, credentials or private records into source control.
+Storage uses private filesystem permissions but is not application-encrypted. The editable local service has no user account system and binds to `127.0.0.1`. The separate Vercel adapter serves only the verified fictional walkthrough; see [deployment scope](docs/VERCEL-DEPLOYMENT.md). Keep backups private; do not put `.data`, credentials or private records into source control.
 
 Exports contain quoted source excerpts, filenames, line numbers and hashes. The ZIP freezes the selected revision and source selection, explicitly lists omitted sources, and excludes later sources from older revisions. Individual legacy Markdown/HTML downloads can contain local-server links; use the ZIP when evidence needs to travel with the update. A packet is a recipient artifact, not a complete case backup.
 
@@ -106,7 +108,7 @@ The application source is original project work. Icons come from `lucide-react`;
 
 Previous finishing changes and reused evidence are documented in [the finishing implementation](docs/UPGRADE-FINISH-IMPLEMENTATION.md). The separately delivered release report and exact-source setup receipts bind the completed checks to this archive. See [the current project story](docs/DEVPOST-STORY.md) and [the judge walkthrough](docs/JUDGE-WALKTHROUGH.md). Older reports retained in this source archive describe their named releases.
 
-The [hosted demonstration](https://youtu.be/l9BUFbmUFzg) uses real application captures, fictional records, disclosed shortened processing waits and ElevenLabs Neha AI narration. The original human-recording-ready cut is preserved locally. LexHack's [organizer guidance](https://lexhack-2026.devpost.com/updates/46441-updated-discord-link-important-submission-tips) asks for the creator's own pitch and says to avoid AI voiceovers; that submission dependency remains unresolved. This repository provides source for local execution. There is no public app deployment, and no Devpost submission has been made.
+The [hosted demonstration](https://youtu.be/l9BUFbmUFzg) uses real application captures, fictional records, disclosed shortened processing waits and ElevenLabs Neha AI narration. The original human-recording-ready cut is preserved locally. LexHack's [organizer guidance](https://lexhack-2026.devpost.com/updates/46441-updated-discord-link-important-submission-tips) asks for the creator's own pitch and says to avoid AI voiceovers; that submission dependency remains unresolved. This repository provides the full local application and a separate read-only Vercel walkthrough. See [deployment scope and setup](docs/VERCEL-DEPLOYMENT.md). No Devpost submission has been made.
 
 ## Product gallery
 

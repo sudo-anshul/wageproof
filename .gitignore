@@ -26,3 +26,5 @@ evaluation/upgrade/runtime/
 evaluation/upgrade/runs/
 evaluation/upgrade/regressions/
 evaluation/upgrade/baseline/records/
+
+.vercel/

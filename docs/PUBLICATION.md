@@ -33,3 +33,7 @@ Source repository: https://github.com/sudo-anshul/wageproof
 Current unlisted demo: https://youtu.be/l9BUFbmUFzg — actual application capture with disclosed Neha AI narration. The organizer asks for the creator's own pitch and says to avoid AI voiceovers. Human narration and final Devpost submission remain pending. There is no public app deployment.
 
 Older release/submission documents are retained as historical snapshots. Their local paths and prior publication status refer to their named stages; this note and the README provide current links.
+
+## Hosted walkthrough update — 25 September 2026
+
+The Vercel adaptation adds a dedicated read-only public adapter, hosted-specific interface wording and deployment configuration. The application is now available at https://wageproof-theta.vercel.app. Full editing and fresh inference retain their local runtime. See [deployment scope and checks](VERCEL-DEPLOYMENT.md). The original archive and publication verification above retain their original byte scope; they do not describe the added hosting files.
