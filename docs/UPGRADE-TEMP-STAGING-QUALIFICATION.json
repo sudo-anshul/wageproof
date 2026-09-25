@@ -1,0 +1,19 @@
+{
+  "candidateId": "upgrade-candidate-3",
+  "frozenRuntimePid": 88212,
+  "runtimeStillObservable": true,
+  "observedTMPDIR": "/var/folders/wl/k_pqj23s4_z_bj35zbsyc2qm0000gn/T/",
+  "onlySelectedEnvironmentFieldRetained": true,
+  "sourceBehavior": "server/extract.mjs uses os.tmpdir() for image-bearing PDF raster pages, then deletes them in finally.",
+  "scope": "No general environment or credential output retained.",
+  "nativeHarmlessMarkerProbe": {
+    "legacySystemTempRead": false,
+    "protectedAppScratchRead": false
+  },
+  "probeReceipt": {
+    "path": "baseline/records/preparation-only/app-tmp-probe/native-v4-first/app-tmp-probe.json",
+    "sha256": "53fef10a2538dfbe968a823e2301768488de03f4075e578cf36eae0ddaca684e"
+  },
+  "assessment": "Observed app temporary rasters used macOS TMPDIR, contradicting the blanket non-temp staging description. Exact native probe denied access at that path; no cross-workflow read is established. System-temp behavior is path-specific: the known /private/tmp exception is not generalized. No contamination observed. Candidate4 uses explicit protected non-temp TMPDIR.",
+  "retractedHypothesis": "A broad assumption that the /private/tmp exception made the actual app TMPDIR readable was not supported by the exact-path probe."
+}

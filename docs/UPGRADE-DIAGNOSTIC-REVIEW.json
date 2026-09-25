@@ -1,0 +1,1444 @@
+{
+  "schemaVersion": 1,
+  "status": "APP_DIAGNOSTICS_RENDERER_REGRESSIONS_AND_COMPLETED_ORDINARY_DIAGNOSTICS_REVIEWED",
+  "reviewedAt": "2026-09-24T01:25:43.227960+00:00",
+  "reviewer": {
+    "task": "/root/final_media_audit",
+    "disclosure": "Independent of D1/D2 corpus authorship and key review. Earlier implemented UI/UX features and performed clean setup and packaging-tool verification; not independent of the product build. Agent review, not human/practitioner or legal validation.",
+    "reservedInputsAccessed": false
+  },
+  "scope": {
+    "families": [
+      "D1",
+      "D2"
+    ],
+    "candidateId": "upgrade-candidate-1",
+    "ordinaryBoundary": "Candidate1 startup failure, candidate2 initial source-access failures, and candidate3 completed native-v3-first D1/D2 initial/later outputs. Technical families are outside this diagnostic report.",
+    "noInferenceOrSourceChangesByReviewer": true
+  },
+  "publicBindings": {
+    "evaluation/upgrade/public/PROTOCOL.md": "a1569a5a48a723f12f42154f9e1ac57e7121814a24acc04c85f4389cb8c7e2df",
+    "evaluation/upgrade/public/SCOPE.md": "241031f4b950447ae03a511f8ed9f7562f82be22135e0f84a605deb2852524f8",
+    "evaluation/upgrade/public/SEAL.json": "b7be9e1dceaa5d627c0c8e973313c6316a7b770683318e2b957ca1e39ceffee4",
+    "evaluation/upgrade/public/CANDIDATE-FREEZE.json": "ff2c0cd1b1d57da7794a813ccb099fdfb4b1c65235e06debc2d61762f552c13c",
+    "evaluation/upgrade/public/REVIEW-STATUS.json": "f4967301526a5a3a7cae4eb45c24a98f0d546ab856d64ae728484f20ec2e4e7d"
+  },
+  "stages": [
+    {
+      "family": "D1",
+      "stage": "initial",
+      "answerKey": {
+        "path": "evaluation/upgrade/open/D1/ANSWER-KEY.json",
+        "sha256": "77f9b7e4209975f3abba68b5e98520c821e8df7eea952bcde79f8746038090c7",
+        "headerStatus": "DRAFT_AWAITING_INDEPENDENT_KEY_REVIEW"
+      },
+      "runDirectory": "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/initial",
+      "firstVisibleAttempt": 2,
+      "firstRawNonCitationDifferencePaths": [
+        "analysis.payments[0].creditReason"
+      ],
+      "acceptedRawExactlyEqualsStoredAnalysis": true,
+      "attempts": [
+        {
+          "number": 1,
+          "status": "validation_failed",
+          "durationMs": 96120,
+          "usage": {
+            "input_tokens": 20541,
+            "cached_input_tokens": 0,
+            "output_tokens": 7238
+          },
+          "validation": {
+            "valid": false,
+            "errorCount": 1,
+            "warningCount": 1
+          }
+        },
+        {
+          "number": 2,
+          "status": "completed",
+          "durationMs": 68306,
+          "usage": {
+            "input_tokens": 24893,
+            "cached_input_tokens": 0,
+            "output_tokens": 6015
+          },
+          "validation": {
+            "valid": true,
+            "errorCount": 0,
+            "warningCount": 1
+          }
+        }
+      ],
+      "timings": {
+        "queueMs": 1,
+        "validationMs": 4,
+        "commitMs": 32,
+        "totalMs": 164478,
+        "processingMs": 164477
+      },
+      "currentRevision": {
+        "id": "669c0c1e-390b-4e7c-94fd-676e5546cde0",
+        "number": 1,
+        "review": null,
+        "requiresReview": true,
+        "amountUnchanged": false,
+        "reviewBaselineId": null
+      },
+      "calculationTotals": {
+        "earnedMinCents": 179500,
+        "earnedMaxCents": 179500,
+        "originalGrossPaidCents": 165000,
+        "initialDifferenceMinCents": 14500,
+        "initialDifferenceMaxCents": 14500,
+        "creditedGrossCents": 7000,
+        "differenceMinCents": 7500,
+        "differenceMaxCents": 7500,
+        "calculable": true,
+        "conditional": true,
+        "label": "Scoped gross accounting difference",
+        "uncreditedPaymentCount": 0
+      },
+      "periodAmounts": [
+        {
+          "label": "July 6\u201312, 2026",
+          "originalGrossPaidCents": 80000,
+          "initialDifferenceMinCents": 6500,
+          "initialDifferenceMaxCents": 6500,
+          "knownCreditCents": 0,
+          "differenceMinCents": -500,
+          "differenceMaxCents": 6500
+        },
+        {
+          "label": "July 13\u201319, 2026",
+          "originalGrossPaidCents": 85000,
+          "initialDifferenceMinCents": 8000,
+          "initialDifferenceMaxCents": 8000,
+          "knownCreditCents": 0,
+          "differenceMinCents": 1000,
+          "differenceMaxCents": 8000
+        }
+      ],
+      "actions": [
+        {
+          "id": "action-001",
+          "title": "Request the missing weekly allocation",
+          "status": "open"
+        },
+        {
+          "id": "action-002",
+          "title": "Request payroll's supporting reconciliation",
+          "status": "open"
+        }
+      ],
+      "packetIntegrity": {
+        "crcAndEmbeddedManifest": "passed",
+        "relativeLinksChecked": 213,
+        "externalReferencesNotFetched": [
+          "https://www.dir.ca.gov/dlse/policies.htm"
+        ],
+        "revisionMatches": true,
+        "sourceSelectionMatches": true,
+        "originals": [
+          {
+            "name": "bank.csv",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "correction-advice.pdf",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "reviewed-account.txt",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "worker-request.txt",
+            "matchesReleasedOriginal": true
+          }
+        ],
+        "extractedTextMatchesStoredSource": true,
+        "currentReview": {
+          "state": "draft",
+          "reviewedAt": null,
+          "historical": false,
+          "stale": false,
+          "label": "Draft for worker/advocate review"
+        }
+      },
+      "priorHistory": [],
+      "artifactHashes": {
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/initial/run.json": "ec9d08ef471564fed36052c3c7762a3d21d0cfdfeb5ea7e65e4849d96759af6b",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/initial/job-final.json": "7f557c66b7d26c619d866bd69dbf2db0ce6e037dbac23f17dc4246e35256abc6",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/initial/first-output/case.json": "054b69ea28cf8c208b3e1d81065f6dd136923a506c09accb2c2001b6495709b3",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/initial/first-output/portable.zip": "7f47564fc7f55e5b33e745c8f41cf3888fccc1c8f31906688b4b576b1685c90d",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/initial/first-output/portable-unpacked/update.md": "b9f17d714f67a97a66b5c9a960331b9a7571d783fe92f1d2e863cddf384d3c9c",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/initial/first-output/portable-unpacked/update.html": "3d8db8040bd25ecd01c1998415abbc310c9d7a6fc1a81fa0d3649db8adf2a6aa",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/initial/first-output/portable-unpacked/supplement.md": "6514ee8f9a43e6c72a88a03e4c0fbb83bc871208195c40e63e47017b636ab523",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/initial/first-output/portable-unpacked/supplement.html": "cf8c7317d74275e1eedc9004f76eacb109a2cc94055d3d314d79780b13255cdf",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/initial/model-attempts/attempt-1/response.json": "6f866c63d6910e48dea3593c2edf1851170c74fad7df5d657e14b5621e028c7f",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/initial/model-attempts/attempt-2/response.json": "3bc423227ce4d853164b09b1379be510fa41446b7119a6d7fae250fa718b045e"
+      },
+      "firstRawValidation": {
+        "valid": false,
+        "errors": [
+          "analysis.scope.citations[1]: quote does not occur verbatim in the cited lines."
+        ],
+        "warnings": [
+          "The ordinary legal calculation scope is not supplied/adopted; new calculations from hours remain unassessed. Explicitly adopted gross amounts may still support retained-account reconciliation."
+        ]
+      },
+      "rejectedQuoteWhitespaceEquivalent": true
+    },
+    {
+      "family": "D1",
+      "stage": "later",
+      "answerKey": {
+        "path": "evaluation/upgrade/open/D1/ANSWER-KEY.json",
+        "sha256": "77f9b7e4209975f3abba68b5e98520c821e8df7eea952bcde79f8746038090c7",
+        "headerStatus": "DRAFT_AWAITING_INDEPENDENT_KEY_REVIEW"
+      },
+      "runDirectory": "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later",
+      "firstVisibleAttempt": 1,
+      "firstRawNonCitationDifferencePaths": [],
+      "acceptedRawExactlyEqualsStoredAnalysis": true,
+      "attempts": [
+        {
+          "number": 1,
+          "status": "completed",
+          "durationMs": 141101,
+          "usage": {
+            "input_tokens": 26145,
+            "cached_input_tokens": 26077,
+            "output_tokens": 8742
+          },
+          "validation": {
+            "valid": true,
+            "errorCount": 0,
+            "warningCount": 1
+          }
+        }
+      ],
+      "timings": {
+        "queueMs": 2,
+        "validationMs": 2,
+        "commitMs": 32,
+        "totalMs": 141143,
+        "processingMs": 141141
+      },
+      "currentRevision": {
+        "id": "efe4fa80-6d25-4b2a-91fd-733e53bd7e81",
+        "number": 2,
+        "review": null,
+        "requiresReview": true,
+        "amountUnchanged": true,
+        "reviewBaselineId": "669c0c1e-390b-4e7c-94fd-676e5546cde0"
+      },
+      "calculationTotals": {
+        "earnedMinCents": 179500,
+        "earnedMaxCents": 179500,
+        "originalGrossPaidCents": 165000,
+        "initialDifferenceMinCents": 14500,
+        "initialDifferenceMaxCents": 14500,
+        "creditedGrossCents": 7000,
+        "differenceMinCents": 7500,
+        "differenceMaxCents": 7500,
+        "calculable": true,
+        "conditional": true,
+        "label": "Scoped gross accounting difference",
+        "uncreditedPaymentCount": 0
+      },
+      "periodAmounts": [
+        {
+          "label": "July 6\u201312, 2026",
+          "originalGrossPaidCents": 80000,
+          "initialDifferenceMinCents": 6500,
+          "initialDifferenceMaxCents": 6500,
+          "knownCreditCents": 3000,
+          "differenceMinCents": 3500,
+          "differenceMaxCents": 3500
+        },
+        {
+          "label": "July 13\u201319, 2026",
+          "originalGrossPaidCents": 85000,
+          "initialDifferenceMinCents": 8000,
+          "initialDifferenceMaxCents": 8000,
+          "knownCreditCents": 4000,
+          "differenceMinCents": 4000,
+          "differenceMaxCents": 4000
+        }
+      ],
+      "actions": [
+        {
+          "id": "action-001",
+          "title": "Request the missing weekly allocation",
+          "status": "answered"
+        },
+        {
+          "id": "action-002",
+          "title": "Request payroll's supporting reconciliation",
+          "status": "partly_answered"
+        }
+      ],
+      "packetIntegrity": {
+        "crcAndEmbeddedManifest": "passed",
+        "relativeLinksChecked": 241,
+        "externalReferencesNotFetched": [
+          "https://www.dir.ca.gov/dlse/policies.htm"
+        ],
+        "revisionMatches": true,
+        "sourceSelectionMatches": true,
+        "originals": [
+          {
+            "name": "bank.csv",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "correction-advice.pdf",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "reviewed-account.txt",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "worker-request.txt",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "allocation.csv",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "payroll-message.txt",
+            "matchesReleasedOriginal": true
+          }
+        ],
+        "extractedTextMatchesStoredSource": true,
+        "currentReview": {
+          "state": "draft",
+          "reviewedAt": null,
+          "historical": false,
+          "stale": false,
+          "label": "Draft for worker/advocate review"
+        }
+      },
+      "priorHistory": {
+        "priorReviewedRevisionPreserved": true,
+        "technicalMarker": {
+          "status": "reviewed",
+          "at": "2026-09-24T01:07:51.998Z",
+          "note": "Technical evaluator lifecycle marker only. First unreviewed artifacts were saved and hashed. This is not worker/practitioner validation or a gold-derived correction."
+        },
+        "priorFirstOutputHash": "054b69ea28cf8c208b3e1d81065f6dd136923a506c09accb2c2001b6495709b3"
+      },
+      "artifactHashes": {
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/run.json": "62dd1ed1c94228c4e9de93ddce0e7bbfa5dd0f4954116e3e575edb8229c0e517",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/job-final.json": "0abe6c32f028b631a15cb73f752806abc5095d62848aa4fbc1dfabd0a1ee2dcc",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/first-output/case.json": "c0c8b444da5c7a9c97e55cc5d1ba240a7e9143c8511f72e33e147d810a4a9f63",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/first-output/portable.zip": "42de7109036db5b9668cc4472076d20bad82e647b86a4c86e74ccd76ae9bcf35",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/first-output/portable-unpacked/update.md": "c40f2b2bc159af291204eb784b6742f2661310f09babf166f84e1abae161b032",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/first-output/portable-unpacked/update.html": "6d3316f882e882334112902657a8d4beb5141a8445d763a6a86d8690b8106400",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/first-output/portable-unpacked/supplement.md": "8a5f59203f2aa193764ab2b0b8f6042dc0938ab6b62e2e545d4e06b98a73db0f",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/first-output/portable-unpacked/supplement.html": "3f0c985f5d1c8528cb22126328b4508edb8d2ec9aecd9eaf12570b214987be99",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/model-attempts/attempt-1/response.json": "0bcb2458f6ae9b6c53c8cc750a141c73df9b6f48a17b315aa992b2390261dbfe"
+      }
+    },
+    {
+      "family": "D2",
+      "stage": "initial",
+      "answerKey": {
+        "path": "evaluation/upgrade/open/D2/ANSWER-KEY.json",
+        "sha256": "28df637f42b7a728bcb5b517276ad9693d7bfbd4d55bfc859bc9d0babd23afb8",
+        "headerStatus": "DRAFT_AWAITING_INDEPENDENT_KEY_REVIEW"
+      },
+      "runDirectory": "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/initial",
+      "firstVisibleAttempt": 1,
+      "firstRawNonCitationDifferencePaths": [],
+      "acceptedRawExactlyEqualsStoredAnalysis": true,
+      "attempts": [
+        {
+          "number": 1,
+          "status": "completed",
+          "durationMs": 142464,
+          "usage": {
+            "input_tokens": 20489,
+            "cached_input_tokens": 0,
+            "output_tokens": 8204
+          },
+          "validation": {
+            "valid": true,
+            "errorCount": 0,
+            "warningCount": 1
+          }
+        }
+      ],
+      "timings": {
+        "queueMs": 2,
+        "validationMs": 2,
+        "commitMs": 24,
+        "totalMs": 142500,
+        "processingMs": 142498
+      },
+      "currentRevision": {
+        "id": "3b64e96c-d2d8-478e-8d24-e1be8a29ac3d",
+        "number": 1,
+        "review": null,
+        "requiresReview": true,
+        "amountUnchanged": false,
+        "reviewBaselineId": null
+      },
+      "calculationTotals": {
+        "earnedMinCents": null,
+        "earnedMaxCents": null,
+        "originalGrossPaidCents": null,
+        "initialDifferenceMinCents": null,
+        "initialDifferenceMaxCents": null,
+        "creditedGrossCents": 0,
+        "differenceMinCents": null,
+        "differenceMaxCents": null,
+        "calculable": false,
+        "conditional": true,
+        "label": "Scoped gross accounting difference",
+        "uncreditedPaymentCount": 1
+      },
+      "periodAmounts": [],
+      "actions": [
+        {
+          "id": "action-001",
+          "title": "Request attendance and original wage records",
+          "status": "open"
+        },
+        {
+          "id": "action-002",
+          "title": "Establish the workweek and pay basis",
+          "status": "open"
+        },
+        {
+          "id": "action-003",
+          "title": "Request the correction\u2019s service-date explanation",
+          "status": "open"
+        },
+        {
+          "id": "action-004",
+          "title": "Obtain the filed claim and recipient details",
+          "status": "open"
+        },
+        {
+          "id": "action-005",
+          "title": "Provide a limited update to the identified claim recipient",
+          "status": "open"
+        }
+      ],
+      "packetIntegrity": {
+        "crcAndEmbeddedManifest": "passed",
+        "relativeLinksChecked": 202,
+        "externalReferencesNotFetched": [
+          "https://www.dir.ca.gov/dlse/policies.htm"
+        ],
+        "revisionMatches": true,
+        "sourceSelectionMatches": true,
+        "originals": [
+          {
+            "name": "pay-advice.pdf",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "planned-routes.csv",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "receipt.png",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "worker-account.txt",
+            "matchesReleasedOriginal": true
+          }
+        ],
+        "extractedTextMatchesStoredSource": true,
+        "currentReview": {
+          "state": "draft",
+          "reviewedAt": null,
+          "historical": false,
+          "stale": false,
+          "label": "Draft for worker/advocate review"
+        }
+      },
+      "priorHistory": [],
+      "artifactHashes": {
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/initial/run.json": "1a3440234e56ea1997952323cd0b126a762d9ee9c56e35ea889d7fd712ff34b5",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/initial/job-final.json": "1339a30c8d6275139e712f31c15adba4e58378f29e0dafece44e78957827621a",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/initial/first-output/case.json": "59b6f2c15832109dc834d8dc32bc468e6c56104fc7072f40937c432c18f3b35b",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/initial/first-output/portable.zip": "5921db2b17fef3130f0e4ee241be02380d4a74f6897c3ca711f32263bd586625",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/initial/first-output/portable-unpacked/update.md": "7790e31c5175cd74adb8f9bb683c353a60a10b93a1fe51d4513fcc20f49f53f8",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/initial/first-output/portable-unpacked/update.html": "15c0b0e0db8cf859463f08ee36868cb388f868d1ec2141fad4a67b49691e0fc9",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/initial/first-output/portable-unpacked/supplement.md": "bdd4a6be25615837849c79208d599af2be062d6bb7a2c0fc70f5963630cc8593",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/initial/first-output/portable-unpacked/supplement.html": "1de21e93cea1b9d43adf36a67d9bae44bbf5448a43425f36fdcc041d92cc11e8",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/initial/model-attempts/attempt-1/response.json": "d7f80197dfc5100c3c4116f72ff92dc5d08c2755538589438d90a51f8f416024"
+      }
+    },
+    {
+      "family": "D2",
+      "stage": "later",
+      "answerKey": {
+        "path": "evaluation/upgrade/open/D2/ANSWER-KEY.json",
+        "sha256": "28df637f42b7a728bcb5b517276ad9693d7bfbd4d55bfc859bc9d0babd23afb8",
+        "headerStatus": "DRAFT_AWAITING_INDEPENDENT_KEY_REVIEW"
+      },
+      "runDirectory": "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later",
+      "firstVisibleAttempt": 1,
+      "firstRawNonCitationDifferencePaths": [],
+      "acceptedRawExactlyEqualsStoredAnalysis": true,
+      "attempts": [
+        {
+          "number": 1,
+          "status": "completed",
+          "durationMs": 225548,
+          "usage": {
+            "input_tokens": 26491,
+            "cached_input_tokens": 0,
+            "output_tokens": 13171
+          },
+          "validation": {
+            "valid": true,
+            "errorCount": 0,
+            "warningCount": 1
+          }
+        }
+      ],
+      "timings": {
+        "queueMs": 4,
+        "validationMs": 2,
+        "commitMs": 30,
+        "totalMs": 225598,
+        "processingMs": 225594
+      },
+      "currentRevision": {
+        "id": "f7f0fbf2-df91-4d59-9a53-f844724d848c",
+        "number": 2,
+        "review": null,
+        "requiresReview": true,
+        "amountUnchanged": false,
+        "reviewBaselineId": "3b64e96c-d2d8-478e-8d24-e1be8a29ac3d"
+      },
+      "calculationTotals": {
+        "earnedMinCents": null,
+        "earnedMaxCents": null,
+        "originalGrossPaidCents": null,
+        "initialDifferenceMinCents": null,
+        "initialDifferenceMaxCents": null,
+        "creditedGrossCents": 0,
+        "differenceMinCents": null,
+        "differenceMaxCents": null,
+        "calculable": false,
+        "conditional": true,
+        "label": "Scoped gross accounting difference",
+        "uncreditedPaymentCount": 1
+      },
+      "periodAmounts": [],
+      "actions": [
+        {
+          "id": "action-001",
+          "title": "Request attendance and original wage records",
+          "status": "open"
+        },
+        {
+          "id": "action-002",
+          "title": "Establish the workweek and pay basis",
+          "status": "open"
+        },
+        {
+          "id": "action-003",
+          "title": "Complete the correction\u2019s workweek breakdown and reconciliation",
+          "status": "partly_answered"
+        },
+        {
+          "id": "action-004",
+          "title": "Obtain the filed claim and recipient details",
+          "status": "open"
+        },
+        {
+          "id": "action-005",
+          "title": "Provide a limited update to the identified claim recipient",
+          "status": "open"
+        },
+        {
+          "id": "action-006",
+          "title": "Clarify the excluded claim categories",
+          "status": "open"
+        }
+      ],
+      "packetIntegrity": {
+        "crcAndEmbeddedManifest": "passed",
+        "relativeLinksChecked": 314,
+        "externalReferencesNotFetched": [
+          "https://www.dir.ca.gov/dlse/policies.htm"
+        ],
+        "revisionMatches": true,
+        "sourceSelectionMatches": true,
+        "originals": [
+          {
+            "name": "pay-advice.pdf",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "planned-routes.csv",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "receipt.png",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "worker-account.txt",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "service-letter.pdf",
+            "matchesReleasedOriginal": true
+          },
+          {
+            "name": "worker-note.txt",
+            "matchesReleasedOriginal": true
+          }
+        ],
+        "extractedTextMatchesStoredSource": true,
+        "currentReview": {
+          "state": "draft",
+          "reviewedAt": null,
+          "historical": false,
+          "stale": false,
+          "label": "Draft for worker/advocate review"
+        }
+      },
+      "priorHistory": {
+        "priorReviewedRevisionPreserved": true,
+        "technicalMarker": {
+          "status": "reviewed",
+          "at": "2026-09-24T01:13:43.753Z",
+          "note": "Technical evaluator lifecycle marker only. First unreviewed artifacts were saved and hashed. This is not worker/practitioner validation or a gold-derived correction."
+        },
+        "priorFirstOutputHash": "59b6f2c15832109dc834d8dc32bc468e6c56104fc7072f40937c432c18f3b35b"
+      },
+      "artifactHashes": {
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/run.json": "be804df955f0d59aad50fc4f2053fc2291a86b25c95c34dcd7fd1a34d4b3af77",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/job-final.json": "7ecec3496e2a31b369b8e2102afaf35fe7d86b3ba68a0c4bab9399eccb3cbf6c",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/first-output/case.json": "25905a3ab46021fe3b24b1d943a7e59c5b12c5af829d304eac36eb4002d7d8e0",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/first-output/portable.zip": "2b2bd95872bfb062b14084b111ff6d2f7616ae7218ef41d1e3f5d30f160f76f1",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/first-output/portable-unpacked/update.md": "55aae5180e0433c3d0ed40756f3372fa5e2c1a8b878403a9dbeb3d7cc52a53f2",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/first-output/portable-unpacked/update.html": "2d5533310baf1b26f7203c0e1ada2e1ec41b8fb9ce11cf1d841dfd09a6bd3c89",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/first-output/portable-unpacked/supplement.md": "0407e98f66f398d360fcc6e9b035c361fcc1132bd30d0c7b7d0ff73ed215ae55",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/first-output/portable-unpacked/supplement.html": "2087b68837aed23e382401d826b58fba60db88bda9acc2731b7ecb0977eaa4f0",
+        "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/model-attempts/attempt-1/response.json": "8c0261adc9cec475c6e2fd6e42fd3d3af165ee286dcdbcc0ece61207d8326eff"
+      },
+      "dateRetentionEvidence": {
+        "rawAnalysisHasExactAprilWindow": true,
+        "shortMarkdownHasExactAprilWindow": false,
+        "shortHtmlHasExactAprilWindow": false,
+        "detailedMarkdownHasExactAprilWindow": true,
+        "detailedHtmlHasExactAprilWindow": true
+      }
+    }
+  ],
+  "findings": [
+    {
+      "id": "D1-I-account",
+      "rawAnalysis": "pass",
+      "firstVisibleCase": "pass",
+      "portablePacket": "pass",
+      "reason": "Adopted 86500/93000 earned and 80000/85000 prior-paid cents retained; no daily detail or hourly legal applicability invented."
+    },
+    {
+      "id": "D1-I-event",
+      "rawAnalysis": "pass",
+      "firstVisibleCase": "pass",
+      "portablePacket": "pass",
+      "reason": "One additional PS-071 correction: 7000 gross, 1400 deductions, 5600 received net; linked 7000-cent allocation conserves the correction; conditional total 7500 cents."
+    },
+    {
+      "id": "D1-I-action",
+      "rawAnalysis": "pass",
+      "firstVisibleCase": "pass",
+      "portablePacket": "pass",
+      "reason": "Both allocation and supporting calculation are open; payroll full-correction conclusion is attributed and unsupported."
+    },
+    {
+      "id": "D1-L-split",
+      "rawAnalysis": "pass",
+      "firstVisibleCase": "pass",
+      "portablePacket": "pass",
+      "reason": "Existing payment allocated 3000/4000 cents; remaining period differences 3500/4000 cents, combined 7500; no additional payment invented."
+    },
+    {
+      "id": "D1-L-compound",
+      "rawAnalysis": "pass",
+      "firstVisibleCase": "pass",
+      "portablePacket": "pass",
+      "reason": "Allocation request answered; supporting reconciliation partly_answered and still visible as current; no false complete closure."
+    },
+    {
+      "id": "D2-I-types",
+      "rawAnalysis": "pass",
+      "firstVisibleCase": "pass",
+      "portablePacket": "pass",
+      "shortUpdateNote": "Short payment paragraph omits the full deduction/reimbursement decomposition; detailed supplement explicitly preserves it and distinguishes YTD. No wrong credit or residual is introduced.",
+      "reason": "22400 current gross wages, 3760 deductions, 1800 nonwage reimbursement and 20440 received deposit separated; 492400/13800 YTD not treated as current."
+    },
+    {
+      "id": "D2-I-unknown",
+      "rawAnalysis": "pass",
+      "firstVisibleCase": "pass",
+      "portablePacket": "pass",
+      "reason": "No periods or worked minutes inferred from schedules; rough 30000-cent estimate not adopted; useful received-payment account retained with unknown residual."
+    },
+    {
+      "id": "D2-L-dates",
+      "rawAnalysis": "pass",
+      "firstVisibleCase": "pass",
+      "detailedSupplement": "pass",
+      "completePacketFactAvailability": "pass",
+      "shortPortableUpdate": "material_failure",
+      "reason": "The short update omits April 6\u201319 entirely and foregrounds the historical uncertain oral account. It says service window supplied without identifying it. The central newly supplied fact survives in the analysis and detailed supplement, not in the short recipient artifact."
+    },
+    {
+      "id": "D2-L-open",
+      "rawAnalysis": "pass",
+      "firstVisibleCase": "pass",
+      "portablePacket": "pass",
+      "reason": "Service-window part answered; workweek reconciliation request remains partly_answered. Attendance/rate/original pay and travel-time/late-penalty exclusions remain unassessed. No invented residual or claim disposition."
+    }
+  ],
+  "ordinaryFirstAttempt": {
+    "path": "evaluation/upgrade/baseline/records/upgrade-candidate-1/D1/first/initial",
+    "score": "unobserved",
+    "classification": "infrastructure_failure_before_inference",
+    "exitCode": 1,
+    "wallClockSeconds": 0.386,
+    "outputPresent": false,
+    "eventTypeCounts": {},
+    "usageEvents": [],
+    "stderr": "Error: Operation not permitted (os error 1)",
+    "runSha256": "a0f80279ee95fd5b34aa7577b06911ca276233b6525995a5757614f4a64f3835",
+    "noComparisonConclusion": "No ordinary proposal exists; this is not evidence of app superiority."
+  },
+  "conclusion": {
+    "materialAppAnalysisErrorsObserved": 0,
+    "materialShortPortableUpdateErrorsObserved": 1,
+    "falselyClosedUnresolvedRequestsObserved": 0,
+    "firstAttemptValidationFailures": 1,
+    "ordinaryComparison": "Candidate3 completed D1/D2 ordinary outputs pass all nine required findings; no app superiority supported. See ordinaryCandidate3CompletedReview; earlier failures preserved.",
+    "humanReviewedArtifact": "unobserved; technical lifecycle markers only",
+    "nextAction": "Preserve candidate-1 first artifacts. Review generic renderer repair as a new candidate/regression, without substituting its result for this first outcome."
+  },
+  "rendererRegression": {
+    "reviewedAt": "2026-09-24T01:30:26.945Z",
+    "classification": "renderer_regression_pass_not_new_model_success",
+    "inferenceCalls": 0,
+    "sourceEditsByReviewer": 0,
+    "browserCalls": 0,
+    "sourceCasePath": "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/first-output/case.json",
+    "sourceCaseSha256": "25905a3ab46021fe3b24b1d943a7e59c5b12c5af829d304eac36eb4002d7d8e0",
+    "repairedArtifacts": {
+      "work/upgrade/diagnostic-export-repair/D2-later/update.md": "b66a7a82d4a329bae81014173c5e6c432c3cf17d6a53ca1ecc6f3c212221ddfe",
+      "work/upgrade/diagnostic-export-repair/D2-later/update.html": "4d39d2edba154d68bb6b3e195be7f5de91dd5e16bc2d33a501746de83151f0a4"
+    },
+    "reviewedImplementation": {
+      "domain/portable.mjs": "9587a870a55bdbea28d44009cd9722172a076830cdcd2079ad16dd0b9b89b76e",
+      "server/export-bundle.mjs": "f82d66ad7543e5fe47dc6c23f6c17a421bf16813d79a9a26e36f15ecfe3f970f",
+      "tests/portable.test.mjs": "dd62f055d2b957e06a0f3be4b98a65190026c24d9eb9fc9eb549129757fd4d8b"
+    },
+    "substantiveChecks": {
+      "datesPresent": true,
+      "directPayrollAttribution": true,
+      "datesBeforeHistoricalOralAccount": true,
+      "coverageExclusionsPresent": true,
+      "grossAndReceivedAmountsUnchanged": true,
+      "balanceStillUnassessed": true,
+      "workweekRequestRemainsOpen": true,
+      "newRevisionStillUnreviewed": true,
+      "coverageOnlyUpdateShown": true
+    },
+    "selectedRevisionChecks": {
+      "inMemoryRerenderMatchesRepairedMarkdownAndHtmlExactly": true,
+      "selectedLaterUsesOwnNamedBaselineDespiteFutureReviewedRevision": true,
+      "noFutureIdentityContextOrPositionLeak": true,
+      "selectedInitialHasNoFutureServiceDates": true,
+      "selectedInitialHasOnlyFourOriginalSources": true,
+      "selectedInitialHasNoComparisonBaseline": true,
+      "historicalAndStaleLabelsPresent": true
+    },
+    "firstFailurePreserved": true,
+    "limitations": [
+      "No new inference or held-out result.",
+      "Printed layout and interactive browser behavior not inspected by this reviewer in this regression.",
+      "Only supplied D2 case and in-memory temporal sentinels were used."
+    ],
+    "candidate1FrozenArtifactsVerifiedUnchanged": 37
+  },
+  "finalOrderingRegression": {
+    "reviewedAt": "2026-09-24T01:38:45.743Z",
+    "classification": "final_ordered_renderer_regression_pass_not_new_model_success",
+    "candidateFreeze": {
+      "path": "evaluation/upgrade/public/CANDIDATE-FREEZE.json",
+      "sha256": "09d0908ca1344b728d1a700a6c71fa9cc86357a74a836b6776234453249e925c",
+      "candidateId": "upgrade-candidate-2"
+    },
+    "manifest": {
+      "path": "work/upgrade/diagnostic-export-repair/final-ordering-manifest.json",
+      "sha256": "5dc614880291e43a1cd937764bdfa2740863f28331d593520718b5f84999f365"
+    },
+    "artifacts": [
+      {
+        "path": "work/upgrade/diagnostic-export-repair/D2-later/update.md",
+        "sha256": "120af932f84a33ba663dd775280e98260dc61f4b6743a95bfee5177649b11339",
+        "bytes": 6346
+      },
+      {
+        "path": "work/upgrade/diagnostic-export-repair/D2-later/update.html",
+        "sha256": "f8f503fe559104ae9524052d592cd39f77064b05bff6918e1baa790b5c81cf61",
+        "bytes": 10243
+      },
+      {
+        "path": "work/upgrade/diagnostic-export-repair/D2-later/update-print.pdf",
+        "sha256": "b5aa989dbfc81839c8341e09a6880785d7ca1d4c4942a47a07c9e1ce9ec7b380",
+        "bytes": 147457
+      },
+      {
+        "path": "work/upgrade/diagnostic-export-repair/D2-later/first-page.png",
+        "sha256": "fcc7efd9a1f053730c6bfd8becefbfcc40d8a062173efafac7db998f6a32e599",
+        "bytes": 160417
+      }
+    ],
+    "implementationHashes": {
+      "domain/portable.mjs": "71ed1eee2de7085ee42de31e193cc99919b4321a5de4f208261bfaac073cd495",
+      "server/export-bundle.mjs": "f82d66ad7543e5fe47dc6c23f6c17a421bf16813d79a9a26e36f15ecfe3f970f"
+    },
+    "sourceCaseSha256": "25905a3ab46021fe3b24b1d943a7e59c5b12c5af829d304eac36eb4002d7d8e0",
+    "inferenceCalls": 0,
+    "sourceEditsByReviewer": 0,
+    "browserCalls": 0,
+    "substantiveChecks": {
+      "allCurrentAttributedStatementsRetained": true,
+      "coverageOnlyAssessmentRetainedAfterRequests": true,
+      "datesAndExclusionsBeforeCalculation": true,
+      "directPayrollDatesBeforeHistoricalOralAccount": true,
+      "unknownBalanceAndOpenRequestRetained": true,
+      "newRevisionUnreviewed": true
+    },
+    "temporalChecks": {
+      "inMemoryRerenderMatchesFinalMarkdownAndHtml": true,
+      "selectedLaterUsesOwnBaselineDespiteFutureReviewedRevision": true,
+      "noFutureIdentityOrPositionLeak": true,
+      "selectedInitialHasOnlyFourSourcesAndNoFutureDates": true,
+      "selectedInitialNoComparisonBaseline": true,
+      "historicalAndStaleLabelsRetained": true,
+      "coverageOnlyChangeLeadIsKeptWhenNoStatementsChanged": true,
+      "additionalCoverageOnlyAssessmentsNotRemoved": true
+    },
+    "visualCheck": {
+      "artifact": "work/upgrade/diagnostic-export-repair/D2-later/first-page.png",
+      "viewedByReviewer": true,
+      "result": "D2 first printed page visibly includes attributed April 6\u201319 dates, exclusions, unassessed balance, attendance/original-pay request, workweek/pay-basis request and workweek-reconciliation request. No clipped text or overlapping content observed.",
+      "limits": "Only released D2 first-page image inspected; demo page and remaining PDF pages not inspected."
+    },
+    "candidate1FrozenArtifactsVerifiedUnchanged": 37,
+    "previousRepairRecordPreserved": true,
+    "probeNote": "An initial probe used a hyphenated marker without accounting for Markdown escaping and failed its own string assertion. The probe was corrected to an unpunctuated marker; no product/source change was made.",
+    "limitations": [
+      "Renderer-only regression on released D2 and in-memory temporal/coverage sentinels; no fresh model success or held-out inference.",
+      "Same artifact paths were regenerated; earlier observed hashes remain in rendererRegression.",
+      "No ordinary comparator proposal reviewed in this result."
+    ]
+  },
+  "ordinaryCandidate2InitialReview": {
+    "reviewedAt": "2026-09-24T01:39:58.677754+00:00",
+    "attempts": [
+      {
+        "family": "D1",
+        "stage": "initial",
+        "candidateId": "upgrade-candidate-2",
+        "attempt": "staging-v2-first",
+        "classification": "infrastructure_failure_during_source_access_model_completed_blocked_note",
+        "workflowOutcome": "incomplete",
+        "substantiveScore": "unobserved",
+        "exitCode": 0,
+        "wallClockSeconds": 27.005,
+        "preparationSeconds": 0.084,
+        "modelAndToolsProcessSeconds": 26.92,
+        "usage": [
+          {
+            "input_tokens": 51360,
+            "cached_input_tokens": 33953,
+            "cache_write_input_tokens": 17203,
+            "output_tokens": 659,
+            "reasoning_output_tokens": 290
+          }
+        ],
+        "monetaryCost": null,
+        "humanActiveTime": null,
+        "outputPresent": true,
+        "outputIsCaseBasedProposal": false,
+        "outputMatchesFinalAgentMessage": true,
+        "sourceAccessEvidence": "Output reports both reads failed with sandbox-exec: sandbox_apply: Operation not permitted; stderr records two filesystem sandbox violations. The JSON event stream does not contain separate shell-command result items.",
+        "eventErrors": [
+          "Model metadata for `gpt-6-astra` not found. Defaulting to fallback metadata; this can degrade performance and cause issues.",
+          "Exceeded skills context budget. All skill descriptions were removed and 19 additional skills were not included in the model-visible skills list."
+        ],
+        "snapshotIntegrity": {
+          "allSevenFilesMatchRunManifest": true,
+          "sourceCount": 4,
+          "sourcesExactlyMatchReleasedInitialFiles": true,
+          "noLaterSourceFilesPresent": true,
+          "fileInventory": [
+            "SCOPE.md",
+            "TASK.md",
+            "outputs/initial/update.md",
+            "sources/initial/bank.csv",
+            "sources/initial/correction-advice.pdf",
+            "sources/initial/reviewed-account.txt",
+            "sources/initial/worker-request.txt"
+          ]
+        },
+        "artifactHashes": {
+          "evaluation/upgrade/baseline/records/upgrade-candidate-2/D1/staging-v2-first/initial/run.json": "1bb708cf1006a315a4f8def778781334a375118c0f99f1888739c1954055df88",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-2/D1/staging-v2-first/initial/events.jsonl": "b0b82695ee9fcef33feabe81d7a69fd13a8b9a8fbfbcac8c78b30da2c13509b8",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-2/D1/staging-v2-first/initial/stderr.txt": "f7465fdabf1dc2dc872883006bbabbbbe2a7a3c75afefe9b87a8741cc2e3e486",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-2/D1/staging-v2-first/initial/workspace-snapshot/outputs/initial/update.md": "c06779d1466ab44977f88b14df131babd2e39e2ac05fb878272a9820a8d064bc"
+        },
+        "claimLimit": "No semantic pass/fail, quality superiority, speedup or cost comparison can be inferred from this incomplete source-access run."
+      },
+      {
+        "family": "D2",
+        "stage": "initial",
+        "candidateId": "upgrade-candidate-2",
+        "attempt": "staging-v2-first",
+        "classification": "infrastructure_failure_during_source_access_model_completed_blocked_note",
+        "workflowOutcome": "incomplete",
+        "substantiveScore": "unobserved",
+        "exitCode": 0,
+        "wallClockSeconds": 33.372,
+        "preparationSeconds": 0.084,
+        "modelAndToolsProcessSeconds": 33.288,
+        "usage": [
+          {
+            "input_tokens": 51399,
+            "cached_input_tokens": 33948,
+            "cache_write_input_tokens": 17247,
+            "output_tokens": 684,
+            "reasoning_output_tokens": 312
+          }
+        ],
+        "monetaryCost": null,
+        "humanActiveTime": null,
+        "outputPresent": true,
+        "outputIsCaseBasedProposal": false,
+        "outputMatchesFinalAgentMessage": true,
+        "sourceAccessEvidence": "Output reports both reads failed with sandbox-exec: sandbox_apply: Operation not permitted; stderr records two filesystem sandbox violations. The JSON event stream does not contain separate shell-command result items.",
+        "eventErrors": [
+          "Model metadata for `gpt-6-astra` not found. Defaulting to fallback metadata; this can degrade performance and cause issues.",
+          "Exceeded skills context budget. All skill descriptions were removed and 19 additional skills were not included in the model-visible skills list."
+        ],
+        "snapshotIntegrity": {
+          "allSevenFilesMatchRunManifest": true,
+          "sourceCount": 4,
+          "sourcesExactlyMatchReleasedInitialFiles": true,
+          "noLaterSourceFilesPresent": true,
+          "fileInventory": [
+            "SCOPE.md",
+            "TASK.md",
+            "outputs/initial/update.md",
+            "sources/initial/pay-advice.pdf",
+            "sources/initial/planned-routes.csv",
+            "sources/initial/receipt.png",
+            "sources/initial/worker-account.txt"
+          ]
+        },
+        "artifactHashes": {
+          "evaluation/upgrade/baseline/records/upgrade-candidate-2/D2/staging-v2-first/initial/run.json": "7c59b88c47787a6fef3fb90048dfcfd216ec3f1d5bb9009ef339aa0ebce9c39f",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-2/D2/staging-v2-first/initial/events.jsonl": "f13a64a06dd4cc68d6cccfe97f52eb987a191d4d45661f41cbe11df340a30a84",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-2/D2/staging-v2-first/initial/stderr.txt": "02d5f22c9b95e90561fc3da933dc74641cb664964e9fbc97fc4dcace73b7fe03",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-2/D2/staging-v2-first/initial/workspace-snapshot/outputs/initial/update.md": "c5c18bb3692cedf9691a2a1558d23c827b07b48c6c5d4757611ec76d52813a96"
+        },
+        "claimLimit": "No semantic pass/fail, quality superiority, speedup or cost comparison can be inferred from this incomplete source-access run."
+      }
+    ],
+    "firstCandidate1StartupFailurePreserved": true,
+    "noLaterOrdinaryStageRead": true,
+    "noInferenceOrSourceEditsByReviewer": true
+  },
+  "ordinaryCandidate3CompletedReview": {
+    "reviewedAt": "2026-09-24T02:17:42.522238+00:00",
+    "candidateId": "upgrade-candidate-3",
+    "attempt": "native-v3-first",
+    "status": "ALL_FOUR_COMPLETED_OPEN_DIAGNOSTIC_STAGES_REVIEWED",
+    "scope": "D1/D2 open diagnostics only; no reserved technical-family records used in this entry",
+    "stages": [
+      {
+        "family": "D1",
+        "stage": "initial",
+        "runDirectory": "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/initial",
+        "status": "completed_substantive_proposal",
+        "timings": {
+          "wallClockSeconds": 64.045,
+          "preparationSeconds": 0.858,
+          "modelAndToolsProcessSeconds": 63.187
+        },
+        "processExitCode": 0,
+        "timedOut": false,
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "candidateFreezeSha256": "6c5bb468c87abc5e59e1222bf4ed6cd17b4626360d9ba4337c41203533537825",
+        "frozenFileCount": 103,
+        "observedUsageEvents": [
+          {
+            "eventType": "turn.completed",
+            "usage": {
+              "input_tokens": 92224,
+              "cached_input_tokens": 72017,
+              "cache_write_input_tokens": 19867,
+              "output_tokens": 2490,
+              "reasoning_output_tokens": 1091
+            }
+          }
+        ],
+        "modelApiCallCount": null,
+        "monetaryCost": null,
+        "humanActiveTime": null,
+        "completedCommandCount": 4,
+        "recoverableFailedCommands": [
+          {
+            "id": "item_5",
+            "exitCode": 1,
+            "lastOutput": "plaining that conclusion is not included.\n\n\n\n\nFictional excerpt. Not an official payroll statement or agency form. | page 1\n\f\n--- RECONCILIATION ---\nxcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun\n"
+          }
+        ],
+        "firstVisibleEqualsFinalModelMessage": true,
+        "snapshotIntegrity": {
+          "memberCount": 7,
+          "allManifestHashesMatch": true,
+          "sourcesMatchReleasedOriginals": true,
+          "sourcePaths": [
+            "sources/initial/bank.csv",
+            "sources/initial/correction-advice.pdf",
+            "sources/initial/reviewed-account.txt",
+            "sources/initial/worker-request.txt"
+          ],
+          "initialContainsNoLaterFiles": true
+        },
+        "priorOutputIntegrity": null,
+        "recordedIsolation": {
+          "passed": true,
+          "result": {
+            "allowed": true,
+            "privateProject": false,
+            "appSource": false,
+            "otherWorkspace": false,
+            "workspaceWrite": true,
+            "sourceWrite": false,
+            "outsideProjectWrite": false,
+            "localNetwork": "denied",
+            "remoteNetwork": "denied",
+            "historyRead": false,
+            "pngOcr": {
+              "exitCode": 0,
+              "markerFound": true,
+              "stderr": ""
+            },
+            "imagePdfRender": {
+              "exitCode": 0,
+              "outputInWork": true,
+              "stderr": ""
+            },
+            "imagePdfOcr": {
+              "exitCode": 0,
+              "markerFound": true,
+              "stderr": ""
+            }
+          },
+          "limitation": "This installed runtime still permits system-temp access despite deny entries; no reserved evaluation source/key/output is staged there.",
+          "independentlyRerun": false
+        },
+        "artifactHashes": {
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/initial/preparation.json": "5592fd273ca9d2e0cec22c7203a1a842bf4d3f0136bf2792639b5c248d9fa57d",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/initial/pre-run-workspace-manifest.json": "5087f61684fd07b9507791620eae5bea8d9c9399c6dc8da59783226518443676",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/initial/isolation-probe.json": "e8a73f3bdb1d9abb807420592910a6cabbd915dd3446dc67e15627068d914589",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/initial/prompt.md": "4c680317210054850e0364f533535f4ae0dba046cc581c4488a6d7102655ba4e",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/initial/stderr.txt": "a055f1ccf8d92b60206eacc769c87eaeb0c08e4f4c17fc8a4468d0bb62d202de",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/initial/events.jsonl": "2103aaab747160ecb0c5121512ce7e58a42bcf8fae49b6e3e25105ed422b8a5e",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/initial/configuration.json": "aab3a72a50342b8cba30af871a98a7f304d877143f7f61dade0f7207543ade46",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/initial/run.json": "f18a36455b25b9501ec46d0ca1e847060a278c6fbbcb5aa50e953763d99ef31b",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/initial/native-permission-profile.json": "9c2ded4a8cb2299eceeaf2933ec3389609bbcf0631d80848ee2a2f4547ca6345",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/initial/workspace-snapshot/outputs/initial/update.md": "465225dc738680f055b21e374baf511b37d6803441d7a253a5d3baf4ee4d1dee"
+        }
+      },
+      {
+        "family": "D1",
+        "stage": "later",
+        "runDirectory": "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/later",
+        "status": "completed_substantive_proposal",
+        "timings": {
+          "wallClockSeconds": 46.395,
+          "preparationSeconds": 0.826,
+          "modelAndToolsProcessSeconds": 45.569
+        },
+        "processExitCode": 0,
+        "timedOut": false,
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "candidateFreezeSha256": "6c5bb468c87abc5e59e1222bf4ed6cd17b4626360d9ba4337c41203533537825",
+        "frozenFileCount": 103,
+        "observedUsageEvents": [
+          {
+            "eventType": "turn.completed",
+            "usage": {
+              "input_tokens": 96491,
+              "cached_input_tokens": 74999,
+              "cache_write_input_tokens": 21152,
+              "output_tokens": 1609,
+              "reasoning_output_tokens": 143
+            }
+          }
+        ],
+        "modelApiCallCount": null,
+        "monetaryCost": null,
+        "humanActiveTime": null,
+        "completedCommandCount": 4,
+        "recoverableFailedCommands": [
+          {
+            "id": "item_5",
+            "exitCode": 1,
+            "lastOutput": "hese citations define context, not a claim of new legal verification or permission for network access during the task.\n\n--- RECONCILIATION CHECK ---\nxcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun\n"
+          }
+        ],
+        "firstVisibleEqualsFinalModelMessage": true,
+        "snapshotIntegrity": {
+          "memberCount": 11,
+          "allManifestHashesMatch": true,
+          "sourcesMatchReleasedOriginals": true,
+          "sourcePaths": [
+            "sources/initial/bank.csv",
+            "sources/initial/correction-advice.pdf",
+            "sources/initial/reviewed-account.txt",
+            "sources/initial/worker-request.txt",
+            "sources/later/allocation.csv",
+            "sources/later/payroll-message.txt"
+          ],
+          "initialContainsNoLaterFiles": null
+        },
+        "priorOutputIntegrity": {
+          "record": {
+            "preserved": true
+          },
+          "independentExactBytesEqual": true,
+          "sha256": "465225dc738680f055b21e374baf511b37d6803441d7a253a5d3baf4ee4d1dee"
+        },
+        "recordedIsolation": {
+          "passed": true,
+          "result": {
+            "allowed": true,
+            "privateProject": false,
+            "appSource": false,
+            "otherWorkspace": false,
+            "workspaceWrite": true,
+            "sourceWrite": false,
+            "outsideProjectWrite": false,
+            "localNetwork": "denied",
+            "remoteNetwork": "denied",
+            "historyRead": false,
+            "pngOcr": {
+              "exitCode": 0,
+              "markerFound": true,
+              "stderr": ""
+            },
+            "imagePdfRender": {
+              "exitCode": 0,
+              "outputInWork": true,
+              "stderr": ""
+            },
+            "imagePdfOcr": {
+              "exitCode": 0,
+              "markerFound": true,
+              "stderr": ""
+            }
+          },
+          "limitation": "This installed runtime still permits system-temp access despite deny entries; no reserved evaluation source/key/output is staged there.",
+          "independentlyRerun": false
+        },
+        "artifactHashes": {
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/later/preparation.json": "4a3acd05b20086be847d409f634c26030597a08242d4a267c6c320766644ea50",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/later/prior-output-integrity.json": "dc090c0dfcb30defb09dd8bfc3c466751facd389bc6ea91ac9cb99dc9f39d387",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/later/pre-run-workspace-manifest.json": "7a27c4368d0ed19f64a7e5dfa8440e1c9fcedce6184dad3cc96eee5de24c002b",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/later/isolation-probe.json": "e8a73f3bdb1d9abb807420592910a6cabbd915dd3446dc67e15627068d914589",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/later/prompt.md": "38408aeeb8d13da2d7d73c59c75d1ca32560cdd4074f250567271dc1102b5534",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/later/stderr.txt": "8b131aa28823cd434ec7c8acc94af1acae83ed5be78378bc8754b9586da24421",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/later/events.jsonl": "a718368dd028bba31b2afc58484ad9cee7b103af6b2e83ba1eda3cb9a6635bd3",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/later/configuration.json": "b73434c50f532ebceced6d33de43f5d6b997025a2c5295b476298d64f6035346",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/later/run.json": "7984cd8701f932234b9d80e8a7f0f6cbffb5f6c6ed048e769b5c68424979ae57",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/later/native-permission-profile.json": "9c2ded4a8cb2299eceeaf2933ec3389609bbcf0631d80848ee2a2f4547ca6345",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D1/native-v3-first/later/workspace-snapshot/outputs/later/update.md": "c597b84decc3724907abfdb898a3a487ff5647b2e8940191e792ca1654f0af82"
+        }
+      },
+      {
+        "family": "D2",
+        "stage": "initial",
+        "runDirectory": "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/initial",
+        "status": "completed_substantive_proposal",
+        "timings": {
+          "wallClockSeconds": 52.458,
+          "preparationSeconds": 0.857,
+          "modelAndToolsProcessSeconds": 51.601
+        },
+        "processExitCode": 0,
+        "timedOut": false,
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "candidateFreezeSha256": "6c5bb468c87abc5e59e1222bf4ed6cd17b4626360d9ba4337c41203533537825",
+        "frozenFileCount": 103,
+        "observedUsageEvents": [
+          {
+            "eventType": "turn.completed",
+            "usage": {
+              "input_tokens": 92473,
+              "cached_input_tokens": 72148,
+              "cache_write_input_tokens": 19985,
+              "output_tokens": 1604,
+              "reasoning_output_tokens": 516
+            }
+          }
+        ],
+        "modelApiCallCount": null,
+        "monetaryCost": null,
+        "humanActiveTime": null,
+        "completedCommandCount": 3,
+        "recoverableFailedCommands": [],
+        "firstVisibleEqualsFinalModelMessage": true,
+        "snapshotIntegrity": {
+          "memberCount": 7,
+          "allManifestHashesMatch": true,
+          "sourcesMatchReleasedOriginals": true,
+          "sourcePaths": [
+            "sources/initial/pay-advice.pdf",
+            "sources/initial/planned-routes.csv",
+            "sources/initial/receipt.png",
+            "sources/initial/worker-account.txt"
+          ],
+          "initialContainsNoLaterFiles": true
+        },
+        "priorOutputIntegrity": null,
+        "recordedIsolation": {
+          "passed": true,
+          "result": {
+            "allowed": true,
+            "privateProject": false,
+            "appSource": false,
+            "otherWorkspace": false,
+            "workspaceWrite": true,
+            "sourceWrite": false,
+            "outsideProjectWrite": false,
+            "localNetwork": "denied",
+            "remoteNetwork": "denied",
+            "historyRead": false,
+            "pngOcr": {
+              "exitCode": 0,
+              "markerFound": true,
+              "stderr": ""
+            },
+            "imagePdfRender": {
+              "exitCode": 0,
+              "outputInWork": true,
+              "stderr": ""
+            },
+            "imagePdfOcr": {
+              "exitCode": 0,
+              "markerFound": true,
+              "stderr": ""
+            }
+          },
+          "limitation": "This installed runtime still permits system-temp access despite deny entries; no reserved evaluation source/key/output is staged there.",
+          "independentlyRerun": false
+        },
+        "artifactHashes": {
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/initial/preparation.json": "76d7d2abce76e20654d416f6d81a6fe1275ec49a29bc6289f796f82090170f75",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/initial/pre-run-workspace-manifest.json": "221ce3bd8cbb3a408c890a6227c26cc1b49696cc08cb14b2fdb45812191da71a",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/initial/isolation-probe.json": "05ab4e45e691656726c363121c8ed40f9ef71a656e6e972d2d1d330786181c8c",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/initial/prompt.md": "4c680317210054850e0364f533535f4ae0dba046cc581c4488a6d7102655ba4e",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/initial/stderr.txt": "e30adaeeb1003c6eca8554833055028a16fb7dc90872b8a8a2e359dfe33e4f6b",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/initial/events.jsonl": "32e6d989fdf54df61bba435072f0e782c38934decf8aa103092e36907b8466ed",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/initial/configuration.json": "d408fb04e6ba42183b9bb25b6dfa7c9de0f19555cd4a5f32c0067c5bf2c2663a",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/initial/run.json": "69b81339387272065941ed86e4f78cdaf91d998e9ffe8e2ca0be77fab33085bc",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/initial/native-permission-profile.json": "1f77fee791d8e00401ffbeb7cfa105c4b14dd6dd6467f7b2f11a21a3ef7ca755",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/initial/workspace-snapshot/outputs/initial/update.md": "e40da470091c0ffe593fa3f213726b4ed874dd424e9dd611cbc0eeaf488714b1"
+        }
+      },
+      {
+        "family": "D2",
+        "stage": "later",
+        "runDirectory": "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/later",
+        "status": "completed_substantive_proposal",
+        "timings": {
+          "wallClockSeconds": 52.872,
+          "preparationSeconds": 0.826,
+          "modelAndToolsProcessSeconds": 52.046
+        },
+        "processExitCode": 0,
+        "timedOut": false,
+        "model": "gpt-6-astra",
+        "reasoningEffort": "high",
+        "candidateFreezeSha256": "6c5bb468c87abc5e59e1222bf4ed6cd17b4626360d9ba4337c41203533537825",
+        "frozenFileCount": 103,
+        "observedUsageEvents": [
+          {
+            "eventType": "turn.completed",
+            "usage": {
+              "input_tokens": 113878,
+              "cached_input_tokens": 92433,
+              "cache_write_input_tokens": 21037,
+              "output_tokens": 1686,
+              "reasoning_output_tokens": 440
+            }
+          }
+        ],
+        "modelApiCallCount": null,
+        "monetaryCost": null,
+        "humanActiveTime": null,
+        "completedCommandCount": 4,
+        "recoverableFailedCommands": [],
+        "firstVisibleEqualsFinalModelMessage": true,
+        "snapshotIntegrity": {
+          "memberCount": 11,
+          "allManifestHashesMatch": true,
+          "sourcesMatchReleasedOriginals": true,
+          "sourcePaths": [
+            "sources/initial/pay-advice.pdf",
+            "sources/initial/planned-routes.csv",
+            "sources/initial/receipt.png",
+            "sources/initial/worker-account.txt",
+            "sources/later/service-letter.pdf",
+            "sources/later/worker-note.txt"
+          ],
+          "initialContainsNoLaterFiles": null
+        },
+        "priorOutputIntegrity": {
+          "record": {
+            "preserved": true
+          },
+          "independentExactBytesEqual": true,
+          "sha256": "e40da470091c0ffe593fa3f213726b4ed874dd424e9dd611cbc0eeaf488714b1"
+        },
+        "recordedIsolation": {
+          "passed": true,
+          "result": {
+            "allowed": true,
+            "privateProject": false,
+            "appSource": false,
+            "otherWorkspace": false,
+            "workspaceWrite": true,
+            "sourceWrite": false,
+            "outsideProjectWrite": false,
+            "localNetwork": "denied",
+            "remoteNetwork": "denied",
+            "historyRead": false,
+            "pngOcr": {
+              "exitCode": 0,
+              "markerFound": true,
+              "stderr": ""
+            },
+            "imagePdfRender": {
+              "exitCode": 0,
+              "outputInWork": true,
+              "stderr": ""
+            },
+            "imagePdfOcr": {
+              "exitCode": 0,
+              "markerFound": true,
+              "stderr": ""
+            }
+          },
+          "limitation": "This installed runtime still permits system-temp access despite deny entries; no reserved evaluation source/key/output is staged there.",
+          "independentlyRerun": false
+        },
+        "artifactHashes": {
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/later/preparation.json": "0ec36bb51e30309b0f0d99ca67a61ab1203f9677638572e5928006c45b8f0108",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/later/prior-output-integrity.json": "dc090c0dfcb30defb09dd8bfc3c466751facd389bc6ea91ac9cb99dc9f39d387",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/later/pre-run-workspace-manifest.json": "b25dc53232105887efa2fadd8bc15b6f05d797eae44d8dfd6f1f3a422dc6b64d",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/later/isolation-probe.json": "05ab4e45e691656726c363121c8ed40f9ef71a656e6e972d2d1d330786181c8c",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/later/prompt.md": "38408aeeb8d13da2d7d73c59c75d1ca32560cdd4074f250567271dc1102b5534",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/later/stderr.txt": "4b5c89caf7a758ca7239555196b7d8cb719c4599704a29b6f19bcb3728f87552",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/later/events.jsonl": "358225dfdebb99056062d826e2e540c88ca7e6231d121ee9a60f54018177e191",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/later/configuration.json": "288b867ab4e7d4600241261f45d52f43466c8a340cb422190165d2b7f44386da",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/later/run.json": "12ae7218741e66ccfe940ae99921c079063476c1a54b943c73e672979458c81b",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/later/native-permission-profile.json": "1f77fee791d8e00401ffbeb7cfa105c4b14dd6dd6467f7b2f11a21a3ef7ca755",
+          "evaluation/upgrade/baseline/records/upgrade-candidate-3/D2/native-v3-first/later/workspace-snapshot/outputs/later/update.md": "3de6d7caf70265a5bc821f978f2f169d1e9e9c467bf5fee1c566c06797bcb723"
+        }
+      }
+    ],
+    "findings": [
+      {
+        "id": "D1-I-account",
+        "result": "pass",
+        "basis": "Carries adopted earned 865/930 and original gross pay 800/850 without invented daily/legal inputs."
+      },
+      {
+        "id": "D1-I-event",
+        "result": "pass",
+        "basis": "One 70 gross/56 net correction, with 14 deductions, stated additionality and exclusive scope; conserved x and 70-x allocations yield 75 combined signed difference."
+      },
+      {
+        "id": "D1-I-action",
+        "result": "pass",
+        "basis": "Both split and worksheet remain requested; full correction conclusion attributed and unreconciled."
+      },
+      {
+        "id": "D1-L-split",
+        "result": "pass",
+        "basis": "30/40 allocations attach to same correction and yield 35/40 differences; no new transfer."
+      },
+      {
+        "id": "D1-L-compound",
+        "result": "pass",
+        "basis": "Split portion explicitly answered; calculation request retained; later artifact remains proposed and needs review."
+      },
+      {
+        "id": "D2-I-types",
+        "result": "pass",
+        "basis": "224 current gross, 37.60 deductions, 18 reimbursement and 204.40 receipt separated; 4924/138 YTD not added."
+      },
+      {
+        "id": "D2-I-unknown",
+        "result": "pass",
+        "basis": "Rough 300 estimate and 480/510 schedule minutes not adopted; unknown residual preserved with useful factual payment update."
+      },
+      {
+        "id": "D2-L-dates",
+        "result": "pass",
+        "basis": "April 6-19 dates are quoted from direct payroll letter in main What changed section; uncertain call replaced for date support, not converted into independent attendance proof."
+      },
+      {
+        "id": "D2-L-open",
+        "result": "pass",
+        "basis": "Actual hours, rate, original pay, workweek basis and excluded travel/late-payment categories remain unresolved; no invented residual or whole-claim conclusion."
+      }
+    ],
+    "materialSemanticErrorsObserved": 0,
+    "minorSemanticErrorsObserved": 0,
+    "firstCandidate1Artifacts": {
+      "checkedCount": 37,
+      "allHashesUnchanged": true
+    },
+    "toolSmoke": {
+      "path": "evaluation/upgrade/public/diagnostics/upgrade-candidate-3/TOOL-SMOKE.json",
+      "sha256": "2bd4af5caabb84d8c74665e565001ac1bc3e5f3fed3f1c71984d1cfc939f9d98",
+      "scope": "Read published smoke receipt only; no case score and no independent rerun"
+    },
+    "comparison": "No app semantic superiority shown on D1/D2. Earlier app short-export failure remains preserved; repair is renderer regression, not replacement first output. Ordinary observed process durations are shorter, but these are not human task times and output/workflow scope differs.",
+    "limitations": [
+      "Synthetic diagnostic families reused after infrastructure failures; not representative or fresh blind technical-family results",
+      "Single completed observed ordinary sequence per family under native-v3; earlier failures remain separately recorded",
+      "Reviewer is independent of corpus authorship but contributed to product build",
+      "No human/practitioner review, legal validation, cost or task-effort study",
+      "Command sandbox preflight is recorded evidence, not independently rerun; system temp boundary is explicitly limited",
+      "CLI events expose usage and command items, not reliable individual model API request count"
+    ]
+  }
+}

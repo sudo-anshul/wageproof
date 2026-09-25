@@ -1,0 +1,20 @@
+{
+  "observedAt": "2026-09-24T02:48:34.106145+00:00",
+  "from": "upgrade-candidate-3",
+  "to": "upgrade-candidate-4",
+  "changedFiles": [
+    "domain/portable.mjs",
+    "server/export-bundle.mjs",
+    "tests/portable.test.mjs"
+  ],
+  "clientBuildIdentical": true,
+  "sourceManifestSha256": "4ae395e4ab60f40a2ee68558b137221d6b1b11af8b8ff0830c5cd088af697d63",
+  "candidateFreezeSha256": "5559a4e288dff482e5e12d8010e20146a8c916b3c85e4038fdc124eb25698ae4",
+  "testResult": {
+    "passed": 80,
+    "failed": 0,
+    "skipped": 0,
+    "path": "work/upgrade/candidate4-tests.log"
+  },
+  "rendererScope": "New/changed active questions, outward requests, payments and periods; current partly-answered detail. Other selection limits remain documented."
+}
