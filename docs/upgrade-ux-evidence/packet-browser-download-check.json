@@ -1,0 +1,27 @@
+{
+  "zip": "/Users/anshul/Documents/Codex/2026-09-23/no/.playwright-mcp/WageProof-update-r3.zip",
+  "revision": {
+    "id": "01354fb7-4eff-4f21-acf7-a856ae0670c3",
+    "number": 3,
+    "createdAt": "2026-09-23T20:13:43.736Z",
+    "sourceDigest": "cd8ea05d65dc590d42cc3e65de81aaa210a8a976cdb19a41442f48d78fca3fba",
+    "analysisSha256": "95644f5a224ce071331fec3d6566539242e242a5e7170465250d89680781f9d4",
+    "calculationSha256": "6f318918aac0c82f38ff3bac14a63669ceda6b879c04facaff79ede756095a3e",
+    "comparisonBaselineId": "38faa2d0-aa34-4683-bd12-596f4bd63a2b",
+    "review": {
+      "state": "reviewed",
+      "reviewedAt": "2026-09-23T20:16:56.983Z",
+      "historical": true,
+      "stale": true,
+      "label": "Previously reviewed version"
+    }
+  },
+  "includedSources": 6,
+  "omittedSources": 0,
+  "members": 25,
+  "relativeLinksChecked": 207,
+  "missingLinks": [],
+  "manifestHashesMatched": 24,
+  "scriptsInGeneratedHTML": false,
+  "preservedPacket": "historical-review-packet-r3.zip"
+}
