@@ -1,0 +1,542 @@
+{
+  "status": "PREPARATION_ONLY_NOT_FINAL_RELEASE",
+  "preparedAt": "2026-09-24T02:49:23.381416+00:00",
+  "originalReportsUnchanged": true,
+  "copiedOrDerivedInputs": [
+    {
+      "sourcePath": "docs/API.md",
+      "sourceSha256": "e0f15fc1069fbfe000a5483d201dd80a7092229adefbd9e819d81605a0f47065",
+      "destination": "docs/API.md",
+      "preparedSha256": "e0f15fc1069fbfe000a5483d201dd80a7092229adefbd9e819d81605a0f47065",
+      "bytes": 6663,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "docs/DOMAIN-CONTRACT.md",
+      "sourceSha256": "8b5868c6c8feec8520488d4550f87d5e6035d68a5f6423e4829681d38b4b42ab",
+      "destination": "docs/DOMAIN-CONTRACT.md",
+      "preparedSha256": "8b5868c6c8feec8520488d4550f87d5e6035d68a5f6423e4829681d38b4b42ab",
+      "bytes": 12138,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "docs/UPGRADE-ENGINEERING-REVIEW.md",
+      "sourceSha256": "cfe66559d1d75ad79a535f17f25f7d54ea0dad2ca1e50b0a0c1f0a5e93b362ef",
+      "destination": "docs/UPGRADE-ENGINEERING-REVIEW.md",
+      "preparedSha256": "cfe66559d1d75ad79a535f17f25f7d54ea0dad2ca1e50b0a0c1f0a5e93b362ef",
+      "bytes": 12851,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "docs/UPGRADE-INDEPENDENT-INTEGRATION-REVIEW.md",
+      "sourceSha256": "c133f99f81a0bcb69cd2f90a9acb8a0036cda282d56bb05c0b7ff60c0ea427ed",
+      "destination": "docs/UPGRADE-INDEPENDENT-INTEGRATION-REVIEW.md",
+      "preparedSha256": "c133f99f81a0bcb69cd2f90a9acb8a0036cda282d56bb05c0b7ff60c0ea427ed",
+      "bytes": 14425,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "work/upgrade/diagnostic-independent-review.json",
+      "sourceSha256": "9bbfecd040d5340db585e4c7ed645bf815a78a5de20797edfe74708a235be651",
+      "destination": "docs/UPGRADE-DIAGNOSTIC-REVIEW.json",
+      "preparedSha256": "9bbfecd040d5340db585e4c7ed645bf815a78a5de20797edfe74708a235be651",
+      "bytes": 66683,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "docs/upgrade-ux-evidence/packet-browser-download-check.json",
+      "sourceSha256": "13560b8c55b1a1f0eb6bba85a580cac0268587e09e8eece9aa017c4ac286aa5c",
+      "destination": "docs/upgrade-ux-evidence/packet-browser-download-check.json",
+      "preparedSha256": "13560b8c55b1a1f0eb6bba85a580cac0268587e09e8eece9aa017c4ac286aa5c",
+      "bytes": 999,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "work/upgrade/candidate2-labels-desktop.png",
+      "sourceSha256": "d2b830a717982fd1c95b105022eb1ae832794771f3ff5db137aec5aebd7d4dc0",
+      "destination": "docs/upgrade-ux-evidence/candidate2-labels-desktop.png",
+      "preparedSha256": "d2b830a717982fd1c95b105022eb1ae832794771f3ff5db137aec5aebd7d4dc0",
+      "bytes": 157052,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "work/upgrade/candidate2-labels-narrow.png",
+      "sourceSha256": "af685b6eca5680b102dfad7b22da75e0852888b2b1a5a67593aede1543ca89c6",
+      "destination": "docs/upgrade-ux-evidence/candidate2-labels-narrow.png",
+      "preparedSha256": "af685b6eca5680b102dfad7b22da75e0852888b2b1a5a67593aede1543ca89c6",
+      "bytes": 50402,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "work/upgrade/diagnostic-export-repair/D2-later/first-page.png",
+      "sourceSha256": "fcc7efd9a1f053730c6bfd8becefbfcc40d8a062173efafac7db998f6a32e599",
+      "destination": "docs/diagnostic-evidence/D2-final-first-page.png",
+      "preparedSha256": "fcc7efd9a1f053730c6bfd8becefbfcc40d8a062173efafac7db998f6a32e599",
+      "bytes": 160417,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "docs/upgrade-ux-evidence/upgrade-home-desktop.png",
+      "sourceSha256": "327641488a7c45c8710e50a80af9efafd0faa7e9aa84868297d42042afe62d06",
+      "destination": "docs/upgrade-ux-evidence/upgrade-home-desktop.png",
+      "preparedSha256": "327641488a7c45c8710e50a80af9efafd0faa7e9aa84868297d42042afe62d06",
+      "bytes": 127435,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "docs/upgrade-ux-evidence/upgrade-case-desktop.png",
+      "sourceSha256": "8374e222d85f11281ee829f407bd575c29dffbdbd906b2be40aa10b76513baf1",
+      "destination": "docs/upgrade-ux-evidence/upgrade-case-desktop.png",
+      "preparedSha256": "8374e222d85f11281ee829f407bd575c29dffbdbd906b2be40aa10b76513baf1",
+      "bytes": 199079,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "docs/upgrade-ux-evidence/upgrade-changes-repaired.png",
+      "sourceSha256": "21bd37f4b785061e35c3f9acc5a5ad6fc14e8b43fa756c5fc2ea3ec71c9f199c",
+      "destination": "docs/upgrade-ux-evidence/upgrade-changes-repaired.png",
+      "preparedSha256": "21bd37f4b785061e35c3f9acc5a5ad6fc14e8b43fa756c5fc2ea3ec71c9f199c",
+      "bytes": 173696,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "docs/upgrade-ux-evidence/upgrade-payment-short.png",
+      "sourceSha256": "23121d778990f956471d8d7dc41dbd189f2c21382863e5a4726bf297632ce99b",
+      "destination": "docs/upgrade-ux-evidence/upgrade-payment-short.png",
+      "preparedSha256": "23121d778990f956471d8d7dc41dbd189f2c21382863e5a4726bf297632ce99b",
+      "bytes": 62544,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "docs/upgrade-ux-evidence/upgrade-prepare-narrow.png",
+      "sourceSha256": "28f1c5d374d2c2307c20adcaf037780bb93da3fab07fe62cc61a9e6f05c7ea78",
+      "destination": "docs/upgrade-ux-evidence/upgrade-prepare-narrow.png",
+      "preparedSha256": "28f1c5d374d2c2307c20adcaf037780bb93da3fab07fe62cc61a9e6f05c7ea78",
+      "bytes": 67131,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "docs/upgrade-ux-evidence/upgrade-source-readable-320.png",
+      "sourceSha256": "e01e3e6e8151d6a0385a1c66da5f7590ffaaa0c8df0cc1a1a6db306ac3581f8a",
+      "destination": "docs/upgrade-ux-evidence/upgrade-source-readable-320.png",
+      "preparedSha256": "e01e3e6e8151d6a0385a1c66da5f7590ffaaa0c8df0cc1a1a6db306ac3581f8a",
+      "bytes": 33260,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "docs/upgrade-ux-evidence/upgrade-prepare-historical.png",
+      "sourceSha256": "aad8b1a047b47b5ee494c29c725fc70d34fced15f491afa780834b663de309cd",
+      "destination": "docs/upgrade-ux-evidence/upgrade-prepare-historical.png",
+      "preparedSha256": "aad8b1a047b47b5ee494c29c725fc70d34fced15f491afa780834b663de309cd",
+      "bytes": 161196,
+      "transformation": "exact-byte copy"
+    },
+    {
+      "sourcePath": "docs/RETAINED-ACCOUNT-REGRESSION.md",
+      "sourceSha256": "bf10b399771420f697fd29c6d81058351986027e4126a062f123e1a2684f5371",
+      "destination": "docs/RETAINED-ACCOUNT-REGRESSION.md",
+      "preparedSha256": "1f1ec44fe80aa245d592c3b579fb38cb730ccf6cb8e5125b18a5f029db903ca3",
+      "bytes": 6268,
+      "transformation": "portable derived report; full findings retained, explicit included-link rewrites and omitted-evidence appendix",
+      "linkRewrites": [
+        {
+          "from": "../work/regression-a-domain/offline-replay.json",
+          "to": "#omitted-artifact-1"
+        },
+        {
+          "from": "../work/regression-a-domain/offline-replay-supplement.md",
+          "to": "#omitted-artifact-2"
+        }
+      ]
+    },
+    {
+      "sourcePath": "docs/UPGRADE-UX-REVIEW.md",
+      "sourceSha256": "ce3b2ec6457f66ee0cb58e74ae1732cfc20af39cba61e7345479fb0d8122ed5c",
+      "destination": "docs/UPGRADE-UX-REVIEW.md",
+      "preparedSha256": "882923fd318d48a05aad503a4cbf73952039508666924d8cc3343b0c5c550715",
+      "bytes": 15054,
+      "transformation": "portable derived report; full findings retained, explicit included-link rewrites and omitted-evidence appendix",
+      "linkRewrites": [
+        {
+          "from": "upgrade-ux-evidence/upgrade-home-desktop.png",
+          "to": "upgrade-ux-evidence/upgrade-home-desktop.png"
+        },
+        {
+          "from": "upgrade-ux-evidence/upgrade-case-desktop.png",
+          "to": "upgrade-ux-evidence/upgrade-case-desktop.png"
+        },
+        {
+          "from": "upgrade-ux-evidence/upgrade-changes-repaired.png",
+          "to": "upgrade-ux-evidence/upgrade-changes-repaired.png"
+        },
+        {
+          "from": "upgrade-ux-evidence/upgrade-payment-short.png",
+          "to": "upgrade-ux-evidence/upgrade-payment-short.png"
+        },
+        {
+          "from": "upgrade-ux-evidence/upgrade-prepare-narrow.png",
+          "to": "upgrade-ux-evidence/upgrade-prepare-narrow.png"
+        },
+        {
+          "from": "upgrade-ux-evidence/upgrade-source-readable-320.png",
+          "to": "upgrade-ux-evidence/upgrade-source-readable-320.png"
+        },
+        {
+          "from": "upgrade-ux-evidence/upgrade-prepare-historical.png",
+          "to": "upgrade-ux-evidence/upgrade-prepare-historical.png"
+        },
+        {
+          "from": "upgrade-ux-evidence/packet-browser-download-check.json",
+          "to": "upgrade-ux-evidence/packet-browser-download-check.json"
+        },
+        {
+          "from": "upgrade-ux-evidence/historical-review-packet-r3.zip",
+          "to": "#omitted-artifact-1"
+        }
+      ]
+    },
+    {
+      "sourcePath": "docs/UPGRADE-CLEAN-SETUP.md",
+      "sourceSha256": "143704717743e2ea3c20900a6f80cb9c2322bb1ad9cd8a832ec4f10a25533ddd",
+      "destination": "docs/UPGRADE-CLEAN-SETUP-PREVIOUS.md",
+      "preparedSha256": "e27d307b858fdd6e8cae1c44d0f3fb813c94eee8ad883301e8f346bbcc1a31c3",
+      "bytes": 13477,
+      "transformation": "portable derived report; full findings retained, explicit included-link rewrites and omitted-evidence appendix",
+      "linkRewrites": [
+        {
+          "from": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/archive-check.json",
+          "to": "#omitted-artifact-1"
+        },
+        {
+          "from": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/npm-ci.log",
+          "to": "#omitted-artifact-2"
+        },
+        {
+          "from": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/doctor.log",
+          "to": "#omitted-artifact-3"
+        },
+        {
+          "from": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/tests.log",
+          "to": "#omitted-artifact-4"
+        },
+        {
+          "from": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/build.log",
+          "to": "#omitted-artifact-5"
+        },
+        {
+          "from": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/rebuilt-asset-check.json",
+          "to": "#omitted-artifact-6"
+        },
+        {
+          "from": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/health.json",
+          "to": "#omitted-artifact-7"
+        },
+        {
+          "from": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/runtime-check.json",
+          "to": "#omitted-artifact-8"
+        },
+        {
+          "from": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/server.log",
+          "to": "#omitted-artifact-9"
+        },
+        {
+          "from": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/verify-runtime.py",
+          "to": "#omitted-artifact-10"
+        },
+        {
+          "from": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/post-run-integrity.json",
+          "to": "#omitted-artifact-11"
+        }
+      ]
+    },
+    {
+      "sourcePath": "work/upgrade/diagnostic-independent-review.md",
+      "sourceSha256": "5c189a06f17ca40d952244d52793450e7acb4100419a6757efdb22de3c2f22ea",
+      "destination": "docs/UPGRADE-DIAGNOSTIC-REVIEW.md",
+      "preparedSha256": "1057ab2548998e6a9be743c419d6f0d87efd2c679e3012f5111587bf4934e5bf",
+      "bytes": 27650,
+      "transformation": "portable derived report; full findings retained, explicit included-link rewrites and omitted-evidence appendix",
+      "linkRewrites": [
+        {
+          "from": "diagnostic-independent-review.json",
+          "to": "UPGRADE-DIAGNOSTIC-REVIEW.json"
+        },
+        {
+          "from": "../../evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/first-output/portable-unpacked/update.md",
+          "to": "#omitted-artifact-1"
+        },
+        {
+          "from": "../../evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/first-output/portable-unpacked/supplement.md",
+          "to": "#omitted-artifact-2"
+        },
+        {
+          "from": "../../evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/first-output/portable-unpacked/supplement.md",
+          "to": "#omitted-artifact-3"
+        },
+        {
+          "from": "../../evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/first-output/portable-unpacked/update.md",
+          "to": "#omitted-artifact-4"
+        },
+        {
+          "from": "../../evaluation/upgrade/runs/upgrade-candidate-1/D2/first/initial/first-output/portable-unpacked/supplement.md",
+          "to": "#omitted-artifact-5"
+        },
+        {
+          "from": "../../evaluation/upgrade/baseline/records/upgrade-candidate-1/D1/first/initial/",
+          "to": "#omitted-artifact-6"
+        },
+        {
+          "from": "diagnostic-export-repair/D2-later/update.md",
+          "to": "#omitted-artifact-7"
+        },
+        {
+          "from": "diagnostic-export-repair/D2-later/update.html",
+          "to": "#omitted-artifact-8"
+        },
+        {
+          "from": "diagnostic-export-repair/D2-later/first-page.png",
+          "to": "diagnostic-evidence/D2-final-first-page.png"
+        },
+        {
+          "from": "../../evaluation/upgrade/baseline/records/upgrade-candidate-2/D1/staging-v2-first/initial/workspace-snapshot/outputs/initial/update.md",
+          "to": "#omitted-artifact-9"
+        },
+        {
+          "from": "../../evaluation/upgrade/baseline/records/upgrade-candidate-2/D2/staging-v2-first/initial/workspace-snapshot/outputs/initial/update.md",
+          "to": "#omitted-artifact-10"
+        }
+      ]
+    },
+    {
+      "sourcePath": "README.md",
+      "sourceSha256": "b5a0b202209a49a507b35c39ef26bfc10f1067dbcb028982b0a03822efd0e355",
+      "destination": "README.md",
+      "preparedSha256": "8d9a1f94f17e4063de0ec37e2ddc20f9074a9700d33a45db545e39407549b1dd",
+      "bytes": 10577,
+      "transformation": "narrower source README: setup/workflow/limits retained; verification links restricted to included documentation; media explicitly separate"
+    }
+  ],
+  "omittedRawEvidence": [
+    {
+      "sourceReport": "docs/RETAINED-ACCOUNT-REGRESSION.md",
+      "originalHref": "../work/regression-a-domain/offline-replay.json",
+      "workspacePath": "work/regression-a-domain/offline-replay.json",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "05eab118969648f0cb5bac4b765f865443a56705d05e7f644063434ad8f499d8",
+      "bytes": 6048
+    },
+    {
+      "sourceReport": "docs/RETAINED-ACCOUNT-REGRESSION.md",
+      "originalHref": "../work/regression-a-domain/offline-replay-supplement.md",
+      "workspacePath": "work/regression-a-domain/offline-replay-supplement.md",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "82f3a6314219682265e5ec007761ed8101386731ea2516860d8b2276ee496bc8",
+      "bytes": 37025
+    },
+    {
+      "sourceReport": "docs/UPGRADE-UX-REVIEW.md",
+      "originalHref": "upgrade-ux-evidence/historical-review-packet-r3.zip",
+      "workspacePath": "docs/upgrade-ux-evidence/historical-review-packet-r3.zip",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "205df49f772974bc2531a008552f723c2c8ecc59ce66598beaa09d98ef920750",
+      "bytes": 142524
+    },
+    {
+      "sourceReport": "docs/UPGRADE-CLEAN-SETUP.md",
+      "originalHref": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/archive-check.json",
+      "workspacePath": "work/upgrade/clean-setup/candidate-20260924-po_ge6h1/archive-check.json",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "f58de2ae241cd3d7219585d18397c70da535cc576cc974537b9290be0f0c662e",
+      "bytes": 690
+    },
+    {
+      "sourceReport": "docs/UPGRADE-CLEAN-SETUP.md",
+      "originalHref": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/npm-ci.log",
+      "workspacePath": "work/upgrade/clean-setup/candidate-20260924-po_ge6h1/npm-ci.log",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "71f4ce27b80964ff59618f3e77733c083c31ade34fd4938f604e2a03e9db7314",
+      "bytes": 140
+    },
+    {
+      "sourceReport": "docs/UPGRADE-CLEAN-SETUP.md",
+      "originalHref": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/doctor.log",
+      "workspacePath": "work/upgrade/clean-setup/candidate-20260924-po_ge6h1/doctor.log",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "d152c58fdfd6449fcaf7d651d9711219928761a34b99c0c0a144307b17092191",
+      "bytes": 2626
+    },
+    {
+      "sourceReport": "docs/UPGRADE-CLEAN-SETUP.md",
+      "originalHref": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/tests.log",
+      "workspacePath": "work/upgrade/clean-setup/candidate-20260924-po_ge6h1/tests.log",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "8d5025fb7d711c715bc6a8894ab1a6ebdf78084671f28dbc2db2e1929b96d442",
+      "bytes": 18377
+    },
+    {
+      "sourceReport": "docs/UPGRADE-CLEAN-SETUP.md",
+      "originalHref": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/build.log",
+      "workspacePath": "work/upgrade/clean-setup/candidate-20260924-po_ge6h1/build.log",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "92b3a6be48594bd9bb7c64efb66d925f6128c43fe31da50caddc568a335d8528",
+      "bytes": 386
+    },
+    {
+      "sourceReport": "docs/UPGRADE-CLEAN-SETUP.md",
+      "originalHref": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/rebuilt-asset-check.json",
+      "workspacePath": "work/upgrade/clean-setup/candidate-20260924-po_ge6h1/rebuilt-asset-check.json",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "3f6861e9e16cae83f3db806e9a330b140cf33f3f10defe4da179fe646b935c09",
+      "bytes": 2932
+    },
+    {
+      "sourceReport": "docs/UPGRADE-CLEAN-SETUP.md",
+      "originalHref": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/health.json",
+      "workspacePath": "work/upgrade/clean-setup/candidate-20260924-po_ge6h1/health.json",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "befc14f13ecdf733213a1ba530443f6cf85f3450d40e0e52ac8fe886bf9770cc",
+      "bytes": 2203
+    },
+    {
+      "sourceReport": "docs/UPGRADE-CLEAN-SETUP.md",
+      "originalHref": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/runtime-check.json",
+      "workspacePath": "work/upgrade/clean-setup/candidate-20260924-po_ge6h1/runtime-check.json",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "445015d4c7200909166e2ec0338da0163d50cdf46048346f6e895811f773072d",
+      "bytes": 11061
+    },
+    {
+      "sourceReport": "docs/UPGRADE-CLEAN-SETUP.md",
+      "originalHref": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/server.log",
+      "workspacePath": "work/upgrade/clean-setup/candidate-20260924-po_ge6h1/server.log",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "75e11044252ba8b36e013e3ba18c6e9aa2d86f4d3063b3b6d52fcda73b321772",
+      "bytes": 46
+    },
+    {
+      "sourceReport": "docs/UPGRADE-CLEAN-SETUP.md",
+      "originalHref": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/verify-runtime.py",
+      "workspacePath": "work/upgrade/clean-setup/candidate-20260924-po_ge6h1/verify-runtime.py",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "66bc34dd31daf5d9ac1675cc06f983bca5afb52329bef2f849c732fdbf78127f",
+      "bytes": 14765
+    },
+    {
+      "sourceReport": "docs/UPGRADE-CLEAN-SETUP.md",
+      "originalHref": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/work/upgrade/clean-setup/candidate-20260924-po_ge6h1/post-run-integrity.json",
+      "workspacePath": "work/upgrade/clean-setup/candidate-20260924-po_ge6h1/post-run-integrity.json",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "938bb8e3d34b3f9a9f17ee71d5331b72f4158458faa7fae5d850dfcf3c1aa84b",
+      "bytes": 138
+    },
+    {
+      "sourceReport": "work/upgrade/diagnostic-independent-review.md",
+      "originalHref": "../../evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/first-output/portable-unpacked/update.md",
+      "workspacePath": "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/first-output/portable-unpacked/update.md",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "55aae5180e0433c3d0ed40756f3372fa5e2c1a8b878403a9dbeb3d7cc52a53f2",
+      "bytes": 4410
+    },
+    {
+      "sourceReport": "work/upgrade/diagnostic-independent-review.md",
+      "originalHref": "../../evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/first-output/portable-unpacked/supplement.md",
+      "workspacePath": "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/later/first-output/portable-unpacked/supplement.md",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "0407e98f66f398d360fcc6e9b035c361fcc1132bd30d0c7b7d0ff73ed215ae55",
+      "bytes": 27135
+    },
+    {
+      "sourceReport": "work/upgrade/diagnostic-independent-review.md",
+      "originalHref": "../../evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/first-output/portable-unpacked/supplement.md",
+      "workspacePath": "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/first-output/portable-unpacked/supplement.md",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "8a5f59203f2aa193764ab2b0b8f6042dc0938ab6b62e2e545d4e06b98a73db0f",
+      "bytes": 21119
+    },
+    {
+      "sourceReport": "work/upgrade/diagnostic-independent-review.md",
+      "originalHref": "../../evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/first-output/portable-unpacked/update.md",
+      "workspacePath": "evaluation/upgrade/runs/upgrade-candidate-1/D1/first/later/first-output/portable-unpacked/update.md",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "c40f2b2bc159af291204eb784b6742f2661310f09babf166f84e1abae161b032",
+      "bytes": 3347
+    },
+    {
+      "sourceReport": "work/upgrade/diagnostic-independent-review.md",
+      "originalHref": "../../evaluation/upgrade/runs/upgrade-candidate-1/D2/first/initial/first-output/portable-unpacked/supplement.md",
+      "workspacePath": "evaluation/upgrade/runs/upgrade-candidate-1/D2/first/initial/first-output/portable-unpacked/supplement.md",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "bdd4a6be25615837849c79208d599af2be062d6bb7a2c0fc70f5963630cc8593",
+      "bytes": 19733
+    },
+    {
+      "sourceReport": "work/upgrade/diagnostic-independent-review.md",
+      "originalHref": "../../evaluation/upgrade/baseline/records/upgrade-candidate-1/D1/first/initial/",
+      "workspacePath": "evaluation/upgrade/baseline/records/upgrade-candidate-1/D1/first/initial",
+      "kind": "directory",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence."
+    },
+    {
+      "sourceReport": "work/upgrade/diagnostic-independent-review.md",
+      "originalHref": "diagnostic-export-repair/D2-later/update.md",
+      "workspacePath": "work/upgrade/diagnostic-export-repair/D2-later/update.md",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "120af932f84a33ba663dd775280e98260dc61f4b6743a95bfee5177649b11339",
+      "bytes": 6346
+    },
+    {
+      "sourceReport": "work/upgrade/diagnostic-independent-review.md",
+      "originalHref": "diagnostic-export-repair/D2-later/update.html",
+      "workspacePath": "work/upgrade/diagnostic-export-repair/D2-later/update.html",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "f8f503fe559104ae9524052d592cd39f77064b05bff6918e1baa790b5c81cf61",
+      "bytes": 10243
+    },
+    {
+      "sourceReport": "work/upgrade/diagnostic-independent-review.md",
+      "originalHref": "../../evaluation/upgrade/baseline/records/upgrade-candidate-2/D1/staging-v2-first/initial/workspace-snapshot/outputs/initial/update.md",
+      "workspacePath": "evaluation/upgrade/baseline/records/upgrade-candidate-2/D1/staging-v2-first/initial/workspace-snapshot/outputs/initial/update.md",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "c06779d1466ab44977f88b14df131babd2e39e2ac05fb878272a9820a8d064bc",
+      "bytes": 998
+    },
+    {
+      "sourceReport": "work/upgrade/diagnostic-independent-review.md",
+      "originalHref": "../../evaluation/upgrade/baseline/records/upgrade-candidate-2/D2/staging-v2-first/initial/workspace-snapshot/outputs/initial/update.md",
+      "workspacePath": "evaluation/upgrade/baseline/records/upgrade-candidate-2/D2/staging-v2-first/initial/workspace-snapshot/outputs/initial/update.md",
+      "kind": "file",
+      "reason": "Raw supporting artifact remains in the original local workspace; this portable report preserves the authored finding and names the omitted evidence.",
+      "sha256": "c5c18bb3692cedf9691a2a1558d23c827b07b48c6c5d4757611ec76d52813a96",
+      "bytes": 907
+    }
+  ],
+  "generatedDocument": "docs/UPGRADE-VERIFICATION-LIMITS.md",
+  "generatedDocumentBasis": [
+    "docs/UPGRADE-UX-REVIEW.md",
+    "docs/UPGRADE-CLEAN-SETUP.md",
+    "work/upgrade/diagnostic-independent-review.md",
+    "candidate2 label screenshots visually inspected by /root/final_media_audit"
+  ]
+}

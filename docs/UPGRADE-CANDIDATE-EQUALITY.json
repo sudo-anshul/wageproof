@@ -1,0 +1,36 @@
+{
+  "observedAt": "2026-09-24T02:01:38.710038+00:00",
+  "candidate2FreezeSha256": "09d0908ca1344b728d1a700a6c71fa9cc86357a74a836b6776234453249e925c",
+  "candidate3FreezeSha256": "6c5bb468c87abc5e59e1222bf4ed6cd17b4626360d9ba4337c41203533537825",
+  "candidate3SourceManifestSha256": "bd8fcd7158ca1a49083dd96087b23aa737af7420d2e1ceac391a1423c71174a2",
+  "changedFiles": [
+    {
+      "path": "evaluation/upgrade/baseline/run_baseline.py",
+      "old": "15be8b126bd9682df1c8e749f0bcc0227ee0830fc5fad7f4c3af7d66a67961fe",
+      "new": "4f0dd080fdc4ad20e2ae7cf7df0a870e240d8f0b4d9ecdf92a1f372b4b5b38d4"
+    },
+    {
+      "path": "evaluation/upgrade/harness/common.py",
+      "old": "f1ff7b8142e9eb88a6b23b7e8d03828cd14ad3bca6a9a5d3718425e6ac813dff",
+      "new": "9363707f02834b5875956bbcccd4724c0aab9bbc231bd619f05e0b90075b6e5e"
+    },
+    {
+      "path": "evaluation/upgrade/public/PROTOCOL.md",
+      "old": "a1569a5a48a723f12f42154f9e1ac57e7121814a24acc04c85f4389cb8c7e2df",
+      "new": "43747a565c8c6df8d3e160bc6cb9744bd9eee9a7202fbe5596712c0a77422f37"
+    },
+    {
+      "path": "scripts/freeze-candidate.py",
+      "old": "039a0af9bff0f218329cf988dd96ec726331cdcf7210a052bd05bfb8862ef1c7",
+      "new": "59eb6dd74d69188feaaf5d1d0b5faee21c75a5b1707c5c0fa4c26d3f4d3bde4d"
+    }
+  ],
+  "addedFiles": [
+    "evaluation/upgrade/baseline/run_tool_smoke.py"
+  ],
+  "unchangedApplicationBuildTestFiles": 68,
+  "applicationAndBuildByteIdentical": true,
+  "startupSourceSha256Equal": false,
+  "builtAssetsEqual": true,
+  "scope": "Candidate3 amends comparator isolation and binds the tool smoke runner. Candidate2 product footage remains current for unchanged application bytes."
+}

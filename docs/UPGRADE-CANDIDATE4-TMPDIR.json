@@ -1,0 +1,17 @@
+{
+  "status": "VERIFIED",
+  "verifiedAt": "2026-09-24T02:47:18.975711+00:00",
+  "candidateId": "upgrade-candidate-4",
+  "candidateFreezeSha256": "5559a4e288dff482e5e12d8010e20146a8c916b3c85e4038fdc124eb25698ae4",
+  "frozenPid": 31098,
+  "observedTMPDIR": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/evaluation/upgrade/runtime/app-tmp/upgrade-candidate-4",
+  "expectedTMPDIR": "/Users/anshul/Documents/Codex/2026-09-23/no/wageproof/evaluation/upgrade/runtime/app-tmp/upgrade-candidate-4",
+  "onlySelectedEnvironmentFieldRetained": true,
+  "nativeScratchReadProbe": {
+    "path": "baseline/records/preparation-only/app-tmp-probe/native-v4-first/app-tmp-probe.json",
+    "sha256": "53fef10a2538dfbe968a823e2301768488de03f4075e578cf36eae0ddaca684e",
+    "readDenied": true
+  },
+  "executionGates": "Reviewed corpus/seal/source/model/provider/high/stagecap all matched",
+  "inferenceStarted": false
+}

@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "status": "COMPLETE",
+  "finalizedAt": "2026-09-24T03:13:36.622128+00:00",
+  "report": {
+    "path": "FINAL-EVALUATION.md",
+    "sha256": "182ae1d04dea955187a850311354b56f31486e7f3d8758fd4c75abd6ec673b20"
+  },
+  "pathBase": "wageproof source root unless otherwise stated; retained raw paths are excluded local evidence, not downloadable links",
+  "design": {
+    "kind": "matched-model synthetic workflow comparison",
+    "families": 8,
+    "sources": 51,
+    "openDiagnostics": 2,
+    "primaryTechnicalFamilies": 4,
+    "freshCandidate4ReserveFamilies": 2,
+    "participantCases": 0,
+    "untouchedReservesRemaining": 0,
+    "model": "gpt-6-astra",
+    "provider": "azure",
+    "providerHost": "codecli.services.ai.azure.com",
+    "reasoningEffort": "high",
+    "totalStageCapSeconds": 1200
+  },
+  "corpus": {
+    "manifestSha256": "17dac986b4825cf3a8c229df8640eef75787d3e51cd5300dfd63e04ad6020549",
+    "keyReviewReceiptSha256": "31d579da387259e57aae75010a40c0ebd555ca533eeddd97d079afb798f2e5b8",
+    "keyReviewReportSha256": "52b2741678e992e619b87bc91df22d6f76bfa77ebd34633254058c3d7c77ac92",
+    "seal": {
+      "path": "evaluation/upgrade/public/SEAL.json",
+      "sha256": "cdb18a59b6efd9190dccd20059a6ffc484734e750168243a0df5bb61b2abedfd"
+    },
+    "protocol": {
+      "path": "evaluation/upgrade/public/PROTOCOL.md",
+      "sha256": "43747a565c8c6df8d3e160bc6cb9744bd9eee9a7202fbe5596712c0a77422f37"
+    },
+    "scope": {
+      "path": "evaluation/upgrade/public/SCOPE.md",
+      "sha256": "241031f4b950447ae03a511f8ed9f7562f82be22135e0f84a605deb2852524f8"
+    }
+  },
+  "candidateFreezes": [
+    {
+      "candidateId": "upgrade-candidate-1",
+      "path": "evaluation/upgrade/public/amendments/2026-09-24-staging-v2/candidate1/public/CANDIDATE-FREEZE.json",
+      "sha256": "ff2c0cd1b1d57da7794a813ccb099fdfb4b1c65235e06debc2d61762f552c13c",
+      "sourceManifestSha256": "22be91972d06f889f02777ea704cad9ba3f402bbb934d34001213f749a29f479"
+    },
+    {
+      "candidateId": "upgrade-candidate-2",
+      "path": "evaluation/upgrade/public/amendments/2026-09-24-native-profile-v3/candidate2/public/CANDIDATE-FREEZE.json",
+      "sha256": "09d0908ca1344b728d1a700a6c71fa9cc86357a74a836b6776234453249e925c",
+      "sourceManifestSha256": "29a716624c5a72cfc40ead428f0102a951d977baac9be6c94a60a71c52eecbca"
+    },
+    {
+      "candidateId": "upgrade-candidate-3",
+      "path": "evaluation/upgrade/public/amendments/2026-09-24-short-action-candidate4/candidate3/CANDIDATE-FREEZE.json",
+      "sha256": "6c5bb468c87abc5e59e1222bf4ed6cd17b4626360d9ba4337c41203533537825",
+      "sourceManifestSha256": "bd8fcd7158ca1a49083dd96087b23aa737af7420d2e1ceac391a1423c71174a2"
+    },
+    {
+      "candidateId": "upgrade-candidate-4",
+      "path": "evaluation/upgrade/public/CANDIDATE-FREEZE.json",
+      "sha256": "5559a4e288dff482e5e12d8010e20146a8c916b3c85e4038fdc124eb25698ae4",
+      "sourceManifestSha256": "4ae395e4ab60f40a2ee68558b137221d6b1b11af8b8ff0830c5cd088af697d63"
+    }
+  ],
+  "claims": [
+    {
+      "id": "open_diagnostics",
+      "scope": "Candidate1 app D1/D2; candidate3 ordinary D1/D2, not fresh heldouts",
+      "appStages": 4,
+      "appModelAttempts": 5,
+      "appMaterialShortFailures": 1,
+      "ordinaryCompletedStages": 4,
+      "ordinarySemanticTargetsPass": 9
+    },
+    {
+      "id": "primary_candidate3",
+      "families": 4,
+      "stagesPerWorkflow": 8,
+      "targetsPerWorkflow": 25,
+      "appAcceptedAnalysisDetailed": {
+        "pass": 25
+      },
+      "appStandaloneShort": {
+        "pass": 22,
+        "minor": 2,
+        "material": 1
+      },
+      "ordinary": {
+        "pass": 25
+      },
+      "appModelAttempts": 10,
+      "appRawValidationFailedStages": 2,
+      "preserved": true
+    },
+    {
+      "id": "deterministic_candidate4",
+      "savedStates": 8,
+      "modelCalls": 0,
+      "shortTargetsPass": 25,
+      "newSemanticRegressionObserved": false,
+      "doesNotReplacePrimaryResults": true
+    },
+    {
+      "id": "fresh_candidate4",
+      "families": 2,
+      "stagesPerWorkflow": 4,
+      "targetsPerWorkflow": 8,
+      "appFirstRawSemantics": {
+        "pass": 8
+      },
+      "appAcceptedAnalysisDetailed": {
+        "pass": 8
+      },
+      "appStandaloneShort": {
+        "pass": 8,
+        "minor": 0,
+        "material": 0
+      },
+      "ordinary": {
+        "pass": 8,
+        "minor": 0,
+        "material": 0
+      },
+      "appFirstRawValidStages": 3,
+      "appRawValidationFailedStages": 1,
+      "presentationLimitsRetained": true,
+      "doesNotPoolRepairedKnownStates": true
+    },
+    {
+      "id": "infrastructure_failures",
+      "preInferenceStartupFailures": 1,
+      "modelRunsBlockedByNestedSandbox": 2,
+      "completedSemanticTasksFromThoseAttempts": 0,
+      "preserved": true
+    }
+  ],
+  "primaryAccounting": {
+    "app": {
+      "completedStages": 8,
+      "recordedModelAttempts": 10,
+      "stageWallSecondsSum": 1843.997,
+      "queueSecondsSum": 407.127,
+      "processingSecondsSum": 1420.157,
+      "modelProcessSecondsSum": 1417.01,
+      "exposedUsageEventSums": {
+        "input_tokens": 253897,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 253217,
+        "output_tokens": 102553,
+        "reasoning_output_tokens": 24600
+      }
+    },
+    "ordinary": {
+      "completedStages": 8,
+      "codexProcessInvocations": 8,
+      "reportedTurns": 8,
+      "stageWallSecondsSum": 506.599,
+      "exposedUsageEventSums": {
+        "input_tokens": 868557,
+        "cached_input_tokens": 695956,
+        "cache_write_input_tokens": 169541,
+        "output_tokens": 15765,
+        "reasoning_output_tokens": 4849
+      },
+      "failedLocalCommandCount": 1
+    }
+  },
+  "freshAccounting": {
+    "app": {
+      "completedStages": 4,
+      "stageWallSecondsSum": 642.799,
+      "exposedUsageEventSums": {
+        "input_tokens": 118760,
+        "cached_input_tokens": 20722,
+        "cache_write_input_tokens": 97180,
+        "output_tokens": 42547,
+        "reasoning_output_tokens": 12194
+      },
+      "recordedModelAttempts": 5,
+      "queueSecondsSum": 0.019,
+      "processingSecondsSum": 637.016,
+      "modelProcessSecondsSum": 636.069
+    },
+    "ordinary": {
+      "completedStages": 4,
+      "stageWallSecondsSum": 260.498,
+      "exposedUsageEventSums": {
+        "input_tokens": 458861,
+        "cached_input_tokens": 373058,
+        "cache_write_input_tokens": 84171,
+        "output_tokens": 9529,
+        "reasoning_output_tokens": 2837
+      },
+      "codexProcessInvocations": 4,
+      "reportedTurns": 4,
+      "failedLocalCommandCount": 2
+    }
+  },
+  "freshFirstArtifacts": [
+    {
+      "workflow": "app",
+      "family": "R1",
+      "stage": "initial",
+      "run": {
+        "path": "evaluation/upgrade/runs/upgrade-candidate-4/R1/first/initial/run.json",
+        "sha256": "f3969b38cfe024330d33b28a108ecac412bbcc2b371c9c02d22ec7071ccf1ef1"
+      },
+      "output": {
+        "path": "evaluation/upgrade/runs/upgrade-candidate-4/R1/first/initial/first-output/portable-unpacked/update.md",
+        "sha256": "8205e0c0b37ef676d6b1ea6473ab49be787beac4b615f05ee21daf2b8190b523"
+      }
+    },
+    {
+      "workflow": "app",
+      "family": "R1",
+      "stage": "later",
+      "run": {
+        "path": "evaluation/upgrade/runs/upgrade-candidate-4/R1/first/later/run.json",
+        "sha256": "a2278d7c8aeedbec847e6c60d395fbeb6baa09fb286007c40c40d41752f5172d"
+      },
+      "output": {
+        "path": "evaluation/upgrade/runs/upgrade-candidate-4/R1/first/later/first-output/portable-unpacked/update.md",
+        "sha256": "8964c29a0c90987b88a441b015dc0b24b6c6ea1a63a5919de3d0e957b55596b2"
+      }
+    },
+    {
+      "workflow": "app",
+      "family": "R2",
+      "stage": "initial",
+      "run": {
+        "path": "evaluation/upgrade/runs/upgrade-candidate-4/R2/first/initial/run.json",
+        "sha256": "33c8102cae8bae4be1bf1da1c64918b42ac68d020293d6f24a0f758e886a6733"
+      },
+      "output": {
+        "path": "evaluation/upgrade/runs/upgrade-candidate-4/R2/first/initial/first-output/portable-unpacked/update.md",
+        "sha256": "ff529a2844949ca560e5c5dd08299f02e97a9a1e4e8c0341aca8c27f71196438"
+      }
+    },
+    {
+      "workflow": "app",
+      "family": "R2",
+      "stage": "later",
+      "run": {
+        "path": "evaluation/upgrade/runs/upgrade-candidate-4/R2/first/later/run.json",
+        "sha256": "a02237e329d998a560f51a081d4e5d78280e778569a9e2aaed8ec95f09ca218a"
+      },
+      "output": {
+        "path": "evaluation/upgrade/runs/upgrade-candidate-4/R2/first/later/first-output/portable-unpacked/update.md",
+        "sha256": "ba05f41298a530263d54f4f6b955eca454e9348cdfe5fcdc8cc677cbec6d7996"
+      }
+    },
+    {
+      "workflow": "ordinary",
+      "family": "R1",
+      "stage": "initial",
+      "run": {
+        "path": "evaluation/upgrade/baseline/records/upgrade-candidate-4/R1/first/initial/run.json",
+        "sha256": "f7995a39336da4898b076ced1c5c8a1ed8274db32bcfdbed7c9050f00ea5282f"
+      },
+      "output": {
+        "path": "evaluation/upgrade/baseline/records/upgrade-candidate-4/R1/first/initial/workspace-snapshot/outputs/initial/update.md",
+        "sha256": "769581b78b08e15856a6644dd0c024fe6a0273167164f12a2b85d615450babb7"
+      }
+    },
+    {
+      "workflow": "ordinary",
+      "family": "R1",
+      "stage": "later",
+      "run": {
+        "path": "evaluation/upgrade/baseline/records/upgrade-candidate-4/R1/first/later/run.json",
+        "sha256": "8d8f100f6f8f8912d286a249531e826ff49f43f53de289c2f22fafd0598f3fa3"
+      },
+      "output": {
+        "path": "evaluation/upgrade/baseline/records/upgrade-candidate-4/R1/first/later/workspace-snapshot/outputs/later/update.md",
+        "sha256": "aae4ecd1d870b55e447cc014c3ef3913dfe4c0579a663f71890d9c34fc19e953"
+      }
+    },
+    {
+      "workflow": "ordinary",
+      "family": "R2",
+      "stage": "initial",
+      "run": {
+        "path": "evaluation/upgrade/baseline/records/upgrade-candidate-4/R2/first/initial/run.json",
+        "sha256": "f112fda1e0662489e5d76fffb4781ab62c67017ffe6f8acd941cddd195bc3444"
+      },
+      "output": {
+        "path": "evaluation/upgrade/baseline/records/upgrade-candidate-4/R2/first/initial/workspace-snapshot/outputs/initial/update.md",
+        "sha256": "7dbae74fd33cab662cee065bf758e11474c0910358b1d82fae2c14c199f16526"
+      }
+    },
+    {
+      "workflow": "ordinary",
+      "family": "R2",
+      "stage": "later",
+      "run": {
+        "path": "evaluation/upgrade/baseline/records/upgrade-candidate-4/R2/first/later/run.json",
+        "sha256": "6a2f06e0272434fa1955303ceb4c1999a2f2ab8f209ca7107bd288a5fa53c40e"
+      },
+      "output": {
+        "path": "evaluation/upgrade/baseline/records/upgrade-candidate-4/R2/first/later/workspace-snapshot/outputs/later/update.md",
+        "sha256": "ebba4f4536d8337cc7d231de9b31c9051240b93b0fe782d428f22fc4e4b9ff14"
+      }
+    }
+  ],
+  "reviewRoles": {
+    "authorEvaluator": "/root/wageproof_evaluator; implementation-exposed corpus author and provisional scorer",
+    "keyReviewer": "/root/upgrade_key_review; separate non-builder source/key review before seal",
+    "outputReviewer": "/root/final_media_audit; separate from corpus/key author, earlier UI contributor, saw evaluator summaries and concerns",
+    "fullyBlind": false,
+    "practitionerIndependent": false,
+    "humanParticipantStudy": false
+  },
+  "tempQualification": {
+    "privateTmpExceptionIsPathSpecific": true,
+    "candidate3ActualMacOsTmpdirProbeReadDenied": true,
+    "blanketNonTempDerivedArtifactClaimCorrected": true,
+    "crossWorkflowReadDemonstrated": false,
+    "contaminationObserved": false,
+    "candidate4ProtectedTmpdirVerified": true
+  },
+  "evidence": [
+    {
+      "path": "evaluation/upgrade/public/diagnostics/upgrade-candidate-1/SUMMARY.json",
+      "sha256": "60f4d6a710aed7980afd23f34adef17edfddfbe93d350adb89ed2bab56ae601d"
+    },
+    {
+      "path": "evaluation/upgrade/public/diagnostics/upgrade-candidate-2/SUMMARY.json",
+      "sha256": "b8fbfcd1d2a2cf1c787ae2117975e67812fa54bffb771222edee17d8250d90af"
+    },
+    {
+      "path": "evaluation/upgrade/public/diagnostics/upgrade-candidate-3/TOOL-SMOKE.json",
+      "sha256": "2bd4af5caabb84d8c74665e565001ac1bc3e5f3fed3f1c71984d1cfc939f9d98"
+    },
+    {
+      "path": "evaluation/upgrade/public/diagnostics/upgrade-candidate-3/SUMMARY.json",
+      "sha256": "396050c8e5345cb6d5b5b8fbd950fd0581aa066ba2620d06b48c91d656d25c91"
+    },
+    {
+      "path": "evaluation/upgrade/public/diagnostics/upgrade-candidate-3/PRIMARY-SUMMARY.json",
+      "sha256": "38edbc827fbf4fff5699f6e52eb94d728b198783e17abf9af86045c2d3f1eb87"
+    },
+    {
+      "path": "evaluation/upgrade/public/diagnostics/upgrade-candidate-3/TEMP-STAGING-QUALIFICATION.json",
+      "sha256": "4d87df33829a6e2c53c1e63b0ce36d833f8d18f85b74afc3b4a6a03044065b6b"
+    },
+    {
+      "path": "evaluation/upgrade/public/diagnostics/upgrade-candidate-4/RUNTIME-TMPDIR-RECEIPT.json",
+      "sha256": "ed38961819cb4de28f8388b878351025d640c7b3e68a0b6ea7a9a82330ab619d"
+    },
+    {
+      "path": "evaluation/upgrade/public/diagnostics/upgrade-candidate-4/POST-RUN-FREEZE-RECHECK.json",
+      "sha256": "7db055a05b4624ca41202e67afb32dc12ddb62917cb9d0bb063c18c0cb2272fa"
+    },
+    {
+      "path": "evaluation/upgrade/regressions/upgrade-candidate-4/technical-reexport/SUMMARY.json",
+      "sha256": "55ab02b7ef44f456fbc2699cbcb105b7c550cd303846a7e88cfa2b69833f5351"
+    },
+    {
+      "path": "work/upgrade/diagnostic-independent-review.json",
+      "sha256": "9bbfecd040d5340db585e4c7ed645bf815a78a5de20797edfe74708a235be651"
+    },
+    {
+      "path": "work/upgrade/technical-independent-review/PRIMARY-CANDIDATE3-SUMMARY.json",
+      "sha256": "6d40fb1e39bb0c06927cd547fc64572cafb1e53159cb684de42134222f54082a"
+    },
+    {
+      "path": "work/upgrade/technical-independent-review/CANDIDATE4-REEXPORT-REVIEW.json",
+      "sha256": "74836f7ec56a968884345dce74df92828a5a631e54d716d75dde0aa409b9a705"
+    },
+    {
+      "path": "work/upgrade/technical-independent-review/CANDIDATE4-REEXPORT-CHECKS.json",
+      "sha256": "9de4bef87291b2a7624c9d022fd4285ff625878454c867489d6bba9a1a0c0c47"
+    },
+    {
+      "path": "evaluation/upgrade/public/diagnostics/upgrade-candidate-4/FRESH-RESERVE-SUMMARY.json",
+      "sha256": "f36a6db939f895d92ec4b94203802f27d58132c7f6f502f15bd78d3b5f48cf0c"
+    },
+    {
+      "path": "work/upgrade/technical-independent-review/R1.md",
+      "sha256": "1d67e1fdd866d2ba7b8264d344af726d84a294a2dee939c95183ebec3f50d42e"
+    },
+    {
+      "path": "work/upgrade/technical-independent-review/R1.json",
+      "sha256": "ee74fe8507b3eb7782aee900653221cec7622da4d325d26da2723123ea9077c5"
+    },
+    {
+      "path": "work/upgrade/technical-independent-review/R1-artifact-checks.json",
+      "sha256": "3fc3800e1ff1a81ce2bec557bd072d17d8f7ae451d6cddae4f699cea7b243de8"
+    },
+    {
+      "path": "work/upgrade/technical-independent-review/R2.md",
+      "sha256": "fa394627d3436c02eb9ce5067d763abae5d03fb9e43c2873a691db1fbecb0c47"
+    },
+    {
+      "path": "work/upgrade/technical-independent-review/R2.json",
+      "sha256": "2d44a9cc80f992ccbfbacf552a6abeb5ce149a366f5753b2f835682c1ec69dd8"
+    },
+    {
+      "path": "work/upgrade/technical-independent-review/R2-artifact-checks.json",
+      "sha256": "ef80fcb41be470388cd1e47da01d1027da5d51a0a961b1f4101f258693048a3b"
+    },
+    {
+      "path": "work/upgrade/technical-independent-review/RESERVE-CANDIDATE4-SUMMARY.md",
+      "sha256": "fba489a4e04092f031bcba8cb643dd58a73689bbb3975153f7fc6713fecf3a40"
+    },
+    {
+      "path": "work/upgrade/technical-independent-review/RESERVE-CANDIDATE4-SUMMARY.json",
+      "sha256": "8eeff26bce9072ff6548073073278ef00e9997c19dc3a3db149f95ea692fd460"
+    }
+  ],
+  "limits": [
+    "No equal-compute claim, API-request total, dollar-cost estimate or human-active-time measure.",
+    "App primary summed stage wall time includes 407.127 seconds of serial queue waiting and overlaps.",
+    "Known-state re-exports are not fresh model observations.",
+    "No representative accuracy, authenticity, legal validity, whole-product reliability, adoption, worker benefit, human savings or superiority claim.",
+    "No untouched reserve remains."
+  ],
+  "excludedFromHandoff": [
+    "raw source/key corpus",
+    "provider logs and events",
+    "raw case/model output records",
+    "private assessments and authoring",
+    "private worker records (none used)"
+  ]
+}
